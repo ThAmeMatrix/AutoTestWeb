@@ -19,7 +19,7 @@
           :to="{ name : 'Dashboard' }"
           class="toolbar-title"
         >
-          <span>ThAmeMusic</span>
+          <span>AutoTestWeb</span>
         </router-link>
       </v-toolbar-title>
       <v-spacer></v-spacer>

@@ -69,8 +69,9 @@ export default new Router({
         {
           path: '/dashboard',
           name: 'Dashboard',
-          // component: () => import('@/views/dashboard/TheIndex.vue'),
-          component: () => import('@/views/music/VHomePage.vue'),
+        //   component: () => import('@/views/dashboard/TheIndex.vue'),
+        //   component: () => import('@/views/music/VHomePage.vue'),
+        component: () => import('@/views/autotest/VHomePage.vue'),
           meta: {
             icon: 'dashboard',
           },
