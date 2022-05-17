@@ -1,0 +1,622 @@
+{
+    "albums": [
+        "night words"
+    ],
+    "commentsnum": 14116,
+    "duration": "04:12",
+    "hotcomments": [
+        {
+            "beReplied": [],
+            "commentId": 204350061,
+            "commentLocationType": 0,
+            "content": "六年前，我小学六年级。听了这首歌，我决定学日文。当我上了初中，我爸看见我写满日文的小本子，狠狠地暴打了我一顿。撕掉了本子。六年过去了，我的日文已经可以对话，但是却不能去一趟日本，就因为他们所谓的爱国主义！我平生最恨那些开着日本车，用着日本货，吃的日本便当，寿司，还高喊着打倒日本的",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 38881,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1472006801582,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/BN-S2P8Pj_7B1mwHeWZCMA==/3394192406490815.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "东方长生",
+                "remarkName": null,
+                "userId": 123320479,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 157892894,
+            "commentLocationType": 0,
+            "content": "遇见是两个人的事，离开却是一个人的决定。\n——米兰·昆德拉\n",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 24509,
+            "parentCommentId": 0,
+            "pendantData": {
+                "id": 5002,
+                "imageUrl": "http://p1.music.126.net/tFjGw0GRZ-Oyf6r5vH4kFQ==/109951163313123168.jpg"
+            },
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1463834130942,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/pbaA-CaxLuXtSRJpASHTwg==/109951163801224540.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "Five_half",
+                "remarkName": null,
+                "userId": 53157798,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 204350061,
+                    "content": "六年前，我小学六年级。听了这首歌，我决定学日文。当我上了初中，我爸看见我写满日文的小本子，狠狠地暴打了我一顿。撕掉了本子。六年过去了，我的日文已经可以对话，但是却不能去一趟日本，就因为他们所谓的爱国主义！我平生最恨那些开着日本车，用着日本货，吃的日本便当，寿司，还高喊着打倒日本的",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p2.music.126.net/BN-S2P8Pj_7B1mwHeWZCMA==/3394192406490815.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "东方长生",
+                        "remarkName": null,
+                        "userId": 123320479,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 333925576,
+            "commentLocationType": 0,
+            "content": "其实很多人包括你爸爸在内都不懂什么是爱国，因为我们所谓的爱国教育就是升国旗唱国歌，看手撕鬼子之类的影视，然后跟风各种抵制…这是灌注仇恨…而对于我们普通人来说，爱家人，爱朋友，爱家乡的山川河流，爱身边的一切事物，这就是爱国。",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 20612,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1489893748435,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/Gh8jEHmFTG-PwPkC80ppaA==/109951164072932065.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "孤岛蔚蓝",
+                "remarkName": null,
+                "userId": 87113126,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 9539234,
+                    "content": "最开头的海豚音完全破坏整首歌……",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p2.music.126.net/VnZiScyynLG7atLIZ2YPkw==/18686200114669622.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "丁氏养猪厂",
+                        "remarkName": null,
+                        "userId": 49050597,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 145522660,
+            "commentLocationType": 0,
+            "content": "最开头的海豚音是有内涵的 两声叫声是《ある爱の诗》里海豚テティス(土卫三)的呼唤",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 10430,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1461472267518,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/8-duBCICKC3zAkQazjOTFg==/18984167765694360.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "Aimfay",
+                "remarkName": null,
+                "userId": 66976362,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 157892894,
+                    "content": "遇见是两个人的事，离开却是一个人的决定。\n——米兰·昆德拉\n",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p2.music.126.net/pbaA-CaxLuXtSRJpASHTwg==/109951163801224540.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "Five_half",
+                        "remarkName": null,
+                        "userId": 53157798,
+                        "userType": 0,
+                        "vipRights": {
+                            "associator": {
+                                "rights": true,
+                                "vipCode": 100
+                            },
+                            "musicPackage": null,
+                            "redVipAnnualCount": -1
+                        },
+                        "vipType": 11
+                    }
+                }
+            ],
+            "commentId": 366152812,
+            "commentLocationType": 0,
+            "content": "遇见是两个人的事，离开却是一个人的决定，遇见是一个开始，离开却是为了遇见下一个离开。这是一个流行离开的世界，但是我们都不擅长告别。       ——米兰·昆德拉《生活在别处》",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 6998,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1493148525336,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/nMd1IVeSu2zOjCUf2a-BFA==/18799449813584157.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "名字长可以把萌妹子读晕好抱回家",
+                "remarkName": null,
+                "userId": 129962690,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 27128629,
+            "commentLocationType": 0,
+            "content": "这首ed响起来，配着画面，感觉心情也有点潮湿。歌词感觉是秀丽对刘辉的心声，又感觉是刘辉对秀丽说的话，再想到他们的结局，虽然心意相通，但仍然很难受",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 4285,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1437328793954,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/EqWjlB7X2U3C60XmsHq1vQ==/7901090557640903.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "lotus18",
+                "remarkName": null,
+                "userId": 47904742,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 23693014,
+            "commentLocationType": 0,
+            "content": "最喜欢的日文歌，没有之一。听了7年了。片尾当时看得快哭出来了。",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 3203,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1435253004593,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/eN9WO83t4webG5OXP0PYhA==/109951163366873966.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "coco-cookie-cup",
+                "remarkName": null,
+                "userId": 49736629,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 238510148,
+            "commentLocationType": 0,
+            "content": "hhhh彩云国物语。那时候还是老房子，还有像火影里千代婆婆的奶奶，顺着楼梯下去是好吃的砂锅刀削面，红木桌上是没写完的暑假作业，姐姐在看言情小说。喜欢听歌想到的一瞬间。",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 3143,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1477830593353,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/a4GWi5m2ZKfIQuLBTcdJAQ==/109951163229587826.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "趙澤川-",
+                "remarkName": null,
+                "userId": 90163369,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 57587402,
+            "commentLocationType": 0,
+            "content": "小学彩云国追的翡翠台(๑•ั็ω•็ั๑)。现在大学狗了真心各种回忆，ed没有前奏的海豚音，但是原曲也是各种好听🌹",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 2991,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1451449624810,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/B9-OKWqbTVKSjop1fLexiQ==/109951164110705344.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "Deng等等呀_Ayaaa",
+                "remarkName": null,
+                "userId": 79913772,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 683142717,
+                    "content": "评论让我取消了对这首歌的喜欢",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p2.music.126.net/e6Q-ej0aXHSVQCLrZIheIA==/18613632348298793.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "Darcy-FY",
+                        "remarkName": null,
+                        "userId": 389384031,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 683155892,
+            "commentLocationType": 0,
+            "content": "因为其他人的三言两语轻易改变对事物本身的看法，我想这原本就称不上喜欢吧。",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 2077,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1516794310480,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/VRkMq0MDAPPTOcU6xW5NxA==/18762066418514086.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "早上起床不想叠被子",
+                "remarkName": null,
+                "userId": 436053749,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 204350061,
+                    "content": "六年前，我小学六年级。听了这首歌，我决定学日文。当我上了初中，我爸看见我写满日文的小本子，狠狠地暴打了我一顿。撕掉了本子。六年过去了，我的日文已经可以对话，但是却不能去一趟日本，就因为他们所谓的爱国主义！我平生最恨那些开着日本车，用着日本货，吃的日本便当，寿司，还高喊着打倒日本的",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p2.music.126.net/BN-S2P8Pj_7B1mwHeWZCMA==/3394192406490815.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "东方长生",
+                        "remarkName": null,
+                        "userId": 123320479,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 681481112,
+            "commentLocationType": 0,
+            "content": "真正热爱祖国的年轻人，即便他们是日本动漫游戏的铁杆粉丝，他们也会在大是大非的问题面前维护自己国家的主权和民族尊严。而那些没有脊梁骨、双膝发软的人，即便他们对日本没兴趣，也迟早会跪倒在其他人面前，嘲笑着中国的一切，包括中国的主权和民族的尊严。——摘自共青团中央微博。[可爱]",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 1549,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1516635902071,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/xTGY1dyFDqxBvvI1GsHo4Q==/109951163131527219.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "大屁股Lee",
+                "remarkName": null,
+                "userId": 99509869,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 346967802,
+            "commentLocationType": 0,
+            "content": "看到b站有版权了 马上刷了一遍第一季 真的 好喜欢哦 这样的春天看彩云国 觉得风都很温柔",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 1237,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1491288116178,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/newPb3UZ_cddapteMAWXvQ==/109951162852351445.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "凉皮多加面筋不要葱",
+                "remarkName": null,
+                "userId": 32925145,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 69657740,
+            "commentLocationType": 0,
+            "content": "看了壁吧的疯房子视频找来的，哎呀真是好听啊",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 960,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1455196619466,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/7zQIexAtjSZboMQgXRb9kA==/7834020348407469.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "Dertah",
+                "remarkName": null,
+                "userId": 58691468,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 721801103,
+            "commentLocationType": 0,
+            "content": "请别在一首值得欣赏的音乐谈论政治好么，政客之间的矛盾的确不应该压在普通民众的身上。在和平的情况下，谁会喜欢战争？战争无非就是让更多的人妻离子散，好处呢？我喜欢日本，但是我更爱祖国，我喜欢日本的文化，喜欢日本的歌曲，喜欢日本的动漫，喜欢那里的风景，但是不代表我喜欢日本的政府！",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 637,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1519874751601,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/4w4Kh8EW_XQe1D0pTuJ9Rw==/109951163863661558.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "啊啊啊啊啊啊jin",
+                "remarkName": null,
+                "userId": 592282516,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 204350061,
+                    "content": "六年前，我小学六年级。听了这首歌，我决定学日文。当我上了初中，我爸看见我写满日文的小本子，狠狠地暴打了我一顿。撕掉了本子。六年过去了，我的日文已经可以对话，但是却不能去一趟日本，就因为他们所谓的爱国主义！我平生最恨那些开着日本车，用着日本货，吃的日本便当，寿司，还高喊着打倒日本的",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p2.music.126.net/BN-S2P8Pj_7B1mwHeWZCMA==/3394192406490815.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "东方长生",
+                        "remarkName": null,
+                        "userId": 123320479,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 1332970244,
+            "commentLocationType": 0,
+            "content": "爱国并不是去玷污别的国家，日本有些方面确实很好，但有些人所谓的“爱国”却让社会收到了跟多的危害，像什么当众砸日本货，给别人带来了经济损失和人生安全，如果真的爱国是在国家有难是挺身而出去保护国家，也是在日常保卫国家的自然环境……",
+            "decoration": {},
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 512,
+            "parentCommentId": 204350061,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1545344156183,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/7fP1-vfCsdf4kQcQVoKjCA==/109951163738422754.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "生死不刈",
+                "remarkName": null,
+                "userId": 1644495002,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        }
+    ],
+    "musicName": "最高の片想い",
+    "musicUrl": "http://music.163.com/song/media/outer/url?id=4898499.mp3",
+    "music_url": "https://music.163.com/song?id=4898499",
+    "singers": [
+        "タイナカ彩智"
+    ]
+}

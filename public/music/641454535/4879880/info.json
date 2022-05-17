@@ -1,0 +1,591 @@
+{
+    "albums": [
+        "CDで闻いてみて.~ニコニコ动画せれくちょん~"
+    ],
+    "commentsnum": 3243,
+    "duration": "04:31",
+    "hotcomments": [
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 15891635,
+                    "content": "抖着腿，抽着烟，垒着码，同事问我为什么加班还这么嗨？我给他听了之后，他脱光衣服就跑下楼了[大哭][大哭][大哭][大哭][大哭]",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p1.music.126.net/yG4cEELAaFq3FJkErmNKYg==/6646547791393872.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "昨夜琉璃",
+                        "remarkName": null,
+                        "userId": 49147334,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 30292315,
+            "commentLocationType": 0,
+            "content": "你的同事真有趣",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 2972,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1439103902194,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/gOoTlBIaPBL3A2pwM8cVEg==/7996748069035613.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "坎坷之路终抵群星",
+                "remarkName": null,
+                "userId": 34314460,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 644292522,
+            "commentLocationType": 0,
+            "content": "看到有很多人刷bilibili小电视的，科普一下，这个是niconico的小电视，日本弹幕视频网站，是bilibili和acfun的老前辈，知晓后请不要乱刷，这种ky行为相当遭人反感，以及有被某群人围攻的危险，到时就请后果自负了（笑）",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 2725,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1513511512516,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/xo83bi31BobUV0eHzVAY5w==/109951163648872944.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "UZNp",
+                "remarkName": null,
+                "userId": 51454287,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 8915511,
+            "commentLocationType": 0,
+            "content": "[开心]腿抖起来！！！！",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 1590,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1421477565320,
+            "user": {
+                "authStatus": 1,
+                "avatarUrl": "https://p1.music.126.net/VK2aUqnJYDLOthrUfzvBkA==/1387583688172344.jpg",
+                "expertTags": [
+                    "日语",
+                    "ACG",
+                    "华语"
+                ],
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "西园美鸟",
+                "remarkName": null,
+                "userId": 11602980,
+                "userType": 10,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 19702615,
+                    "content": "广场舞如果跳这个，画面太美,无法想象",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p1.music.126.net/Ns5G-kF_SNxwMnWxx8rWwQ==/109951163377217058.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "feeble_chick",
+                        "remarkName": null,
+                        "userId": 34277431,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 10
+                    }
+                }
+            ],
+            "commentId": 20566867,
+            "commentLocationType": 0,
+            "content": "广场舞大妈会跳原版的。。。[流泪]",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 1566,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1433262560664,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/YO1yrDdT4wTYUvZEClYL8w==/2917004348766299.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "飞速白菜",
+                "remarkName": null,
+                "userId": 9586331,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 38396860,
+            "commentLocationType": 0,
+            "content": "哦还有这首歌是N站人力作者制作的",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 1231,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1443570122623,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/m1ql-t7cMljvkLHSmGvDkw==/3446968953199022.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "Royal少主",
+                "remarkName": null,
+                "userId": 83951016,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 8518988,
+            "commentLocationType": 0,
+            "content": "呜-呜-呜哇呜哇～[憨笑]   感觉整个人都萌萌嗒了呢！[大哭]",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 836,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1420879827533,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/P0kbGBRWkzJ5fV75A15gsg==/2884019000229922.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "墨轩蒹葭",
+                "remarkName": null,
+                "userId": 48702129,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 195759015,
+            "commentLocationType": 0,
+            "content": "biu的同学们在那",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 620,
+            "parentCommentId": 0,
+            "pendantData": {
+                "id": 7013,
+                "imageUrl": "http://p1.music.126.net/vRSf2jsI13wJ1W1h2jnSWQ==/109951163313137933.jpg"
+            },
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1470638670232,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/6shSho1QeJIzhCruUVjtFA==/1377688070291374.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "名字不是头像",
+                "remarkName": null,
+                "userId": 103021573,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 676934692,
+            "commentLocationType": 0,
+            "content": "老板问我是不是帕金森了为什么要抖腿？我给他塞了个耳机，我才发现他带的是假发",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 522,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1516295466610,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/Iz-A7NdyowbBgeEOKsUrRw==/109951163883461635.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "夜到深处自然嗨",
+                "remarkName": null,
+                "userId": 414260434,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 498801842,
+            "commentLocationType": 0,
+            "content": "我记得以前还没听这歌的时候，我还有双腿来着[皱眉]",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 441,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1501941699736,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/f7fLFSsCRw1vxLUWzRAdiw==/109951163966827228.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "璀璨的幻夢星光",
+                "remarkName": null,
+                "userId": 284567270,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 1048919103,
+                    "content": "要说全世界都用的视频网站只有Youtube了吧。。",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p1.music.126.net/Al1AjJTk_G5KBb4UrIoeLg==/109951162877240348.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "lifeline泰勒",
+                        "remarkName": null,
+                        "userId": 314894613,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 1052128205,
+            "commentLocationType": 0,
+            "content": "地球上两大势力：世界和天朝[大哭]",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 424,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1520913098272,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/TEm3mlGoJsYYkqrrH96jbQ==/109951163191769908.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "泰索柯夫",
+                "remarkName": null,
+                "userId": 456000359,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 1146197578,
+            "commentLocationType": 0,
+            "content": "b站的能不能认识一下n站，毕竟它才是世界最早的弹幕交流视频网站，包括b站的很多远古视频还有av10492都是n站的（av10492在n站已删除）",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 317,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1528748620420,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/j9KK0YbYBOI9T_JGgfUKhw==/18578447976151849.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "蓝星战神",
+                "remarkName": null,
+                "userId": 377075249,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 1203920421,
+            "commentLocationType": 0,
+            "content": "网易云的各位朋友，很抱歉做了这个决定，希望我们有缘再见吧。来网易半年多了，其中有快乐也有满足，有痛苦也有付出。但是因为遇到了一些意料之外的突发状况，对我的影响和打击比较大，所以……这次离开，主要原因是因为我手机快没电了，我要去充下电，等下充满了，我就回来了。",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 173,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1533357043488,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/vRhkBiH7B7R3_kzIe9E0qQ==/109951164149446381.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "泉君夜",
+                "remarkName": null,
+                "userId": 1295123721,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 1301131035,
+            "commentLocationType": 0,
+            "content": "A站是b站他爹，N站是a站他爹，那么论辈分N站是b站的爷爷",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 153,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1542375198791,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/uZ_AFUtYYnbxP_ivxEkHKA==/18670806953832202.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "嗶咔漫畵",
+                "remarkName": null,
+                "userId": 480401843,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 1301131035,
+                    "content": "A站是b站他爹，N站是a站他爹，那么论辈分N站是b站的爷爷",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p1.music.126.net/uZ_AFUtYYnbxP_ivxEkHKA==/18670806953832202.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "嗶咔漫畵",
+                        "remarkName": null,
+                        "userId": 480401843,
+                        "userType": 0,
+                        "vipRights": {
+                            "associator": {
+                                "rights": true,
+                                "vipCode": 100
+                            },
+                            "musicPackage": null,
+                            "redVipAnnualCount": -1
+                        },
+                        "vipType": 11
+                    }
+                }
+            ],
+            "commentId": 1350413578,
+            "commentLocationType": 0,
+            "content": "你这头像和名字在结合你的回复我已经脑补出一部史诗级的本子了",
+            "decoration": {},
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 65,
+            "parentCommentId": 1301131035,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1546865638980,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/VnZiScyynLG7atLIZ2YPkw==/18686200114669622.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "wesll",
+                "remarkName": null,
+                "userId": 437307155,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 1322900302,
+            "commentLocationType": 0,
+            "content": "决定了，我葬礼上要放这个！",
+            "decoration": {},
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 16,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1544369235176,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/BvNX0GX_lifWTy-3lWWmbA==/109951163249296320.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "shield_盾",
+                "remarkName": null,
+                "userId": 430251545,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        }
+    ],
+    "musicName": "CARAMELLDANSEN(ウッーウッーウマウマ(゜∀゜))(Speedycake Remix)",
+    "musicUrl": "http://music.163.com/song/media/outer/url?id=4879880.mp3",
+    "music_url": "https://music.163.com/song?id=4879880",
+    "singers": [
+        "キャラメル"
+    ]
+}

@@ -1,0 +1,384 @@
+{
+    "albums": [
+        "ハートビート・フロムユー"
+    ],
+    "commentsnum": 4060,
+    "duration": "03:38",
+    "hotcomments": [
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 46998275,
+                    "content": "求告诉PC客户端怎么下载封面[憨笑]",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p1.music.126.net/5lXjqWqOyRbSMTv9WaaP-w==/18571850906487911.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "再会了怪人",
+                        "remarkName": null,
+                        "userId": 57061613,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 325635608,
+            "commentLocationType": 0,
+            "content": "6:在审查元素工具的蓝色区域的上一行就出现了图片的链接 7:右键点击链接，在新标签页打开这个链接 8:现在看到的只是小图，试试删除param=200y200\"之后，再打开一次页面看一看9:现在已经是原画大小的图片了10:最后，右键另存为到自己的电脑上",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 4303,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1488967368755,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/XrRBrA1uHfKYUOTLqaT2TA==/7772447697622464.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "俞沭",
+                "remarkName": null,
+                "userId": 70982427,
+                "userType": 0,
+                "vipRights": {
+                    "associator": null,
+                    "musicPackage": {
+                        "rights": true,
+                        "vipCode": 220
+                    },
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 10
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 53386248,
+            "commentLocationType": 0,
+            "content": "超喜欢这个歌啊  人多点就好啦",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 4080,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1449968446189,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/VnZiScyynLG7atLIZ2YPkw==/18686200114669622.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "最喜欢森森啦",
+                "remarkName": null,
+                "userId": 58491155,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 46998275,
+            "commentLocationType": 0,
+            "content": "求告诉PC客户端怎么下载封面[憨笑]",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 2007,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1447560782985,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/5lXjqWqOyRbSMTv9WaaP-w==/18571850906487911.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "再会了怪人",
+                "remarkName": null,
+                "userId": 57061613,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 431682353,
+            "commentLocationType": 0,
+            "content": "这个世界上有一个很可爱的人 现在这个人正在看这句话 听这首歌",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 903,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1496836067695,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/devrGRKo0PWtElY6tg6vmw==/19132601835160625.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "i断了的弦",
+                "remarkName": null,
+                "userId": 252347703,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 308318435,
+            "commentLocationType": 0,
+            "content": "听着好想谈恋爱啊～～",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 618,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1486924539435,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/GXY-n6J_yve9sTy0cYP_6Q==/109951164133349042.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "沐雨来",
+                "remarkName": null,
+                "userId": 94680922,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 315338368,
+            "commentLocationType": 0,
+            "content": "封面好少女呀💕",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 590,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1487764159015,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/_PxYxrQmMAP2PuPwGOl4uw==/109951164146245577.jpg",
+                "expertTags": [
+                    "华语",
+                    "电子",
+                    "欧美"
+                ],
+                "experts": {
+                    "2": "资讯(ACG)"
+                },
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "还你一个夏天",
+                "remarkName": null,
+                "userId": 259040755,
+                "userType": 200,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 504160728,
+            "commentLocationType": 0,
+            "content": "高高墙壁挡着你我 可好在你我在墙同侧",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 220,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1502324654535,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/HA9eqywliuX5My4fCcxF0w==/18814842976688349.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "臆丿",
+                "remarkName": null,
+                "userId": 29330164,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 717386884,
+            "commentLocationType": 0,
+            "content": "ピロートーク  和这首歌是情侣封面[大哭]",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 145,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1519525010226,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/pCjRycemawf_Sgmh9veH-w==/19157890602800632.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "柳咸鱼er",
+                "remarkName": null,
+                "userId": 571919440,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 1227052977,
+            "commentLocationType": 0,
+            "content": "「世の中には頼んでもいないのに、愛情を与えてくれるお節介な人間もいる。そんな人間に出会えただけでも、私たちは幸せ者だわ。」\n世界上有一种多管闲事的人：你没有拜托她，她也会擅自给予你爱情。单单是和这样的人相遇，我们就已经很幸福[可爱]Citrus柑橘味香气",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 57,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1535123364729,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/RLeBJe4D1ZzUtltxfoKDMg==/109951163250239066.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "帐号已注销",
+                "remarkName": null,
+                "userId": 601349566,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 325991039,
+                    "content": "在这种浮躁的时代，在大多数的人都会说自行百度的时候，感谢你的耐心。",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p1.music.126.net/6alZ8IVX5nbcOP4nDsiE8Q==/7828522790155029.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "麦田里的师爷",
+                        "remarkName": null,
+                        "userId": 55933653,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 1316806050,
+            "commentLocationType": 0,
+            "content": "这个方法 不一定能获取高清图, 我给你分享个方法,点击分享 --> 选择新浪微博 然后会自动跳转到浏览器, 然后一般会出现两张图,有一张有个序号的 点击可以勾选 这个时候这张就是原图 ,你可以右新页面打开图片 也可以直接保存了",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 29,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1543802230515,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/YSZMv6mWWdwS_Q4aWlrmbA==/109951163638949743.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "绪方理奈--",
+                "remarkName": null,
+                "userId": 363907920,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        }
+    ],
+    "musicName": "ハートビート・フロムユー",
+    "musicUrl": "http://music.163.com/song/media/outer/url?id=30031521.mp3",
+    "music_url": "https://music.163.com/song?id=30031521",
+    "singers": [
+        "ゆいこんぬ"
+    ]
+}

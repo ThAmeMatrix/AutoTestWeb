@@ -1,0 +1,625 @@
+{
+    "albums": [
+        "红昭愿"
+    ],
+    "commentsnum": 140350,
+    "duration": "04:14",
+    "hotcomments": [
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 296104518,
+                    "content": "李俊羽是干嘛的！",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p1.music.126.net/HuBe-9kJ3cIhopuq06KJEw==/109951163737738023.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "敷衍过后换来多余的痛",
+                        "remarkName": null,
+                        "userId": 372910433,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 296512557,
+            "commentLocationType": 0,
+            "content": "正在回你评论的。。",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 264341,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1485592721209,
+            "user": {
+                "authStatus": 1,
+                "avatarUrl": "https://p1.music.126.net/J_VS7tkC8kUBQtza60knSg==/18510278254776648.jpg",
+                "expertTags": null,
+                "experts": {
+                    "1": "音乐原创视频达人"
+                },
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "音阙诗听",
+                "remarkName": null,
+                "userId": 92105464,
+                "userType": 4,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": 1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 326158235,
+            "commentLocationType": 0,
+            "content": "你们知道一个听电音的推到古风是什么感受吗[呆]",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 256424,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1489036980587,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/zv2HZvr51GCQbvOHsDobLA==/109951164058528345.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "我很究极快乐",
+                "remarkName": null,
+                "userId": 258621903,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 326734277,
+            "commentLocationType": 0,
+            "content": "很好听的歌！(*´∀｀*人*´∀｀*)",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 227965,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1489109768453,
+            "user": {
+                "authStatus": 1,
+                "avatarUrl": "https://p1.music.126.net/hF0i0gQxluC5xCuZSDFwzw==/109951163762540126.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "封茗囧菌",
+                "remarkName": null,
+                "userId": 51634896,
+                "userType": 4,
+                "vipRights": {
+                    "associator": null,
+                    "musicPackage": {
+                        "rights": true,
+                        "vipCode": 220
+                    },
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 10
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 321988791,
+            "commentLocationType": 1,
+            "content": "故事背景，也是音阙诗听另外几首歌曲作品的故事简版。\n昔有女，姿有妍丽，命不由她。《红昭愿》\n希得上天眷恋，历三世轮回。《三世笺》\n一世她放荡不羁，化有趣的恶魔。《尽头》\n二世她潜心悔改，却物是人非。《花非花》\n三世她终无果，了断红尘。《红尘崖》\n三世轮回依断肠，笑看佛陀拈香。《青灯》",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 195458,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1488522954255,
+            "user": {
+                "authStatus": 1,
+                "avatarUrl": "https://p1.music.126.net/J_VS7tkC8kUBQtza60knSg==/18510278254776648.jpg",
+                "expertTags": null,
+                "experts": {
+                    "1": "音乐原创视频达人"
+                },
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "音阙诗听",
+                "remarkName": null,
+                "userId": 92105464,
+                "userType": 4,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": 1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 366081348,
+            "commentLocationType": 1,
+            "content": "我：“社长，我们的歌评论破万了，你有什么想说的吗？”\r\r社长：“喜欢评论666”",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 165704,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1493136127946,
+            "user": {
+                "authStatus": 1,
+                "avatarUrl": "https://p1.music.126.net/J_VS7tkC8kUBQtza60knSg==/18510278254776648.jpg",
+                "expertTags": null,
+                "experts": {
+                    "1": "音乐原创视频达人"
+                },
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "音阙诗听",
+                "remarkName": null,
+                "userId": 92105464,
+                "userType": 4,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": 1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 325598022,
+            "commentLocationType": 0,
+            "content": "音阙诗听＝interesting",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 154289,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1488962184936,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/id1-K9CEwJNBy8lJ1usBGw==/19135900370202936.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "方旧丶",
+                "remarkName": null,
+                "userId": 282974878,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 326734277,
+                    "content": "很好听的歌！(*´∀｀*人*´∀｀*)",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 1,
+                        "avatarUrl": "https://p1.music.126.net/hF0i0gQxluC5xCuZSDFwzw==/109951163762540126.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "封茗囧菌",
+                        "remarkName": null,
+                        "userId": 51634896,
+                        "userType": 4,
+                        "vipRights": {
+                            "associator": null,
+                            "musicPackage": {
+                                "rights": true,
+                                "vipCode": 220
+                            },
+                            "redVipAnnualCount": -1
+                        },
+                        "vipType": 10
+                    }
+                }
+            ],
+            "commentId": 326855981,
+            "commentLocationType": 0,
+            "content": "哎哟，捕获一只大大。",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 103850,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1489123802563,
+            "user": {
+                "authStatus": 1,
+                "avatarUrl": "https://p1.music.126.net/J_VS7tkC8kUBQtza60knSg==/18510278254776648.jpg",
+                "expertTags": null,
+                "experts": {
+                    "1": "音乐原创视频达人"
+                },
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "音阙诗听",
+                "remarkName": null,
+                "userId": 92105464,
+                "userType": 4,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": 1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 622742852,
+            "commentLocationType": 0,
+            "content": "\"姑娘有心事？\"书生抿嘴品茶问到。\n少女：\"公子与城东唐公子可是熟识？\"\n书生：\"世交。\"\n少女：\"那下次你与他一起来吧。\"\n书生：\"他不喜品茶。\"\n少女：\"没关系，那他喜欢什么，我可以慢慢学。\"\n书生：\"我其实也不喜品茶。\"\n少女：\"说谎，那你每天早晨都跑我这茶铺干嘛。\"",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 90214,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1511495916921,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/Udbv5tHdEf0Ar8pSvXXJGw==/3272146608903598.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "彗星突然撞地球",
+                "remarkName": null,
+                "userId": 106575521,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 325620184,
+            "commentLocationType": 0,
+            "content": "666666，原来电音＋古风也别有风味，真是interesting",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 58934,
+            "parentCommentId": 0,
+            "pendantData": {
+                "id": 4000,
+                "imageUrl": "http://p1.music.126.net/xE4CwIWXUkwvf-h9Jo5sQw==/109951163313111359.jpg"
+            },
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1488965001763,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/3g9E0uAjg7Z80ZTdZPQ5RQ==/109951163567137631.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "厭界",
+                "remarkName": null,
+                "userId": 119169451,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 356256073,
+                    "content": "请你们告诉高三（2）班的张诗雨，我喜欢她!日夜思念。如果这条评论被淹没在这8669条评论中!我也会继续喜欢她!我要追她!我要娶她!一遇诗雨误终生？这生，我误定了！",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p1.music.126.net/V0-ROpQkzjvh2y4yClouqw==/19009456532886371.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "余诗璋-再不相见",
+                        "remarkName": null,
+                        "userId": 102338041,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 357165327,
+            "commentLocationType": 0,
+            "content": "高中说嫁娶太早哦！不过还是祝福你能追到手！😊",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 53342,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1492247450830,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/LoX3wcWsYkrKgWJSVDYR5Q==/109951163933153805.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "等风_也_等你__",
+                "remarkName": null,
+                "userId": 420436366,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 593190159,
+            "commentLocationType": 0,
+            "content": "到头来，我不是孙悟空，也不是至尊宝，终究成了城墙下的那群人，看着别人的爱情，咀嚼自己的青春。",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 44286,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1508668925556,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/6vo4Kx-cYMCakVQcYFY4YQ==/109951164042975356.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "二木Uanin",
+                "remarkName": null,
+                "userId": 362392028,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 622742852,
+                    "content": "\"姑娘有心事？\"书生抿嘴品茶问到。\n少女：\"公子与城东唐公子可是熟识？\"\n书生：\"世交。\"\n少女：\"那下次你与他一起来吧。\"\n书生：\"他不喜品茶。\"\n少女：\"没关系，那他喜欢什么，我可以慢慢学。\"\n书生：\"我其实也不喜品茶。\"\n少女：\"说谎，那你每天早晨都跑我这茶铺干嘛。\"",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p1.music.126.net/Udbv5tHdEf0Ar8pSvXXJGw==/3272146608903598.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "彗星突然撞地球",
+                        "remarkName": null,
+                        "userId": 106575521,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 1065218020,
+            "commentLocationType": 0,
+            "content": "少女：“没关系 那他喜欢什么 我可以慢慢学。”\n书生：“他喜欢我。”",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 43060,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1522025426555,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/TrYuN6vk7inyjKbblTy4_A==/109951164153581796.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "号锡呀_",
+                "remarkName": null,
+                "userId": 447161025,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 341604837,
+            "commentLocationType": 0,
+            "content": "当时年少春衫薄,骑马倚斜桥,满楼红袖招。                                锦衣风雅，永恒即是刹那。                                                   我的最爱，太好听了，喜欢到不行❤❤❤",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 31887,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1490721446042,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/Mv00sIWJuANtQjbyduHD3g==/109951164129364751.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "半凉未凉",
+                "remarkName": null,
+                "userId": 96422589,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 628182442,
+            "commentLocationType": 0,
+            "content": "当时年少春衫薄,骑马倚斜桥,满楼红袖招。                                锦衣风雅，永恒即是刹那。",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 22823,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1512016738502,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/pjhEXJ3qLvkxJTIemmUGNA==/19027048719177787.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "揪你小肥脸f",
+                "remarkName": null,
+                "userId": 542627909,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 378760069,
+            "commentLocationType": 1,
+            "content": "社团2017.5.10最新作品《醉月几酌》已登录网易云，来听听看呀。",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 20103,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1494398095634,
+            "user": {
+                "authStatus": 1,
+                "avatarUrl": "https://p1.music.126.net/J_VS7tkC8kUBQtza60knSg==/18510278254776648.jpg",
+                "expertTags": null,
+                "experts": {
+                    "1": "音乐原创视频达人"
+                },
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "音阙诗听",
+                "remarkName": null,
+                "userId": 92105464,
+                "userType": 4,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": 1
+                },
+                "vipType": 11
+            }
+        }
+    ],
+    "musicName": "红昭愿",
+    "musicUrl": "http://music.163.com/song/media/outer/url?id=452986458.mp3",
+    "music_url": "https://music.163.com/song?id=452986458",
+    "singers": [
+        "音阙诗听"
+    ]
+}

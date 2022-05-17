@@ -1,0 +1,105 @@
+{
+    "albums": [
+        "TVアニメ「ゼロの使い魔~双月の騎士~」サウンドトラック"
+    ],
+    "commentsnum": 91,
+    "duration": "04:20",
+    "hotcomments": [
+        {
+            "beReplied": [],
+            "commentId": 139681150,
+            "commentLocationType": 0,
+            "content": "山口升老师完成零之使魔f时，很多人都认为f代表的是four，结果f却代表的是final，才人和露易丝修成正果，山口升老师却不久辞世，而今光司也喉癌离世，心理好难过。",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 85,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1460182955513,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/dZtl8DZvskQ2BWu3vgXc7w==/3420580685362812.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "雨后的青色",
+                "remarkName": null,
+                "userId": 57219448,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 33232329,
+            "commentLocationType": 0,
+            "content": "听着听着 眼泪就压抑不住的往下掉..光宗信吉的钢琴曲真的太神了",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 58,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1440647124596,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/XaiFRXp3SevIIRDTDSltGQ==/3353510465121817.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "可人儿q",
+                "remarkName": null,
+                "userId": 82261914,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 424465161,
+            "commentLocationType": 0,
+            "content": "忘不了路易斯让才人离开时的话语，忘不了路易斯的泪水，忘不了路易斯内心的独白，更忘不了才人用魔法药水晕倒路易斯，忘不了才人抱着路易斯时的哭声，忘不了才人将路易斯托付给朱力奥时的笑容，忘不了才人决定一人独战七万大军，忘不了才人在战场上受的伤，忘不了才人在临死前喊出爱的人的名字",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 35,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1496232685307,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/9GcomL8D1-w_NIynV8bADw==/19010556044346708.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "EnumaElish170424",
+                "remarkName": null,
+                "userId": 473346192,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        }
+    ],
+    "musicName": "Tragic Memory",
+    "musicUrl": "http://music.163.com/song/media/outer/url?id=28191047.mp3",
+    "music_url": "https://music.163.com/song?id=28191047",
+    "singers": [
+        "光宗信吉"
+    ]
+}

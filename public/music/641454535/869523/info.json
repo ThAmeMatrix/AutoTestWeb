@@ -1,0 +1,126 @@
+{
+    "albums": [
+        "Chranos ~クラノス~"
+    ],
+    "commentsnum": 296,
+    "duration": "04:08",
+    "hotcomments": [
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 2708886,
+                    "content": "这妹子各种超越原唱啊……",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p2.music.126.net/M6uoTxkLGDwP2Reqk65cmw==/5836207720406115.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "水竹叶",
+                        "remarkName": null,
+                        "userId": 7890694,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 4337189,
+            "commentLocationType": 0,
+            "content": "风格不同嘛，原唱很好的",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 188,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1410937353885,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/Vu_0NIBa3wEbu-uoJ2xDfg==/5876889650694357.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "cdarling",
+                "remarkName": null,
+                "userId": 17962783,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 329818929,
+            "commentLocationType": 0,
+            "content": "歌词翻译已上传，第一次翻译歌词，感谢我的老师帮我修正错误，顺便祝我顺利考过N2，日语一小步梦想一大步（手动滑稽）",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 109,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1489423463293,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/wRPHv6t1sbd70U3elJ2DkA==/18651015743450059.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "白石夏樹",
+                "remarkName": null,
+                "userId": 71621661,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 1418192418,
+            "commentLocationType": 0,
+            "content": "看过CLANNAD吗？\n看过！\n什么感觉？\n点赞！[强]\n那我们就是异父异母的亲兄弟！握手！！",
+            "decoration": {},
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 62,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1552408786775,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/NpLGpE-EsihSI0taqBXBGQ==/2946691250494854.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "终结便是新的开始",
+                "remarkName": null,
+                "userId": 378548062,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        }
+    ],
+    "musicName": "Another Story",
+    "musicUrl": "http://music.163.com/song/media/outer/url?id=869523.mp3",
+    "music_url": "https://music.163.com/song?id=869523",
+    "singers": [
+        "雪桜草"
+    ]
+}

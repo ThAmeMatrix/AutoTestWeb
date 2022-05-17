@@ -1,0 +1,45 @@
+{
+    "albums": [
+        "そんなこと裏のまた裏話でしょ?"
+    ],
+    "commentsnum": 65,
+    "duration": "04:26",
+    "hotcomments": [
+        {
+            "beReplied": [],
+            "commentId": 40201447,
+            "commentLocationType": 0,
+            "content": "好萌的琴浦小姐 一开头还以为是致郁番 没想到居然是搞笑治愈番  _(:з」∠)_",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 54,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1444533251885,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/2Hg-sD0ki6tXjfhWnWJDyA==/18541064579198166.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "池中海豹yoooo",
+                "remarkName": null,
+                "userId": 93085398,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        }
+    ],
+    "musicName": "そんなこと裏のまた裏話でしょ-",
+    "musicUrl": "http://music.163.com/song/media/outer/url?id=26118002.mp3",
+    "music_url": "https://music.163.com/song?id=26118002",
+    "singers": [
+        "中島愛"
+    ]
+}

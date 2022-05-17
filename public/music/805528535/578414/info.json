@@ -1,0 +1,139 @@
+{
+    "albums": [
+        "∞未来"
+    ],
+    "commentsnum": 309,
+    "duration": "04:19",
+    "hotcomments": [
+        {
+            "beReplied": [],
+            "commentId": 37348991,
+            "commentLocationType": 0,
+            "content": "男主为救青梅竹马造了个妹子，然后跟那个妹子在一起了。。。。好好学习，让未来的你给自己造个老婆",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 285,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1443011996043,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/JRSzjtpWmZw6AVLM_aAkug==/1377688084299914.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "AshenDust",
+                "remarkName": null,
+                "userId": 53611397,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 37271475,
+            "commentLocationType": 0,
+            "content": "[爱心]寻找失去的未来里最爱的一首歌曲，前奏非常抓耳。晚安~",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 96,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1442932843726,
+            "user": {
+                "authStatus": 1,
+                "avatarUrl": "https://p2.music.126.net/VK2aUqnJYDLOthrUfzvBkA==/1387583688172344.jpg",
+                "expertTags": [
+                    "日语",
+                    "ACG",
+                    "华语"
+                ],
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "西园美鸟",
+                "remarkName": null,
+                "userId": 11602980,
+                "userType": 10,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 37321659,
+            "commentLocationType": 0,
+            "content": "听一半按了暂停键，期间心里好像在抖着，那个旋律太磨人了，忍不住回想告别的场景，然后就落泪了。",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 82,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1442982688501,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/YDcXRb7jFjHCBAzKmmoJjw==/109951163389141095.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "古川结",
+                "remarkName": null,
+                "userId": 46724826,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 17025963,
+            "commentLocationType": 0,
+            "content": "静静听完这首歌，只为最后一句歌词。\n顺便，如果从一开始就知道的话，最初的每一个选项都绝不先选结衣。",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 73,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1430591571375,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/-xRkv1-niVxai7A0AHnYKw==/6623458046352379.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "飞奔的西红柿",
+                "remarkName": null,
+                "userId": 37109971,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        }
+    ],
+    "musicName": "ray of memories",
+    "musicUrl": "http://music.163.com/song/media/outer/url?id=578414.mp3",
+    "music_url": "https://music.163.com/song?id=578414",
+    "singers": [
+        "橋本みゆき"
+    ]
+}

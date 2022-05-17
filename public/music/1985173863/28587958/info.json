@@ -1,0 +1,682 @@
+{
+    "albums": [
+        "Nature"
+    ],
+    "commentsnum": 2426,
+    "duration": "03:32",
+    "hotcomments": [
+        {
+            "beReplied": [],
+            "commentId": 54627309,
+            "commentLocationType": 0,
+            "content": "不会让你们碰那个人类一根手指",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 2481,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1450418080884,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/VnZiScyynLG7atLIZ2YPkw==/18686200114669622.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "帐号已注销",
+                "remarkName": null,
+                "userId": 93763091,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 22330070,
+            "commentLocationType": 0,
+            "content": "必然是会有四方茉莉",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 1291,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1434421708491,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/aYYAHoJuvQ62yfqbCWbP3A==/7932976394409291.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "immediatelyMusic",
+                "remarkName": null,
+                "userId": 39320634,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 580280566,
+            "commentLocationType": 0,
+            "content": "我东方立教二十余载，不称臣不和亲不抢占不割地，巫女守结界，妖灵死社稷，無舰娘之军国复辟，無LL之氪金烧钱。东西合璧，古今结合，ACG之脊柱，同人界之魂，我大东方，万世正教!",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 1176,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1507472544193,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/U_l8gBnAnJ6tM7urkSyV-w==/109951164025537172.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "计时的悲伤",
+                "remarkName": null,
+                "userId": 348591663,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": 1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 42990167,
+            "commentLocationType": 0,
+            "content": "看到封面我就进来找有没有叫四方茉莉了[大哭]",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 783,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1445849427645,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/yG4cEELAaFq3FJkErmNKYg==/6646547791393872.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "昨夜琉璃",
+                "remarkName": null,
+                "userId": 49147334,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 727943836,
+                    "content": "东方被逐出二次元[惶恐]",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p1.music.126.net/VEAncqxMu8wIv903xxz6Gw==/18872017579613995.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "匿藏于地面的月之公主蓬莱山辉夜",
+                        "remarkName": null,
+                        "userId": 328581874,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 10
+                    }
+                }
+            ],
+            "commentId": 1050555910,
+            "commentLocationType": 0,
+            "content": "感谢二次元放过东方",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 648,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1520770683563,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/JjyrgNh5jP6FXteRfLK3mA==/109951163796713178.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "DIO_撒嘛",
+                "remarkName": null,
+                "userId": 583298031,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 56507595,
+            "commentLocationType": 0,
+            "content": "副歌太赞 连续找了一个多小时日文歌 大部分歌副歌都大同小异 这首真惊艳到了[亲亲]",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 533,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1451055795835,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/RJqh6wgRnNoItscID-GTsg==/3254554427277634.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "天国小鱼",
+                "remarkName": null,
+                "userId": 108209889,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": 1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 1119316822,
+            "commentLocationType": 0,
+            "content": "惊了，五速无头怪的主题曲",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 267,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1526487046849,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/VM8lI6W0GjU9kifVgtbWRA==/1373290032394419.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "金剛級高速戦艦",
+                "remarkName": null,
+                "userId": 130244822,
+                "userType": 0,
+                "vipRights": {
+                    "associator": null,
+                    "musicPackage": {
+                        "rights": true,
+                        "vipCode": 220
+                    },
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 10
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 54627309,
+                    "content": "不会让你们碰那个人类一根手指",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p1.music.126.net/VnZiScyynLG7atLIZ2YPkw==/18686200114669622.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "帐号已注销",
+                        "remarkName": null,
+                        "userId": 93763091,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 1253160195,
+            "commentLocationType": 0,
+            "content": "配合ID怎么看都有种寿命论的味道[汗]",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 139,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1537674953139,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/EYBNgzSM1wThb_QR07fnMQ==/18763165930158754.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "Dedicaus545",
+                "remarkName": null,
+                "userId": 361288367,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 54627309,
+                    "content": "不会让你们碰那个人类一根手指",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p1.music.126.net/VnZiScyynLG7atLIZ2YPkw==/18686200114669622.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "帐号已注销",
+                        "remarkName": null,
+                        "userId": 93763091,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 1341394211,
+            "commentLocationType": 0,
+            "content": "账号注销的很灵性 暗示寿命论?",
+            "decoration": {},
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 88,
+            "parentCommentId": 54627309,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1546099049384,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/WhtbrP4ouuXKjOqjhDI9KQ==/109951164069317670.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "千早是72",
+                "remarkName": null,
+                "userId": 391350377,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 1348146106,
+                    "content": "原本好像叫膜理莎",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p1.music.126.net/estbHNCB-J5gjcNiotS3Gw==/19042441881729460.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "--丘比--",
+                        "remarkName": null,
+                        "userId": 559373011,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 1348249899,
+            "commentLocationType": 0,
+            "content": "原来的id更灵性啊，看来注销是另有原因。",
+            "decoration": {},
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 50,
+            "parentCommentId": 54627309,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1546692736433,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/WhtbrP4ouuXKjOqjhDI9KQ==/109951164069317670.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "千早是72",
+                "remarkName": null,
+                "userId": 391350377,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 1332439226,
+                    "content": "好中二（捂脸）",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p1.music.126.net/ViVFjuYlafMlIfUx-pW-2A==/109951164065656223.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "满光漾",
+                        "remarkName": null,
+                        "userId": 592657384,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 1332944254,
+            "commentLocationType": 0,
+            "content": "这是东方永夜抄里面的原台词哦",
+            "decoration": {},
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 45,
+            "parentCommentId": 54627309,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1545332283329,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/Xn-DrQhbGNgmE4X3bNVscw==/109951163692934090.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "心_眼_",
+                "remarkName": null,
+                "userId": 453913584,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 1332439226,
+                    "content": "好中二（捂脸）",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p1.music.126.net/ViVFjuYlafMlIfUx-pW-2A==/109951164065656223.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "满光漾",
+                        "remarkName": null,
+                        "userId": 592657384,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 1333570703,
+            "commentLocationType": 0,
+            "content": "永夜抄ex的原台词，其实挺感人的",
+            "decoration": {},
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 40,
+            "parentCommentId": 54627309,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1545388010620,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/q4VN2z1ND_VUpCyPNdpmLQ==/2539871864293351.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "夢回幻想",
+                "remarkName": null,
+                "userId": 84732281,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 1341394211,
+                    "content": "账号注销的很灵性 暗示寿命论?",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p1.music.126.net/WhtbrP4ouuXKjOqjhDI9KQ==/109951164069317670.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "千早是72",
+                        "remarkName": null,
+                        "userId": 391350377,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 1346952040,
+            "commentLocationType": 0,
+            "content": "...住口！",
+            "decoration": {},
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 37,
+            "parentCommentId": 54627309,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1546595908986,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/RwfQ_zGKT0V7vaDrCPHhbg==/109951163898321548.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "覚妖怪",
+                "remarkName": null,
+                "userId": 387869572,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 1050555910,
+                    "content": "感谢二次元放过东方",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p1.music.126.net/JjyrgNh5jP6FXteRfLK3mA==/109951163796713178.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "DIO_撒嘛",
+                        "remarkName": null,
+                        "userId": 583298031,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 1358637862,
+            "commentLocationType": 0,
+            "content": "JOJO也被驱逐了(≧∇≦)",
+            "decoration": {},
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 30,
+            "parentCommentId": 1050555910,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1547564022816,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/l7JtW4g_e-wSSyGxwJiJIA==/109951163182216806.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "RDeadce6",
+                "remarkName": null,
+                "userId": 1394323977,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 1358637862,
+                    "content": "JOJO也被驱逐了(≧∇≦)",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p1.music.126.net/l7JtW4g_e-wSSyGxwJiJIA==/109951163182216806.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "RDeadce6",
+                        "remarkName": null,
+                        "userId": 1394323977,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 1359376457,
+            "commentLocationType": 0,
+            "content": "东jo共荣",
+            "decoration": {},
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 25,
+            "parentCommentId": 1050555910,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1547643235570,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/JjyrgNh5jP6FXteRfLK3mA==/109951163796713178.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "DIO_撒嘛",
+                "remarkName": null,
+                "userId": 583298031,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        }
+    ],
+    "musicName": "A.S.H",
+    "musicUrl": "http://music.163.com/song/media/outer/url?id=28587958.mp3",
+    "music_url": "https://music.163.com/song?id=28587958",
+    "singers": [
+        "F9"
+    ]
+}

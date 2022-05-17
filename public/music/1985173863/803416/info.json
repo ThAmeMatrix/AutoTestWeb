@@ -1,0 +1,640 @@
+{
+    "albums": [
+        "红色の繊か"
+    ],
+    "commentsnum": 1537,
+    "duration": "06:32",
+    "hotcomments": [
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 40619358,
+                    "content": "这个该不会还是东方吧？老是给我推荐这个东西，好反感了，时不时出现一股劣质电子音的味道。",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p2.music.126.net/l3vNxzbIRfsQYnYcNqGSTw==/2885118511759326.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "流萤丨霏雨",
+                        "remarkName": null,
+                        "userId": 50492267,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 56288352,
+            "commentLocationType": 0,
+            "content": "亲，钢琴，鼓点，摇滚，尺八等一系列元素哪里招惹你了……你是如何听出电音的…我真是奇了个大怪[撇嘴][大哭]",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 4088,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1451010974125,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/tOfDCqcfjGwGzKsc8x_Ofg==/1371091006798450.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "纯音此梦",
+                "remarkName": null,
+                "userId": 9654470,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 25034030,
+            "commentLocationType": 0,
+            "content": "什么时候开始，从被英语歌占领每日推荐变成了东方当朝。",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 1513,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1436061554755,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/UpYo1RTDIdFZhZMn_y-zsg==/7838418394481447.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "喜马腊鸭",
+                "remarkName": null,
+                "userId": 50540092,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 19774150,
+            "commentLocationType": 0,
+            "content": "今天手机上有点雾气，曲名竟看成了了“萤火虫”[惊恐]",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 1042,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1432728710052,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/xgv_Y3d3ubE8AYu-BJT-3A==/2892815093937215.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "晴日之风",
+                "remarkName": null,
+                "userId": 45689637,
+                "userType": 0,
+                "vipRights": {
+                    "associator": null,
+                    "musicPackage": {
+                        "rights": true,
+                        "vipCode": 220
+                    },
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 10
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 61992452,
+                    "content": "喜欢日系纯音乐，不代表我们喜欢日本。就像日本人极度推崇三国演义一般，日本文化当中有相当浓重的华夏影子，没有太大的文化间隔接受起来比较容易。像以前我根本不喜欢听歌，我对歌曲的第一印象是老妈听的流行音乐，通篇各种爱情伤 。第一次知道音乐可以如此空灵，如此超脱于现实却。。。",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p2.music.126.net/PQTQP1pHaRC3SRTeg9IqEw==/18557557255624686.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "D调东神",
+                        "remarkName": null,
+                        "userId": 57528003,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 63229265,
+            "commentLocationType": 0,
+            "content": "东方project本就是东西合并",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 866,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1453210492631,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/VK2-FELhHIYk5DZtG4Neew==/3426078250810060.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "花咲之夜",
+                "remarkName": null,
+                "userId": 124427156,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 205993114,
+            "commentLocationType": 0,
+            "content": "可惜，这个搞出了夏阳炎，鸦天狗键盘镜，篝火萤这些很不错同人曲的团已经是时代眼泪了啊……看这团贴吧就几个人几个帖，再听听这团的歌，真是挺难受……俱往矣，同人社团不相信眼泪……",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 750,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1472275615161,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/iRqMSTJMnzufqvZE2_-r-Q==/1396379779598729.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "氧化金坷垃",
+                "remarkName": null,
+                "userId": 288885022,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 712464711,
+                    "content": "妈麦皮，几个礼拜了，全给我推荐是纯音乐，网易云疯了不成。我想听人唱！！",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p2.music.126.net/Kpql_8VOEaPUpf8XGYQGLA==/18592741627632134.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "断弦吉他1706",
+                        "remarkName": null,
+                        "userId": 508634743,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 11
+                    }
+                }
+            ],
+            "commentId": 715050382,
+            "commentLocationType": 0,
+            "content": "想想你在网易的所作所为",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 428,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1519353648572,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/ECYL89Kq5XSw3fLMLCtfvw==/109951163107830909.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "净尘菩提-",
+                "remarkName": null,
+                "userId": 1340739811,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 58546643,
+            "commentLocationType": 0,
+            "content": "我欲在这寂静的夜里绽放出最绚烂的火花。",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 407,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1451765382637,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/honp0CCQX3tDlQRMooO11w==/109951163093763790.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "雨之中",
+                "remarkName": null,
+                "userId": 105171864,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 460809258,
+            "commentLocationType": 0,
+            "content": "世界上那么多好听的音乐..一定要好好活着。[爱心]",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 392,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1499172337721,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/LBWzSO2E6rUulO_CDk669A==/109951163983583409.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "Mt_0228",
+                "remarkName": null,
+                "userId": 84171087,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 205993114,
+                    "content": "可惜，这个搞出了夏阳炎，鸦天狗键盘镜，篝火萤这些很不错同人曲的团已经是时代眼泪了啊……看这团贴吧就几个人几个帖，再听听这团的歌，真是挺难受……俱往矣，同人社团不相信眼泪……",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p1.music.126.net/iRqMSTJMnzufqvZE2_-r-Q==/1396379779598729.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "氧化金坷垃",
+                        "remarkName": null,
+                        "userId": 288885022,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 296945177,
+            "commentLocationType": 0,
+            "content": "东方的同人社团犹如海边的火堆，风一吹便是漫天星火。这些默默无闻的社团们，有的成员已老，有的正值当年。在他们的个体之间，不同的是作品，相通的是对东方同样的感情。而我们能为他们做些什么呢，除了接替他们的位置，恐怕就是延续他们对于东方的热爱了。所以不要多说，为了他们的作品，贡献播放量吧",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 261,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1485626222254,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/gLWff8aLtmddQoWlU1tjfQ==/109951163097158809.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "三足金乌灵乌路",
+                "remarkName": null,
+                "userId": 94315819,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 1179064590,
+                    "content": "他家附近有只猫他总买肠喂它\n看着小猫 他开玩笑说\n你要是有灵就保佑我多赚钱\n有天他在马路中间安全过马路\n突然腿咬了口 他下意识的退了几步\n这几步他刚好躲开失控的车\n咬他的猫却碾在车轮下\n晚上他梦见小猫开口讲话\n我虽然没有钱\n但是我有九条命送你一条\n我喜欢这个故事",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p1.music.126.net/9GKc4tCIowbyMVI2Kri-bg==/109951163845503551.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "祈梦的星星",
+                        "remarkName": null,
+                        "userId": 563336518,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 1222321580,
+            "commentLocationType": 0,
+            "content": "猫燐:\n我有九条命\n虽然不能送你一条\n但可以送你一程",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 178,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1534764327426,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/ZI3ynm9M7cql-I1J9lMdzQ==/109951163605855177.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "lIIlIIIlIIlIIIl",
+                "remarkName": null,
+                "userId": 258218939,
+                "userType": 0,
+                "vipRights": {
+                    "associator": null,
+                    "musicPackage": {
+                        "rights": true,
+                        "vipCode": 220
+                    },
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 10
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 8737186,
+            "commentLocationType": 0,
+            "content": "好听[憨笑]",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 167,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1421216813909,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/P0kbGBRWkzJ5fV75A15gsg==/2884019000229922.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "墨轩蒹葭",
+                "remarkName": null,
+                "userId": 48702129,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 1224005401,
+            "commentLocationType": 0,
+            "content": "我一直觉得喜欢日本和爱国不矛盾，只要坚决反对日本右翼势力就好",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 120,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1534906609316,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/ZMEz0VeBBsSjynIQlaw4uQ==/109951163856756608.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "冷月岱",
+                "remarkName": null,
+                "userId": 562775736,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 56288352,
+                    "content": "亲，钢琴，鼓点，摇滚，尺八等一系列元素哪里招惹你了……你是如何听出电音的…我真是奇了个大怪[撇嘴][大哭]",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p1.music.126.net/tOfDCqcfjGwGzKsc8x_Ofg==/1371091006798450.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "纯音此梦",
+                        "remarkName": null,
+                        "userId": 9654470,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 1283661567,
+            "commentLocationType": 0,
+            "content": "不喜欢的人怎么说都是不喜欢，自己喜欢的东西还没低廉到需要自己解释给别人听",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 47,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1540624978834,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/VnZiScyynLG7atLIZ2YPkw==/18686200114669622.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "iMmaclate",
+                "remarkName": null,
+                "userId": 351202523,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 1366670342,
+            "commentLocationType": 0,
+            "content": "劣质电音哈哈哈人才辈出的世纪",
+            "decoration": {},
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 36,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1548292370020,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/KthLRDV2_HORlen644Odog==/109951163742982512.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "洩矢_诹访子",
+                "remarkName": null,
+                "userId": 121398807,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 56288352,
+                    "content": "亲，钢琴，鼓点，摇滚，尺八等一系列元素哪里招惹你了……你是如何听出电音的…我真是奇了个大怪[撇嘴][大哭]",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p1.music.126.net/tOfDCqcfjGwGzKsc8x_Ofg==/1371091006798450.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "纯音此梦",
+                        "remarkName": null,
+                        "userId": 9654470,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 1513188131,
+            "commentLocationType": 0,
+            "content": "兄啊你为甚么要回他啊，现在他的蠢话和你的回复一起挂在热评第一很辣眼睛啊，这种优越党就让他孤芳自赏不好吗",
+            "decoration": {},
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 14,
+            "parentCommentId": 56288352,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1559800203534,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/upq26_gP_OH0yri7MDEfnA==/3298534885745932.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "喷火坦克",
+                "remarkName": null,
+                "userId": 50454406,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        }
+    ],
+    "musicName": "篝火蛍-inst.ver-",
+    "musicUrl": "http://music.163.com/song/media/outer/url?id=803416.mp3",
+    "music_url": "https://music.163.com/song?id=803416",
+    "singers": [
+        "QLOCKS"
+    ]
+}

@@ -1,0 +1,605 @@
+{
+    "albums": [
+        "flyleaf"
+    ],
+    "commentsnum": 4087,
+    "duration": "05:19",
+    "hotcomments": [
+        {
+            "beReplied": [],
+            "commentId": 6139679,
+            "commentLocationType": 0,
+            "content": "京阿尼最后的良心",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 6452,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1416633768368,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/07nJI5rVZPsr0Wonlv2xXA==/2113261348597122.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "未登陆的观众",
+                "remarkName": null,
+                "userId": 32823949,
+                "userType": 0,
+                "vipRights": {
+                    "associator": null,
+                    "musicPackage": {
+                        "rights": true,
+                        "vipCode": 220
+                    },
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 10
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 132659513,
+            "commentLocationType": 0,
+            "content": "小说新作情报 千反田不再受家族干涉今后的选择。也就是说和男主的可能性更大了哟[亲][亲][亲][亲][亲]",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 3657,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1458656825619,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/CurNHsr5so90FGwbz365kA==/3384296794158862.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "丶牧濑红莉栖丶",
+                "remarkName": null,
+                "userId": 106593847,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 210160052,
+            "commentLocationType": 0,
+            "content": "早上挤地铁的时候，心里不知为何一直想着冰菓。突然fm随机到了这首，差点在地铁上人群里喊出来。这种巧合也许微不足道，但是却让我无比高兴，又无比怀念，怀念那个时候追番的悠闲自得。",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 3246,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1473033750586,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/uzpMjDuNVteDulQaOargVg==/18603736743649920.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "汪浅",
+                "remarkName": null,
+                "userId": 34744243,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 305679004,
+            "commentLocationType": 0,
+            "content": "冰果是我最想补的动漫，也是我最不敢补的。因为初恋和我不在一所高中，毕业以后他一直回避着我。直到不久前他告诉我，说他在高中的时候与一个女神级别的女孩交往过，虽然最后他们分开了，可我再也不敢看冰果了，就像在看他们的日常。他读文科，有蔷薇色的高中生活，可我什么也没有。",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 2628,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1486650414695,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/cyYyjLXlNB972cuFD5LTeQ==/109951164152897314.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "帐号已注销",
+                "remarkName": null,
+                "userId": 256768167,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 485253492,
+            "commentLocationType": 0,
+            "content": "感谢京阿尼这么多良心作品，冰菓，轻音，声之形，境界的彼方，中二病，凉宫春日等等都是我的最爱，让我的这个青春无怨无悔，庆幸来到二次元的世界，结交了许多的志同道合的朋友，阿里嘎多。",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 2468,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1501034572774,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/VudKahXQh8mDwCDBj3xw5g==/18951182416515117.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "西宮硝子丶世界第一可爱",
+                "remarkName": null,
+                "userId": 498934702,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 698698475,
+            "commentLocationType": 0,
+            "content": "我很好奇——冰菓\n我不高兴——境界的彼方\n我想知道——紫罗兰永恒花园",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 1999,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1518067127058,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/ctZJm8fX5uvsPMgIMcrr-A==/3432675309276529.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "不臆",
+                "remarkName": null,
+                "userId": 310281744,
+                "userType": 0,
+                "vipRights": {
+                    "associator": null,
+                    "musicPackage": null,
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 5273776,
+            "commentLocationType": 0,
+            "content": "喜欢小清新，冰果的画面做得真心好呀",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 1270,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1414554378547,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/Ga__hH85UBYs5-J7GnWuSQ==/8892850045505229.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "去你的青春",
+                "remarkName": null,
+                "userId": 33065347,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 129600797,
+            "commentLocationType": 0,
+            "content": "真心希望冰果有第二季。",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 1256,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1457977693228,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/DgKvvJthFb8jmbqddYVpkw==/3250156374665155.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "上行为道",
+                "remarkName": null,
+                "userId": 135338529,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 1188451262,
+            "commentLocationType": 0,
+            "content": "折棒的告白是我听过最文艺的。                            勇太的告白是我听过最中二的。                             薇尔利特的告白……我没听懂[大哭]",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 301,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1532258241726,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/-FbS_hxVIyp8sjYq5qKzaA==/109951163910372982.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "冻北肉",
+                "remarkName": null,
+                "userId": 421577294,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 1190040020,
+            "commentLocationType": 0,
+            "content": "因你，我结束了节能模式。\n因你，我进入了新的世界。\n因你，我看到恋爱的蔷薇。    by 折木奉太郎\nto 千反田爱瑠",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 214,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1532370976717,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/kaFJTeCPK1SwzAYfkMVUJg==/109951163409695459.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "最美不过再遇",
+                "remarkName": null,
+                "userId": 538667849,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 1269770919,
+            "commentLocationType": 0,
+            "content": "趴桌上仰躺你脸下，双眼发光的说了句“我很好奇”\n然后节能系统失效！警报，节能系统失效",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 63,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1539248839479,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/NIZdJUIPb4xq0iWAdKyzXQ==/109951164137171186.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "二次即视感",
+                "remarkName": null,
+                "userId": 616264120,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 1341920873,
+                    "content": "现在有京紫了[大哭]",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p2.music.126.net/icqMHDX0ptQhSGDo0fP3Dw==/109951163386940163.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "肖时钦侍寝只是小事情",
+                        "remarkName": null,
+                        "userId": 441978212,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 11
+                    }
+                }
+            ],
+            "commentId": 1351634046,
+            "commentLocationType": 0,
+            "content": "京紫往后稍稍吧，拿京吹来比差不多",
+            "decoration": {},
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 37,
+            "parentCommentId": 6139679,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1546963113705,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/g-JE6e2aNPVYqlUND5DgxA==/109951164102557613.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "夏侯渊妙才",
+                "remarkName": null,
+                "userId": 392651548,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 6139679,
+                    "content": "京阿尼最后的良心",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p2.music.126.net/07nJI5rVZPsr0Wonlv2xXA==/2113261348597122.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "未登陆的观众",
+                        "remarkName": null,
+                        "userId": 32823949,
+                        "userType": 0,
+                        "vipRights": {
+                            "associator": null,
+                            "musicPackage": {
+                                "rights": true,
+                                "vipCode": 220
+                            },
+                            "redVipAnnualCount": -1
+                        },
+                        "vipType": 10
+                    }
+                }
+            ],
+            "commentId": 1354766331,
+            "commentLocationType": 0,
+            "content": "京紫这么好的番竟然在国内不受待见……",
+            "decoration": {},
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 36,
+            "parentCommentId": 6139679,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1547249090919,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/BN4qgfTo2_ZdIbhuCjhyCg==/109951163950126428.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "HeaLinGRL",
+                "remarkName": null,
+                "userId": 405171488,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 1353874079,
+                    "content": "京紫很好看啊，虽然除了画风少了很多京阿尼的感觉甚至都不像日漫，但是单论番剧还是一部很优秀的番剧啊，只要你能够认真看完",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p2.music.126.net/g1XF1BOaOvy9ITa4wM2iXA==/109951162991920164.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "肆月疑日",
+                        "remarkName": null,
+                        "userId": 424189882,
+                        "userType": 0,
+                        "vipRights": {
+                            "associator": {
+                                "rights": true,
+                                "vipCode": 100
+                            },
+                            "musicPackage": null,
+                            "redVipAnnualCount": -1
+                        },
+                        "vipType": 11
+                    }
+                }
+            ],
+            "commentId": 1354416585,
+            "commentLocationType": 0,
+            "content": "剧情鸡汤，演出平淡，系构负分。唯一值得吹的就是作画，可惜动画不只是画面好看就可以。",
+            "decoration": {},
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 36,
+            "parentCommentId": 6139679,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1547212558545,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/g-JE6e2aNPVYqlUND5DgxA==/109951164102557613.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "夏侯渊妙才",
+                "remarkName": null,
+                "userId": 392651548,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 1351634046,
+                    "content": "京紫往后稍稍吧，拿京吹来比差不多",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p2.music.126.net/g-JE6e2aNPVYqlUND5DgxA==/109951164102557613.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "夏侯渊妙才",
+                        "remarkName": null,
+                        "userId": 392651548,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 1353874079,
+            "commentLocationType": 0,
+            "content": "京紫很好看啊，虽然除了画风少了很多京阿尼的感觉甚至都不像日漫，但是单论番剧还是一部很优秀的番剧啊，只要你能够认真看完",
+            "decoration": {},
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 34,
+            "parentCommentId": 6139679,
+            "pendantData": {
+                "id": 5005,
+                "imageUrl": "http://p1.music.126.net/re9ZZBYLQwnY_Q2C6CRXOQ==/109951163313115348.jpg"
+            },
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1547178288671,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/g1XF1BOaOvy9ITa4wM2iXA==/109951162991920164.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": "同城",
+                "nickname": "肆月疑日",
+                "remarkName": null,
+                "userId": 424189882,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 11
+            }
+        }
+    ],
+    "musicName": "優しさの理由",
+    "musicUrl": "http://music.163.com/song/media/outer/url?id=22749901.mp3",
+    "music_url": "https://music.163.com/song?id=22749901",
+    "singers": [
+        "ChouCho"
+    ]
+}

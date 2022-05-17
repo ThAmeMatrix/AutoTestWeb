@@ -1,0 +1,688 @@
+{
+    "albums": [
+        "ときかけエオリア"
+    ],
+    "commentsnum": 4786,
+    "duration": "04:03",
+    "hotcomments": [
+        {
+            "beReplied": [],
+            "commentId": 53402581,
+            "commentLocationType": 0,
+            "content": "昔时南国生红豆 今朝相思愁梧桐",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 2541,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1449986081056,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/iJS-fgojUdOT_u12RVIKdw==/1396379769757182.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "修文暴君",
+                "remarkName": null,
+                "userId": 70207879,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 42802477,
+                    "content": "东方应该是同人最多的系列",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p2.music.126.net/zf4L5Usj0DKWlXjD5QjyTA==/109951163861117540.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "梦回达达",
+                        "remarkName": null,
+                        "userId": 56434651,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 11
+                    }
+                }
+            ],
+            "commentId": 47105139,
+            "commentLocationType": 0,
+            "content": "当然，三大同人奇迹之首，音乐的话仅仅神种子那边快30T了",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 2062,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1447592210536,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/1saeffSR5ZrbkYHg2f4e2A==/109951163913050251.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "ArthuRScarlet",
+                "remarkName": null,
+                "userId": 67339933,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 67493013,
+            "commentLocationType": 0,
+            "content": "这里不应该是幻想乡么？[哀伤][哀伤][哀伤]",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 1417,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1454451676320,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/gsVae0WQ9HrJ0zVQnehV8Q==/3426078252312108.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "ChaosIrae",
+                "remarkName": null,
+                "userId": 40098467,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 1047425053,
+            "commentLocationType": 0,
+            "content": "我叫幽幽子 以前是有钱人家的少女 手滑在樱树下自杀了 那以后西行树也不开花了 我想搞事被灵梦锤了 想自杀 啊？对哦我已经凉了……好无聊啊每一天 要不是紫酱陪着我任性我感觉我已经有些厌倦了呢 啊”什么时候开始的呢 有些喜欢吃吃喝喝了呢…最近也因此有些穷了 吃不起东西了 有没有好心人给我120块钱",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 1216,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1520529668183,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/aY17_BBi4tVeS3vi_Q-FLA==/109951163190415970.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "清色入眼_幽色入眠",
+                "remarkName": null,
+                "userId": 427804445,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 1134995857,
+            "commentLocationType": 0,
+            "content": "虽然我东方已经过气了（笑）但还是提一句吧。这首曲子以及另一首mountain journey都是改编自:神々が恋した幻想郷（译:众神眷恋的幻想乡）就如同曲名那样，幻想乡是个让神都眷恋的地方呢[可爱]\n出自东方project系列游戏的『东方风神录』第三面道中曲。\n抱住最后的传教希望，大家都入东方坑吧_(:_」∠)_",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 832,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1527843394520,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/RiMt4aGd0ko6fE4p0Ce8mg==/109951164092029454.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "超高校级的萌狼",
+                "remarkName": null,
+                "userId": 566162394,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 1047425053,
+                    "content": "我叫幽幽子 以前是有钱人家的少女 手滑在樱树下自杀了 那以后西行树也不开花了 我想搞事被灵梦锤了 想自杀 啊？对哦我已经凉了……好无聊啊每一天 要不是紫酱陪着我任性我感觉我已经有些厌倦了呢 啊”什么时候开始的呢 有些喜欢吃吃喝喝了呢…最近也因此有些穷了 吃不起东西了 有没有好心人给我120块钱",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p2.music.126.net/aY17_BBi4tVeS3vi_Q-FLA==/109951163190415970.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "清色入眼_幽色入眠",
+                        "remarkName": null,
+                        "userId": 427804445,
+                        "userType": 0,
+                        "vipRights": {
+                            "associator": {
+                                "rights": true,
+                                "vipCode": 100
+                            },
+                            "musicPackage": null,
+                            "redVipAnnualCount": -1
+                        },
+                        "vipType": 11
+                    }
+                }
+            ],
+            "commentId": 1208744471,
+            "commentLocationType": 0,
+            "content": "道理我都懂，这就是你来守矢神社骗吃骗喝的理由？",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 482,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1533721703462,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/_QXJXMA3UVgFitSOf436KQ==/109951163555652544.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "洩矢诹坊子",
+                "remarkName": null,
+                "userId": 428827355,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 1225542842,
+            "commentLocationType": 0,
+            "content": "都8102年了，车 万 厨 怎 么 还 没 死 完",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 373,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1535018198940,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/1F0NoTGYz1kdG9WVhYnkSQ==/3420580704547289.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "冰化羽",
+                "remarkName": null,
+                "userId": 481065735,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 1225542842,
+                    "content": "都8102年了，车 万 厨 怎 么 还 没 死 完",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p2.music.126.net/1F0NoTGYz1kdG9WVhYnkSQ==/3420580704547289.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "冰化羽",
+                        "remarkName": null,
+                        "userId": 481065735,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 1271413008,
+            "commentLocationType": 0,
+            "content": "因为我们爱那土地爱得深沉",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 302,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1539416312812,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/qelpbE2n27cPAUgr0ePnWg==/109951164045208232.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "野良貓丿",
+                "remarkName": null,
+                "userId": 440191216,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 1373657569,
+            "commentLocationType": 0,
+            "content": "科普给不了解东方的朋友：《东方》是一部由唐国强执导并主演，刘星编剧，孙维民、宗利群等演员共同主演的革命历史剧，也是电视连续剧《解放》的续集，于2011年3月22日在央视一套首播。",
+            "decoration": {},
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 177,
+            "parentCommentId": 0,
+            "pendantData": {
+                "id": 5001,
+                "imageUrl": "http://p1.music.126.net/RfsDCa4VQubXTjGzCuJu-Q==/109951163313123222.jpg"
+            },
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1548835540478,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/Nw35xvINnTYGsFHU3S2Yqw==/109951163982585104.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "饶思哲哈哈哈隔",
+                "remarkName": null,
+                "userId": 428461720,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": 1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 1202534425,
+            "commentLocationType": 0,
+            "content": "充满回忆的入坑曲\n它那流水般琤琮悠扬的旋律，昂扬鲜活的饱满生命力，是从未在其他纯音中体会过的。它引我进入妖怪之山，看那飘摇的九天瀑布，不胜高寒的风神之湖，枫叶覆盖的河童清溪，于是从此便一发不可收拾地入了车万（笑）。",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 159,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1533254017474,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/XRKW_ycVroxbwGRFFitQbg==/109951163935213187.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "传统的幻想记者-射命丸文",
+                "remarkName": null,
+                "userId": 294675274,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 1380680617,
+            "commentLocationType": 0,
+            "content": "大家别去信某些人的恶意科普，带歪新人，这种人最可恶了！东方是东方早新闻的意思！",
+            "decoration": {},
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 76,
+            "parentCommentId": 0,
+            "pendantData": {
+                "id": 6000,
+                "imageUrl": "http://p1.music.126.net/lgBFydvxWY1L8Evzid45uA==/109951163313133061.jpg"
+            },
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1549363168774,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/IRXL_NtNIc19p6k_8OiK6Q==/109951162916220857.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "Koshirou",
+                "remarkName": null,
+                "userId": 382598135,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": 1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 1339593570,
+                    "content": "救救孩子吧，支助120帮孩子吃口饭吧[多多大哭]",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p1.music.126.net/2xrFRHt9Mom96s2B2y3g6A==/109951163267600980.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "无人共相伴",
+                        "remarkName": null,
+                        "userId": 485874236,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 1340373869,
+            "commentLocationType": 0,
+            "content": "救救我 要过年了，120元买不了什么的……说到过年 明年年初……中美合资……两开花……多多支持……",
+            "decoration": {},
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 69,
+            "parentCommentId": 1047425053,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1546001693899,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/aY17_BBi4tVeS3vi_Q-FLA==/109951163190415970.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "清色入眼_幽色入眠",
+                "remarkName": null,
+                "userId": 427804445,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 1340373869,
+                    "content": "救救我 要过年了，120元买不了什么的……说到过年 明年年初……中美合资……两开花……多多支持……",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p1.music.126.net/aY17_BBi4tVeS3vi_Q-FLA==/109951163190415970.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "清色入眼_幽色入眠",
+                        "remarkName": null,
+                        "userId": 427804445,
+                        "userType": 0,
+                        "vipRights": {
+                            "associator": {
+                                "rights": true,
+                                "vipCode": 100
+                            },
+                            "musicPackage": null,
+                            "redVipAnnualCount": -1
+                        },
+                        "vipType": 11
+                    }
+                }
+            ],
+            "commentId": 1340853439,
+            "commentLocationType": 0,
+            "content": "那个 幽幽子大人  说话的时候能不能把嘴巴里的半灵放开😒😒😒😒",
+            "decoration": {},
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 51,
+            "parentCommentId": 1047425053,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1546061469206,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/np8bz8zxvwm_Qv7EJ4fLIQ==/109951163153003107.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "西行寺妖羽",
+                "remarkName": null,
+                "userId": 427316544,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 53402581,
+                    "content": "昔时南国生红豆 今朝相思愁梧桐",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p1.music.126.net/iJS-fgojUdOT_u12RVIKdw==/1396379769757182.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "修文暴君",
+                        "remarkName": null,
+                        "userId": 70207879,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 1380505281,
+            "commentLocationType": 0,
+            "content": "同人曲下刷无关评论的家伙是人间之屑",
+            "decoration": {},
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 44,
+            "parentCommentId": 53402581,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1549353208023,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/6DU3s6RzTJmQvlkZh21blg==/109951163805424123.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "大家的幻想乡丶",
+                "remarkName": null,
+                "userId": 304663689,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 53402581,
+                    "content": "昔时南国生红豆 今朝相思愁梧桐",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p1.music.126.net/iJS-fgojUdOT_u12RVIKdw==/1396379769757182.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "修文暴君",
+                        "remarkName": null,
+                        "userId": 70207879,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 1354621892,
+            "commentLocationType": 0,
+            "content": "红豆生南国，春来发几枝，愿君多采撷\n\n好吃",
+            "decoration": {},
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 41,
+            "parentCommentId": 53402581,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1547222479842,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/STE1sMWD39AFhqM6JCvxTg==/109951164085651690.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "一生污浊_",
+                "remarkName": null,
+                "userId": 1447710417,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 11
+            }
+        }
+    ],
+    "musicName": "時をかける神様",
+    "musicUrl": "http://music.163.com/song/media/outer/url?id=26537201.mp3",
+    "music_url": "https://music.163.com/song?id=26537201",
+    "singers": [
+        "Foxtail-Grass Studio"
+    ]
+}

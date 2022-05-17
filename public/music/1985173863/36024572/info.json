@@ -1,0 +1,632 @@
+{
+    "albums": [
+        "蒼穹フォークロア"
+    ],
+    "commentsnum": 1336,
+    "duration": "04:16",
+    "hotcomments": [
+        {
+            "beReplied": [],
+            "commentId": 311969371,
+            "commentLocationType": 0,
+            "content": "我知道这是东方曲但是为什么我就是想说：来局昆特牌么！",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 4311,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1487346936676,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/5bgT1RKtXIXw7k2gQuNwOw==/109951164107037407.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "reol酱请和我百合",
+                "remarkName": null,
+                "userId": 252765043,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 311969371,
+                    "content": "我知道这是东方曲但是为什么我就是想说：来局昆特牌么！",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p1.music.126.net/5bgT1RKtXIXw7k2gQuNwOw==/109951164107037407.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "reol酱请和我百合",
+                        "remarkName": null,
+                        "userId": 252765043,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 315733916,
+            "commentLocationType": 0,
+            "content": "“你就是巫女吗？红魔乡又发生异变了。”“好的，不过我们能先来一局昆特牌吗？”“不瞒您说，幻想乡里至今还没有人赢过我！”",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 3141,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1487822628141,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/IA9tfoKfzqHugg9OMyFpWQ==/109951163586887099.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "FFF团之殇",
+                "remarkName": null,
+                "userId": 85856206,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 344814647,
+            "commentLocationType": 0,
+            "content": "在我东方教中公然传教昆特牌，果然是异教。站在那里等着被退治吧，SPELL CARD『北方卡组』！(哪不对",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 1895,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1491059454187,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/RwOz3G7eisAA-z87X_UBYg==/109951163978430644.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "枳子-淮北",
+                "remarkName": null,
+                "userId": 424764049,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 311969371,
+                    "content": "我知道这是东方曲但是为什么我就是想说：来局昆特牌么！",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p1.music.126.net/5bgT1RKtXIXw7k2gQuNwOw==/109951164107037407.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "reol酱请和我百合",
+                        "remarkName": null,
+                        "userId": 252765043,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 357046709,
+            "commentLocationType": 0,
+            "content": "震惊！把符卡规则取代的竟然是它！魔理沙听了沉默，灵梦听了流泪[大哭]",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 1511,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1492236714618,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/3bPqMRcGHClBrtziVGPGHw==/19140298416397819.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "ABCCBA949",
+                "remarkName": null,
+                "userId": 67095533,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 366057359,
+                    "content": "巫师3里，无论发生什么事，与NPC交流时都有''来盘昆特牌吧''的选项",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p1.music.126.net/3bPqMRcGHClBrtziVGPGHw==/19140298416397819.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "ABCCBA949",
+                        "remarkName": null,
+                        "userId": 67095533,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 367427494,
+            "commentLocationType": 0,
+            "content": "然后就会出现这样的场景 “快帮帮我吧，我女儿被人抓走了！” “来盘昆特牌吧!” “村子里没人赢得了我!” 23333333~",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 1327,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1493294142770,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/Pt6pqdfxaBLr_aWDwyrpnw==/109951163754815504.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "享樂主義Yaaaaa",
+                "remarkName": null,
+                "userId": 87397524,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 463741651,
+            "commentLocationType": 0,
+            "content": "网易看到有一个人在东方的曲子上点了个红心，这下这位仁兄的日推就好办了，曲库里有着他这辈子都听不完的东方曲子，每天二十首不重样，安心，这坑够深，这辈子你出不来了。",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 1070,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1499411179596,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/Ofz74a9hinY_xevpX3rtiw==/109951163774039871.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "阿芙佳忒萝",
+                "remarkName": null,
+                "userId": 305589518,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 440007046,
+            "commentLocationType": 0,
+            "content": "“你女儿和妻子下落已经找到了，但是在很危险的一群人手里”“那你还愣着干什么，快去救她们啊”“你想来局昆特牌吗”“哦，我随时都想来局昆特牌(*｀▽´*)”",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 959,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1497505948733,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/z57beI9vwmuTmpZajjhVfQ==/109951163179139967.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "古明地丨恋",
+                "remarkName": null,
+                "userId": 353956650,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 480439058,
+            "commentLocationType": 0,
+            "content": "你们一说打牌我脑海里突然浮现幻想乡四少女（？）打牌的可怕场景：紫开间隙偷牌看牌 八意永琳抱着帝把把神抽 ⑤闭着眼睛打牌  最后幽香把桌子掀了",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 886,
+            "parentCommentId": 0,
+            "pendantData": {
+                "id": 4009,
+                "imageUrl": "http://p1.music.126.net/EIySl1gRwlc3ZqV2-RMX8Q==/109951163313154546.jpg"
+            },
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1500680038260,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/HCqs3iBqvI6BlCeUlM_l2g==/7956066140515997.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "稀神_黄旭东",
+                "remarkName": null,
+                "userId": 65894175,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 311969371,
+                    "content": "我知道这是东方曲但是为什么我就是想说：来局昆特牌么！",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p1.music.126.net/5bgT1RKtXIXw7k2gQuNwOw==/109951164107037407.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "reol酱请和我百合",
+                        "remarkName": null,
+                        "userId": 252765043,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 579023054,
+            "commentLocationType": 0,
+            "content": "昆特牌，历史上最可能成瘾的毒品，一旦接触，终身离不开，但患者本人不会主动去吸，症状表现为:老婆跑了，儿子被人抓走了，家里起火了，只要来局昆特牌，连陨石来了都要打，打到世界末日还要打",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 695,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1507377216594,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/HS3DLzrJTsZ472zVXhZa6Q==/109951163184085844.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "骄傲放荡",
+                "remarkName": null,
+                "userId": 393655729,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 505917897,
+            "commentLocationType": 0,
+            "content": "“给你推荐东方的《异教》”   “哦，我知道不就是昆特牌么。”  “不，是一首歌啦！”  “嘿！伙计，在听歌之前不觉得我们应该先来局昆特牌吗？”   “哈哈，不瞒你说，听歌的至今还没有人赢过我！”",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 692,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1502436163987,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/gyIETZoSDPCdTqIvkvn5Tg==/109951163743805192.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "木易二水吉",
+                "remarkName": null,
+                "userId": 61823734,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 641972218,
+            "commentLocationType": 0,
+            "content": "欧洲风格的小镇上，一名金发少女好奇地四处张望，头顶高耸的巫师帽，和身上的女仆装给她带来别样的魅力，一名少年匆忙地经过，少女被撞到在地。少年将少女扶起，看着少女那精致的面孔“来局昆特牌吗？”",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 445,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1513316776566,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/e753laNbbzZKhjjjYGgaBQ==/19141397928514846.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "傲娇的萝莉君",
+                "remarkName": null,
+                "userId": 415120907,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 480439058,
+                    "content": "你们一说打牌我脑海里突然浮现幻想乡四少女（？）打牌的可怕场景：紫开间隙偷牌看牌 八意永琳抱着帝把把神抽 ⑤闭着眼睛打牌  最后幽香把桌子掀了",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p1.music.126.net/HCqs3iBqvI6BlCeUlM_l2g==/7956066140515997.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "稀神_黄旭东",
+                        "remarkName": null,
+                        "userId": 65894175,
+                        "userType": 0,
+                        "vipRights": {
+                            "associator": {
+                                "rights": true,
+                                "vipCode": 100
+                            },
+                            "musicPackage": null,
+                            "redVipAnnualCount": -1
+                        },
+                        "vipType": 11
+                    }
+                }
+            ],
+            "commentId": 696184183,
+            "commentLocationType": 0,
+            "content": "大狸子用树叶变假牌出千，鵺把真牌全加上了正体不明，纯狐把牌全纯化成了投石机，探女：哎呀，这把我要输了呀",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 342,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1517862227431,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/iw-lSse27fHN_bSZgm76rA==/19110611602933853.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "第三伊德",
+                "remarkName": null,
+                "userId": 483765598,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 640317529,
+                    "content": "一位姿态优雅的少女上了公交车，她的美丽吸引了许多乘客的目光，可爱的洋装，一把华丽的大洋伞。她用纤细的手拿出了公交卡‘哔——老年卡’",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p1.music.126.net/k8JVrgM8tNrBw0LGG52-tA==/2946691203490635.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "恒无眠",
+                        "remarkName": null,
+                        "userId": 277973059,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 641844556,
+            "commentLocationType": 0,
+            "content": "我觉得你会被一个间隙吞掉[大哭][大哭][大哭]",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 285,
+            "parentCommentId": 0,
+            "pendantData": {
+                "id": 5000,
+                "imageUrl": "http://p1.music.126.net/11rU3itRKssu9iI-ly_hOQ==/109951163313124195.jpg"
+            },
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1513308225458,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/DndFczDr7TS4B5IBKlZEZQ==/109951164000187904.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "忆曦飞雪",
+                "remarkName": null,
+                "userId": 426209910,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 1112728908,
+            "commentLocationType": 0,
+            "content": "我方使用效果牌“镶嵌艾哲红石的石假面”\n普通牌琪露诺变为英雄牌“晒黑了的琪露诺”（点数15）\n我方胜利\n“你失败的原因只有一个，隐岐奈，只有一个简单的原因，那就是你激怒了我”",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 205,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1525928610069,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/uacBFB_d61VlcQO_92V1hw==/19112810626221890.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "Cronos_Zero",
+                "remarkName": null,
+                "userId": 303433390,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 1112714283,
+            "commentLocationType": 0,
+            "content": "“巫女大人，你赢了，现在后户之国已经没有人是你的对手了，如果你想获得更强力的牌，你可以回到神社，找一对姐妹，她们一个看起来很有钱，实际上很穷，一个看起来很穷，实际上更穷”\n获得物品：英雄牌，摩多罗隐岐奈（点数10）",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 197,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1525928588996,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/uacBFB_d61VlcQO_92V1hw==/19112810626221890.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "Cronos_Zero",
+                "remarkName": null,
+                "userId": 303433390,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        }
+    ],
+    "musicName": "異教",
+    "musicUrl": "http://music.163.com/song/media/outer/url?id=36024572.mp3",
+    "music_url": "https://music.163.com/song?id=36024572",
+    "singers": [
+        "AQUA STYLE"
+    ]
+}

@@ -1,0 +1,458 @@
+{
+    "albums": [
+        "トウホウファンクラブ"
+    ],
+    "commentsnum": 2065,
+    "duration": "04:46",
+    "hotcomments": [
+        {
+            "beReplied": [],
+            "commentId": 298919711,
+            "commentLocationType": 0,
+            "content": "我的女朋友是个完美的女生，她不任性，不矫情，不粘人，不化妆，不存在。",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 5132,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1485933344524,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/nPvCJkQPL1ALPK_Bw2LI1A==/109951163770430098.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "楼楼是个小天使",
+                "remarkName": null,
+                "userId": 344166774,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 324451044,
+            "commentLocationType": 0,
+            "content": "祝大家有博丽灵梦的节操，琪露诺的聪慧，雾雨魔理沙的稳重，帕秋莉的健康，蕾米莉亚的威严，芙兰朵露的忍让，洩矢诹访子的魁梧，魂魄妖梦的真身，西行寺幽幽子的节制，八云紫的年轻，因幡帝的天然，小野冢小町的活力，比那名居天子的强势，水桥帕露西的豁达，十六夜咲夜的丰满，红美玲的勤奋（雾）",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 2666,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1488807417962,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/QYQ7_rJW_qz4ndiHHqulVQ==/18576248953117509.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "芙兰朵露-探女-斯卡雷特",
+                "remarkName": null,
+                "userId": 269300366,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": 1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 339267769,
+            "commentLocationType": 0,
+            "content": "S：那个，这个要放在哪里。灵梦：哈啊，你是第一次吗？没看到下面的缝隙吗？放进去就好了啊。S：那个，被衣服遮到了。灵梦：现，现在能放进去了吧，麻烦快点啊，后面还有人排队呢。（S往塞钱箱里放完塞钱，简单参拜后便离开神社）博丽神社小剧场part1.完[大哭]",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 2046,
+            "parentCommentId": 0,
+            "pendantData": {
+                "id": 5000,
+                "imageUrl": "http://p1.music.126.net/11rU3itRKssu9iI-ly_hOQ==/109951163313124195.jpg"
+            },
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1490461524856,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/C337WLzhf4oC-Ab2vRZ6wA==/109951163857739778.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "Shodai-Master",
+                "remarkName": null,
+                "userId": 98095349,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 339267769,
+                    "content": "S：那个，这个要放在哪里。灵梦：哈啊，你是第一次吗？没看到下面的缝隙吗？放进去就好了啊。S：那个，被衣服遮到了。灵梦：现，现在能放进去了吧，麻烦快点啊，后面还有人排队呢。（S往塞钱箱里放完塞钱，简单参拜后便离开神社）博丽神社小剧场part1.完[大哭]",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p2.music.126.net/C337WLzhf4oC-Ab2vRZ6wA==/109951163857739778.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "Shodai-Master",
+                        "remarkName": null,
+                        "userId": 98095349,
+                        "userType": 0,
+                        "vipRights": {
+                            "associator": {
+                                "rights": true,
+                                "vipCode": 100
+                            },
+                            "musicPackage": null,
+                            "redVipAnnualCount": -1
+                        },
+                        "vipType": 11
+                    }
+                }
+            ],
+            "commentId": 502048651,
+            "commentLocationType": 0,
+            "content": "有人排队？怕不是博丽假社",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 1068,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1502175120812,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/ZiUi371g-VTya-EJwM039A==/109951163441481618.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "Scarlet_Climax",
+                "remarkName": null,
+                "userId": 301949799,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 50607999,
+            "commentLocationType": 0,
+            "content": "菇～菇～",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 606,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1448984928074,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/A0I8fh4YI10iQrZuxZPggQ==/1364493949711806.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "简素妍",
+                "remarkName": null,
+                "userId": 49293357,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 701714109,
+            "commentLocationType": 0,
+            "content": "你永远不知道一个一米八的壮汉洗澡在听什么歌",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 367,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1518280857813,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/Axf3FSFt6mK3tQ5vS2Sqww==/109951163646043121.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "风神早苗",
+                "remarkName": null,
+                "userId": 563516701,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 1087369726,
+            "commentLocationType": 0,
+            "content": "不要管什么官方人设好吗，本来就是活在幻想中的人，为什么连你自己的幻想都要被别人束缚——鲁迅",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 315,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1523881033677,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/00xOyrItCj9aXCGHojWWlg==/109951163271562461.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "-这不是我说的",
+                "remarkName": null,
+                "userId": 599999596,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 324451044,
+                    "content": "祝大家有博丽灵梦的节操，琪露诺的聪慧，雾雨魔理沙的稳重，帕秋莉的健康，蕾米莉亚的威严，芙兰朵露的忍让，洩矢诹访子的魁梧，魂魄妖梦的真身，西行寺幽幽子的节制，八云紫的年轻，因幡帝的天然，小野冢小町的活力，比那名居天子的强势，水桥帕露西的豁达，十六夜咲夜的丰满，红美玲的勤奋（雾）",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p2.music.126.net/QYQ7_rJW_qz4ndiHHqulVQ==/18576248953117509.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "芙兰朵露-探女-斯卡雷特",
+                        "remarkName": null,
+                        "userId": 269300366,
+                        "userType": 0,
+                        "vipRights": {
+                            "associator": {
+                                "rights": true,
+                                "vipCode": 100
+                            },
+                            "musicPackage": null,
+                            "redVipAnnualCount": 1
+                        },
+                        "vipType": 11
+                    }
+                }
+            ],
+            "commentId": 1187588766,
+            "commentLocationType": 0,
+            "content": "这之中我只承认“八云紫的年轻”，因为我知道生命的可贵[流泪]",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 180,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1532183883019,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/2CNhpS2Y0oaLJiplco8kQQ==/109951164132857692.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "mrikka",
+                "remarkName": null,
+                "userId": 248290607,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 1087369726,
+                    "content": "不要管什么官方人设好吗，本来就是活在幻想中的人，为什么连你自己的幻想都要被别人束缚——鲁迅",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p2.music.126.net/00xOyrItCj9aXCGHojWWlg==/109951163271562461.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "-这不是我说的",
+                        "remarkName": null,
+                        "userId": 599999596,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 1248861700,
+            "commentLocationType": 0,
+            "content": "一设都不管的你的幻想可能也叫幻想乡吧？但是大概和我的幻想乡不同。连一设都不尊重的你只是在执行自己的妄想，二设请尊重一设，“不要管”这样的词太为过分。",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 84,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1537247315768,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/G7bmBeC02b39uHqq7Zhs-g==/109951163729563692.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "Ying-166",
+                "remarkName": null,
+                "userId": 124180080,
+                "userType": 0,
+                "vipRights": {
+                    "associator": null,
+                    "musicPackage": {
+                        "rights": true,
+                        "vipCode": 220
+                    },
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 10
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 1087369726,
+                    "content": "不要管什么官方人设好吗，本来就是活在幻想中的人，为什么连你自己的幻想都要被别人束缚——鲁迅",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p2.music.126.net/00xOyrItCj9aXCGHojWWlg==/109951163271562461.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "-这不是我说的",
+                        "remarkName": null,
+                        "userId": 599999596,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 1346372387,
+            "commentLocationType": 0,
+            "content": "都是我说的——鲁迅",
+            "decoration": {},
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 11,
+            "parentCommentId": 1087369726,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1546535513727,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p2.music.126.net/MQtWD_Utq9NuITn7c7FkWA==/109951163305003894.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "萝莉的胖次从下面看还是从侧面看",
+                "remarkName": null,
+                "userId": 564856489,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 11
+            }
+        }
+    ],
+    "musicName": "マジカルSUIKEN☆すいかちゃんのテーマ(ちょっと大人Vver.)",
+    "musicUrl": "http://music.163.com/song/media/outer/url?id=34229696.mp3",
+    "music_url": "https://music.163.com/song?id=34229696",
+    "singers": [
+        "Sound CYCLONE"
+    ]
+}

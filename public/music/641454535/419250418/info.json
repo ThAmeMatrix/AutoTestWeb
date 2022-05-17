@@ -1,0 +1,613 @@
+{
+    "albums": [
+        "THE IDOLM@STER CINDERELLA MASTER Cool jewelries! 003"
+    ],
+    "commentsnum": 5323,
+    "duration": "04:55",
+    "hotcomments": [
+        {
+            "beReplied": [],
+            "commentId": 176173275,
+            "commentLocationType": 0,
+            "content": "我来弄歌词！",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 5268,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1467202081474,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/si4da6tnRLvQMH8a_W4P5g==/6622358534140850.jpg",
+                "expertTags": [
+                    "ACG"
+                ],
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "铃木佳奈",
+                "remarkName": null,
+                "userId": 17538539,
+                "userType": 200,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 176246854,
+            "commentLocationType": 0,
+            "content": "听说不少原本喜欢amina的开闭粉都转投im@ s了，我还不信，结果有天无意中点进amina吧，卧槽[呆]",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 3220,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1467224219096,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/tHoHyBlzJPSjejXbtYcaYA==/19027048718753847.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "观星町头号DD",
+                "remarkName": null,
+                "userId": 40241664,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 1102595542,
+            "commentLocationType": 0,
+            "content": "今天是对抗抑郁症的第896天",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 2689,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1525090281877,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/BVVqlFXCyD2riTdA3CgxdQ==/109951164146040343.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "会奔跑的蜗牛君",
+                "remarkName": null,
+                "userId": 65650079,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 710155688,
+            "commentLocationType": 0,
+            "content": "超喜欢在夜晚用网易云听歌入睡的，设置个定时关闭，美滋滋哒。就在刚才看到网上说什么手机放在枕头边对身体不好、吓的我赶紧把枕头扔了、还好我机智[憨笑]",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 1906,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1518968844558,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/VWvb1Pvq_xAxQMS-e0mKUA==/109951163788133941.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "Nikki_啊",
+                "remarkName": null,
+                "userId": 511479675,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 176246854,
+                    "content": "听说不少原本喜欢amina的开闭粉都转投im@ s了，我还不信，结果有天无意中点进amina吧，卧槽[呆]",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p1.music.126.net/tHoHyBlzJPSjejXbtYcaYA==/19027048718753847.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "观星町头号DD",
+                        "remarkName": null,
+                        "userId": 40241664,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 176399528,
+            "commentLocationType": 0,
+            "content": "正好我是反过来的，知道之后开始反过来注意起了当初她的事迹[呲牙]",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 1499,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1467256067512,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/-PRNlPkg90KnrULYJDP1-w==/109951163241093396.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "命运审判官",
+                "remarkName": null,
+                "userId": 89756646,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 550559039,
+            "commentLocationType": 0,
+            "content": "记得当年这首歌一直占据我手机音乐的最常播放曲，自己还在别人面前唱过，现在想想就尴尬，时光匆匆数年过去了。听到了翻唱，熟悉的感觉来了，随着身体一阵抽搐，一切都变得索然无味。",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 1457,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1504840150134,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/u9jElN1PdU35aiyHAz1z8w==/109951163018629795.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "言乐喔",
+                "remarkName": null,
+                "userId": 53352916,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": 1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 724486679,
+            "commentLocationType": 0,
+            "content": "今天我喜欢的男生主动牵了我的手，开心~(´,,•∀•,,`)",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 1152,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1520070162669,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/2eHHLEJ_EjhDMJK0lo5Klg==/109951164129599913.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "羊毛与花朵儿",
+                "remarkName": null,
+                "userId": 509482400,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 176114171,
+            "commentLocationType": 0,
+            "content": "我桶和CGSS本命爱丽丝的搭配 太好听了啊(*'▽'*)♪",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 990,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1467199951651,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/ubXFkLAaRnD897mRAyZakA==/18925893649245003.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "DJ天海春香",
+                "remarkName": null,
+                "userId": 135321681,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 1071125745,
+            "commentLocationType": 0,
+            "content": "“恋爱就像苹果糖.”",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 425,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1522546636468,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/K6FKtm0zNQSiqyR1P2XHKw==/109951164141672668.jpg",
+                "expertTags": [
+                    "古风",
+                    "日语"
+                ],
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "咬口奶油",
+                "remarkName": null,
+                "userId": 384373317,
+                "userType": 200,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 1211631582,
+            "commentLocationType": 0,
+            "content": "有些人表面上谈过很多次恋爱\n但没有一次被好好爱过",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 352,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1533923783065,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/RLeBJe4D1ZzUtltxfoKDMg==/109951163250239066.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "帐号已注销",
+                "remarkName": null,
+                "userId": 601349566,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 1400655787,
+            "commentLocationType": 0,
+            "content": "中国人擅填词，日本人擅旋律，欧洲人擅和声，非洲美州人重节奏，韩国人会组团赚全世界的钱，而我只会唱跑调",
+            "decoration": {},
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 83,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1550852359517,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/aE11j0TiV9dhWhJeqM2LKQ==/18700493767079918.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "一生最无聊的人生",
+                "remarkName": null,
+                "userId": 450876208,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 724486679,
+                    "content": "今天我喜欢的男生主动牵了我的手，开心~(´,,•∀•,,`)",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p1.music.126.net/2eHHLEJ_EjhDMJK0lo5Klg==/109951164129599913.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "羊毛与花朵儿",
+                        "remarkName": null,
+                        "userId": 509482400,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 1334188413,
+            "commentLocationType": 0,
+            "content": "是吗？兄弟，你怎么做到的？",
+            "decoration": {},
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 78,
+            "parentCommentId": 724486679,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1545447977715,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/yoO8ma97PnfjlD0WRGjJNw==/109951163967280870.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "bcrk",
+                "remarkName": null,
+                "userId": 127329754,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 724486679,
+                    "content": "今天我喜欢的男生主动牵了我的手，开心~(´,,•∀•,,`)",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p1.music.126.net/2eHHLEJ_EjhDMJK0lo5Klg==/109951164129599913.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "羊毛与花朵儿",
+                        "remarkName": null,
+                        "userId": 509482400,
+                        "userType": 0,
+                        "vipRights": null,
+                        "vipType": 0
+                    }
+                }
+            ],
+            "commentId": 1362861911,
+            "commentLocationType": 0,
+            "content": "都快一年了呢，终于还是没能坚持下来。没关系啊，以后一定会有比你对我更好的人出现。早知今日会是这样，还不如当初别在一起[心碎][心碎][心碎]",
+            "decoration": {},
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 51,
+            "parentCommentId": 724486679,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1547955176617,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/2eHHLEJ_EjhDMJK0lo5Klg==/109951164129599913.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "羊毛与花朵儿",
+                "remarkName": null,
+                "userId": 509482400,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 1102595542,
+                    "content": "今天是对抗抑郁症的第896天",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p1.music.126.net/BVVqlFXCyD2riTdA3CgxdQ==/109951164146040343.jpg",
+                        "expertTags": null,
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "会奔跑的蜗牛君",
+                        "remarkName": null,
+                        "userId": 65650079,
+                        "userType": 0,
+                        "vipRights": {
+                            "associator": {
+                                "rights": true,
+                                "vipCode": 100
+                            },
+                            "musicPackage": null,
+                            "redVipAnnualCount": -1
+                        },
+                        "vipType": 11
+                    }
+                }
+            ],
+            "commentId": 1348318468,
+            "commentLocationType": 0,
+            "content": "相信沙雕网游一定已经让你快乐地脱离抑郁了",
+            "decoration": {},
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 44,
+            "parentCommentId": 1102595542,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1546697344623,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/qh-bwmzkhE3eZcoq4Uithg==/109951163720930232.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "inoah-",
+                "remarkName": null,
+                "userId": 1288847318,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [
+                {
+                    "beRepliedCommentId": 1071125745,
+                    "content": "“恋爱就像苹果糖.”",
+                    "expressionUrl": null,
+                    "status": 0,
+                    "user": {
+                        "authStatus": 0,
+                        "avatarUrl": "https://p1.music.126.net/K6FKtm0zNQSiqyR1P2XHKw==/109951164141672668.jpg",
+                        "expertTags": [
+                            "古风",
+                            "日语"
+                        ],
+                        "experts": null,
+                        "liveInfo": null,
+                        "locationInfo": null,
+                        "nickname": "咬口奶油",
+                        "remarkName": null,
+                        "userId": 384373317,
+                        "userType": 200,
+                        "vipRights": {
+                            "associator": {
+                                "rights": true,
+                                "vipCode": 100
+                            },
+                            "musicPackage": null,
+                            "redVipAnnualCount": -1
+                        },
+                        "vipType": 11
+                    }
+                }
+            ],
+            "commentId": 1344201099,
+            "commentLocationType": 0,
+            "content": "最后除了牙疼一无所获？",
+            "decoration": {},
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 41,
+            "parentCommentId": 1071125745,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1546331571975,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/lX1fOZAaXtxQy0FrHyMI4A==/109951163450365002.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "呆鸡附体的娜罗桑",
+                "remarkName": null,
+                "userId": 1464734938,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        }
+    ],
+    "musicName": "きみにとどけ",
+    "musicUrl": "http://music.163.com/song/media/outer/url?id=419250418.mp3",
+    "music_url": "https://music.163.com/song?id=419250418",
+    "singers": [
+        "佐藤亜美菜"
+    ]
+}

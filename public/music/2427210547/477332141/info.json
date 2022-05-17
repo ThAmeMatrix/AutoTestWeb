@@ -1,0 +1,150 @@
+{
+    "albums": [
+        "あ・え・い・う・え・お・あお!!"
+    ],
+    "commentsnum": 202,
+    "duration": "06:06",
+    "hotcomments": [
+        {
+            "beReplied": [],
+            "commentId": 379391597,
+            "commentLocationType": 0,
+            "content": "他们oped无限循环的时候 我们点一下“专辑”~  哎 就很有灵性",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 211,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1494464888246,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/oDvfKewYtATkjTYkV6Lfkw==/109951163461369383.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "蔬菜蔬菜蔬菜蔬菜",
+                "remarkName": null,
+                "userId": 114267047,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 393636593,
+            "commentLocationType": 0,
+            "content": "各位，我已经和歌词君私底下商量弄好了正确的翻译，已经上传了，歌词主要改动也没什么，就是把“２回の窓辺”，改为“2階の窓辺”，这样就好理解翻译了，所以大家请耐心等一下，应该很快就会通过审核了。这是我亲自翻译的第一首歌，所以有些地方翻译的不好请多多包涵。谢谢[可爱]",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 110,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1495794382646,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/EmEb2OmmyU4-SvwTw4aqhA==/109951164089475054.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "糸糸shino",
+                "remarkName": null,
+                "userId": 409315629,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 392550119,
+            "commentLocationType": 0,
+            "content": "各位，非常抱歉！我上传的歌词是在拿到官方歌词之前一个朋友听译的，因此和原版歌词有较大出入，直接导致了翻译君有的句子没法读通，在此深表歉意，已经联系了小护士，正在积极寻求解决办法，由于今明两天需要考试，我也不能一直在线上，收到小护士回复就会立刻开始修复歌词，对不起！",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 95,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1495689434694,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/xxFPCJ0Ul8RBBn5Rq9jfSw==/1380986617842809.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "糯米团子-v-",
+                "remarkName": null,
+                "userId": 267073144,
+                "userType": 0,
+                "vipRights": {
+                    "associator": {
+                        "rights": true,
+                        "vipCode": 100
+                    },
+                    "musicPackage": null,
+                    "redVipAnnualCount": -1
+                },
+                "vipType": 11
+            }
+        },
+        {
+            "beReplied": [],
+            "commentId": 1203055993,
+            "commentLocationType": 0,
+            "content": "翻名:雏子的笔记        （请让番名在前排）",
+            "decoration": null,
+            "expressionUrl": null,
+            "liked": false,
+            "likedCount": 62,
+            "parentCommentId": 0,
+            "pendantData": null,
+            "repliedMark": false,
+            "showFloorComment": null,
+            "status": 0,
+            "time": 1533287009125,
+            "user": {
+                "authStatus": 0,
+                "avatarUrl": "https://p1.music.126.net/ACtbO9-8QYhEMZGCXrU-OA==/109951163763615149.jpg",
+                "expertTags": null,
+                "experts": null,
+                "liveInfo": null,
+                "locationInfo": null,
+                "nickname": "主人的梅露酱",
+                "remarkName": null,
+                "userId": 1358849795,
+                "userType": 0,
+                "vipRights": null,
+                "vipType": 0
+            }
+        }
+    ],
+    "musicName": "一緒に帰ろう",
+    "musicUrl": "http://music.163.com/song/media/outer/url?id=477332141.mp3",
+    "music_url": "https://music.163.com/song?id=477332141",
+    "singers": [
+        "M・A・O",
+        "富田美憂"
+    ]
+}
