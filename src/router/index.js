@@ -16,6 +16,8 @@ import musicComponents from './modules/music-components';
 import playlistComponents from './modules/playlist-components'
 import recommendComponets from './modules/recommendComponets';
 
+import facilitiesComponents from './modules/facilities-components'
+
 
 Vue.use(Router);
 
@@ -76,9 +78,10 @@ export default new Router({
             icon: 'dashboard',
           },
         },
-        musicComponents,
-        playlistComponents,
-        recommendComponets,
+        // musicComponents,
+        facilitiesComponents,
+        // playlistComponents,
+        // recommendComponets,
         // components,
         // widgets,
         // uiComponents,

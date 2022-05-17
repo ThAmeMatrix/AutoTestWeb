@@ -343,6 +343,14 @@ export default {
     recommendItem: {
       en: 'Recommend Based Item',
       'zh-CN': '基于音乐推荐'
-    }
+    },
+    facilities: {
+      en: 'Facilities',
+      'zh-CN': '设备',
+    },
+    facilitiesManage: {
+      en: 'Facilities Manager',
+      'zh-CN': '设备管理',
+    },
   },
 };
