@@ -352,5 +352,25 @@ export default {
       en: 'Facilities Manager',
       'zh-CN': '设备管理',
     },
+    upload: {
+      en: 'Upload',
+      'zh-CN': '上传',
+    },
+    uploadTestCase: {
+      en: 'Upload Test Case',
+      'zh-CN': '上传测试用例',
+    },
+    uploadAccountInfo: {
+      en: 'Upload Account Info',
+      'zh-CN': '上传账号信息',
+    },
+    report: {
+      en: 'Report',
+      'zh-CN': '报告',
+    },
+    reportManage: {
+      en: 'Report Manage',
+      'zh-CN': '报告管理',
+    },
   },
 };

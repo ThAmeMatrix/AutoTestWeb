@@ -1,0 +1,22 @@
+const routes = {
+    path: '/report',
+    name: 'Report',
+    component: {
+        template: '<router-view></router-view>',
+    },
+    meta: {
+        hasMulSub: true,
+        hidden: false,
+        icon: 'developer_board',
+    },
+    children: [
+        {
+            path: 'report_manage',
+            name: 'reportManage',
+            component: () => import('@/views/autotest/VReportManage.vue'),
+            meta: {},
+        },
+    ],
+};
+
+export default routes;
