@@ -34,7 +34,7 @@
               <v-card-text style="position: relative;">
                 <div class="title font-weight-light black--text mb-1">{{ item.device_info["ro.product.marketname"] }}</div>
               </v-card-text>
-              <v-btn class="blue font-weight-black" @click.native="taskStart(item)">
+              <v-btn class="blue font-weight-black">
                 使用
               </v-btn>
             </v-card>
@@ -52,7 +52,6 @@ import Snackbar from "../../components/snackbar/index";
 export default {
   data() {
     return {
-      selectedFacility: null,
       message: "",
       equip_type_list: [
         {
@@ -104,35 +103,10 @@ export default {
   },
   created: () => {},
   methods: {
-    taskStart(item) {
-      console.log("post task start");
-      Vue.prototype.$http
-        .post("http://192.168.50.72:4399/taskStart", {serialno:[item.serialno], playerid:4063618})
-        .then(response => {
-          console.log("response");
-          console.log(response);
-          if (response.status == 200) {
-            this.message = "启动设备成功";
-            // this.items = response.data.msg
-
-            // this.items = response.data.data;
-            // console.log(response);
-            // console.log(this.items);
-            Snackbar.info(this.message);
-          } else {
-            this.message =
-              "获取设备列表失败，原因为" + response.data.data.errMsg;
-            Snackbar.error(this.message);
-          }
-        })
-        .catch(error => {
-          Snackbar.error(error);
-        });
-    },
     getItemList() {
-      console.log("post get item list");
+      console.log("post");
       Vue.prototype.$http
-        .post("http://192.168.50.72:4399/deviceList", {dd:123, bb:456})
+        .post("http://192.168.50.72:4399/deviceList", {}, {headers : this.headers})
         .then(response => {
           console.log("response");
           console.log(response);

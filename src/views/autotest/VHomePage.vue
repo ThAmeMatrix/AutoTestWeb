@@ -1,9 +1,21 @@
 <template>
   <v-app>
-    <label max-width="100" >品牌</label>
-    <v-flex v-for="equip in equip_type_list" :key="equip.type">
-      <v-checkbox class="v-label" v-model="required" :label="equip.type"></v-checkbox>
-    </v-flex>
+    <fieldset>
+      <legend>品牌</legend>
+      <!-- <label max-width="100" >品牌</label> -->
+      <div class="container">
+        <v-flex v-for="equip in equip_type_list" :key="equip.type">
+          <div>
+            <input type="checkbox" id="a" :name="equip.type" />
+            <label for="a">{{ equip.type }}</label>
+          </div>
+        </v-flex>
+      </div>
+
+      <!-- <v-flex v-for="equip in equip_type_list" :key="equip.type">
+        <v-checkbox class="v-label" v-model="required" :label="equip.type"></v-checkbox>
+      </v-flex> -->
+    </fieldset>
 
     <!-- 卡片列表-商品概览 -->
     <v-container fluid grid-list-xl>
@@ -11,8 +23,8 @@
         <v-flex v-for="item in items" :key="item.id">
           <v-hover>
             <v-card class="mx-auto" color="grey lighten-4" min-width="100" max-width="200" slot-scope="{ hover }" hover>
-              <v-img :aspect-ratio="7 / 14" :src="item.coverImgUrl">
-                <v-btn v-if="item.online==true" class="green white--text font-weight-black">
+              <v-img :aspect-ratio="7 / 14" :src="coverImgUrl">
+                <v-btn v-if="item.task_pause == false" class="green white--text font-weight-black">
                   空闲
                 </v-btn>
                 <v-btn v-else class="gray black--text font-weight-black">
@@ -20,7 +32,7 @@
                 </v-btn>
               </v-img>
               <v-card-text style="position: relative;">
-                <div class="title font-weight-light black--text mb-1">{{ item.name }}</div>
+                <div class="title font-weight-light black--text mb-1">{{ item.device_info["ro.product.marketname"] }}</div>
               </v-card-text>
               <v-btn class="blue font-weight-black">
                 使用
@@ -40,6 +52,7 @@ import Snackbar from "../../components/snackbar/index";
 export default {
   data() {
     return {
+      message: "",
       equip_type_list: [
         {
           type: "HUAWEI",
@@ -48,6 +61,7 @@ export default {
           type: "MEIZU",
         }
       ],
+      coverImgUrl: '../phone/phone.jpg',
       items: [
         {
           id: 1,
@@ -55,7 +69,7 @@ export default {
           // coverImgUrl: 'https://p2.music.126.net/Kkmr7ucNWGtRmoCDR8RcAA==/109951163264683832.jpg',
           coverImgUrl: '../phone/phone.jpg',
           description: '呵呵呵呵呵呵111',
-          online : true,
+          online: true,
         },
         {
           id: 2,
@@ -63,7 +77,7 @@ export default {
           // coverImgUrl: 'https://p2.music.126.net/Kkmr7ucNWGtRmoCDR8RcAA==/109951163264683832.jpg',
           coverImgUrl: '../phone/phone.jpg',
           description: '呵呵呵呵呵呵',
-          online : true,
+          online: true,
         },
         {
           id: 3,
@@ -71,7 +85,7 @@ export default {
           // coverImgUrl: 'https://p2.music.126.net/Kkmr7ucNWGtRmoCDR8RcAA==/109951163264683832.jpg',
           coverImgUrl: '../phone/phone.jpg',
           description: '呵呵呵呵呵呵',
-          online : true,
+          online: true,
         },
         {
           id: 4,
@@ -79,19 +93,45 @@ export default {
           // coverImgUrl: 'https://p2.music.126.net/Kkmr7ucNWGtRmoCDR8RcAA==/109951163264683832.jpg',
           coverImgUrl: '../phone/phone.jpg',
           description: '呵呵呵呵呵呵',
-          online : false,
+          online: false,
         },
       ],
+      headers:{
+        'Content-Type': 'application/json; charset=utf-8'
+      }
     }
   },
-  created: () => { },
-  method: {
-    getPlayList() {
+  created: () => {},
+  methods: {
+    getItemList() {
+      console.log("post");
+      Vue.prototype.$http
+        .post("http://192.168.50.72:4399/deviceList", {headers : this.headers})
+        .then(response => {
+          console.log("response");
+          console.log(response);
+          if (response.status == 200) {
+            this.message = "获取设备列表成功";
+            this.items = response.data.msg
 
+            // this.items = response.data.data;
+            // console.log(response);
+            // console.log(this.items);
+            Snackbar.info(this.message);
+          } else {
+            this.message =
+              "获取设备列表失败，原因为" + response.data.data.errMsg;
+            Snackbar.error(this.message);
+          }
+        })
+        .catch(error => {
+          Snackbar.error(error);
+        });
     },
   },
   mounted() {
-    this.getPlayList();
+    console.log("mounted");
+    this.getItemList();
   }
 }
 </script>
@@ -104,5 +144,17 @@ export default {
   opacity: 0.5;
   position: absolute;
   width: 100%;
+}
+</style>
+
+<style lang="scss" scoped>
+fieldset {
+  width: 200px;
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
 </style>

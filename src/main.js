@@ -37,8 +37,9 @@ try {
 }
 
 // 设置 request 格式
-Axios.defaults.withCredentials = true; //! 跨域带cookies
-Axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
+// Axios.defaults.withCredentials = true; //! 跨域带cookies
+// Axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
+Axios.defaults.headers.post['Content-Type'] = 'application/json; charset=utf-8';
 Axios.defaults.headers.get['Content-Type'] = 'application/x-www-form-urlencoded';
 Axios.defaults.transformRequest = [
   // eslint-disable-next-line func-names
