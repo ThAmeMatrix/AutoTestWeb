@@ -3,11 +3,13 @@
     <!-- <v-subheader>
       <label for="file">Spreadsheet</label>
     </v-subheader> -->
+
+    <!-- style="display: none;" -->
     <input
       id="file"
       type="file"
       ref="uploadInputRef"
-      style="display: none;"
+      
       :accept="sheetJSFT"
       @change="handleUpload"
     >
@@ -42,10 +44,10 @@ export default {
   data() {
     const SheetJSFT = [
       'json',
-      'xlsx',
-      'xlsb',
-      'xlsm',
-      'xls',
+      // 'xlsx',
+      // 'xlsb',
+      // 'xlsm',
+      // 'xls',
       // 'xml',
       // 'csv',
       // 'txt',
@@ -110,12 +112,12 @@ export default {
         const ws = wb.Sheets[wsname];
         // Convert array of arrays
         const data = XLSX.utils.sheet_to_json(ws);
-        this.handleSuccess(this.makeHeaders(ws), data);
+        this.handleSuccess(this.makeHeaders(ws), data, file);
       };
       reader.readAsBinaryString(file);
     },
-    handleSuccess(headers, data = []) {
-      this.$emit('update-filedata', { headers, data });
+    handleSuccess(headers, data = [], file) {
+      this.$emit('update-filedata', { headers, data, file });
     },
     makeHeaders(ws) {
       // console.log('>>>>ws', ws);

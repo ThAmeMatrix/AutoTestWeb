@@ -2,6 +2,7 @@
 __pycache__/
 node_modules
 /dist
+/public/html
 
 # local env files
 .env.local

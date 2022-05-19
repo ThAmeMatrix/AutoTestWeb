@@ -41,17 +41,17 @@ try {
 // Axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
 Axios.defaults.headers.post['Content-Type'] = 'application/json; charset=utf-8';
 Axios.defaults.headers.get['Content-Type'] = 'application/x-www-form-urlencoded';
-Axios.defaults.transformRequest = [
-  // eslint-disable-next-line func-names
-  function (data) {
-    let ret = '';
-    // eslint-disable-next-line guard-for-in
-    for (const it in data) {
-      ret += encodeURIComponent(it) + '=' + encodeURIComponent(data[it]) + '&';
-    }
-    return ret;
-  }
-];
+// Axios.defaults.transformRequest = [
+//   // eslint-disable-next-line func-names
+//   function (data) {
+//     let ret = '';
+//     // eslint-disable-next-line guard-for-in
+//     for (const it in data) {
+//       ret += encodeURIComponent(it) + '=' + encodeURIComponent(data[it]) + '&';
+//     }
+//     return ret;
+//   }
+// ];
 
 Vue.prototype.$http = Axios; // 再修改原型链
 

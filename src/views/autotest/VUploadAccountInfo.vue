@@ -1,78 +1,81 @@
 <template>
-  <div>
-    <v-card
-      class="mx-auto"
-      max-width="380"
-    >
-      <v-card-title>
-        <span class="headline">导入</span>
-      </v-card-title>
-      <v-card-text>
-        <v-container>
-          <v-row>
-            <v-col cols="12" sm="6" md="4">
-              <v-text-field v-model="url" label="输入链接" required></v-text-field>
-            </v-col>
-          </v-row>
-        </v-container>
-      </v-card-text>
-      <v-card-actions>
-        <v-spacer></v-spacer>
-        <v-btn color="primary" text @click="dialog3 = false">导入</v-btn>
-      </v-card-actions>
-    </v-card>
-    <excel-upload @update-filedata="val => (fileData = val)" />
-    <v-data-table
-      v-if="fileData && fileData.headers"
-      style="margin-top:20px;"
-      :headers="tableData.headers"
-      :items="tableData.data"
-      class="elevation-1"
-    >
-      <v-progress-linear slot="progress" color="blue" indeterminate />
-      <template slot="items" slot-scope="props">
-        <td v-for="(col, index) in tableData.headers" :key="index">{{ props.item[col.value] }}</td>
-      </template>
-    </v-data-table>
-  </div>
+  <v-container>
+    <v-layout>
+      <v-flex>
+        <v-btn @click="upload" depressed>
+          Upload Player Data
+        </v-btn>
+        <input name="file" type="file" id="upload" ref="upload" multiple="multiple" @change="addFile" accept=".bin">
+        <button @click="uploadTitle()">上传文件</button>
+      </v-flex>
+    </v-layout>
+  </v-container>
 </template>
-
+ 
 <script>
-import ExcelUpload from "@/components/excel/ExcelUpload.vue";
+import Vue from 'vue'
+import Snackbar from "../../components/snackbar/index";
 
 export default {
-  name: "ExcelUploadComponent",
-  components: {
-    ExcelUpload
-  },
   data() {
     return {
-      url: "",
-      fileData: {}
-    };
+      formData: new FormData(),
+    }
   },
-  computed: {
-    tableData() {
-      if (!this.fileData) {
-        return {
-          headers: [],
-          data: []
-        };
+  methods: {
+    addFile(event) {
+      // 通过DOM取文件数据
+      let inputDOM = this.$refs.upload;
+      this.fil = inputDOM.files;
+      this.formData.append("file", this.fil[0]);
+    },
+    uploadTitle() {
+      if (!this.fil) {
+        this.$message.warning("请选择文件");
+      } else {
+        return new Promise((resolve) => {
+          console.log(this.formData)
+          let config = {
+            //添加请求头
+            headers: { "Content-Type": "multipart/form-data" },
+          };
+          Vue.prototype.$http
+            .post("http://192.168.50.72:4399/uploadPlayerData", this.formData, config)
+            .then(response => {
+              console.log("response");
+              console.log(response);
+              if (response.status == 200) {
+                this.message = "上传角色数据成功";
+                // this.items = response.data.msg
+
+                // this.items = response.data.data;
+                // console.log(response);
+                // console.log(this.items);
+                Snackbar.info(this.message);
+              } else {
+                this.message =
+                  "上传角色数据失败，原因为" + response.data.data.errMsg;
+                Snackbar.error(this.message);
+              }
+            })
+            .catch(error => {
+              Snackbar.error(error);
+            });
+        })
       }
-
-      const headers = [];
-      const cols = this.fileData.headers || [];
-      const rawData = this.fileData.data || [];
-
-      for (let i = 0, len = cols.length; i < len; i += 1) {
-        headers.push({
-          text: cols[i],
-          value: cols[i]
-        });
-      }
-
-      return { headers, data: rawData };
+    },
+    upload() {
+      let uploadbtn = this.$refs.upload
+      uploadbtn.click()
     }
   }
-};
+}
 </script>
+ 
+<!-- <style scoped>
+#upload {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+</style> -->

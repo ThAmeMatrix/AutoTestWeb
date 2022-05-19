@@ -51,6 +51,7 @@
     "screenfull": "^4.2.0",
     "sortablejs": "^1.9.0",
     "tinymce": "^5.0.15",
+    "v-file-upload": "^3.1.7",
     "vconsole": "^3.3.0",
     "vue": "^2.6.10",
     "vue-aplayer": "^1.6.1",

@@ -372,5 +372,9 @@ export default {
       en: 'Report Manage',
       'zh-CN': '报告管理',
     },
+    reportDetail: {
+      en: 'Report Detail',
+      'zh-CN': '报告详情',
+    },
   },
 };

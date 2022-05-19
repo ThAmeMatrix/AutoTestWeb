@@ -16,6 +16,12 @@ const routes = {
             component: () => import('@/views/autotest/VReportManage.vue'),
             meta: {},
         },
+        {
+            path: 'report_detail',
+            name: 'reportDetail',
+            component: () => import('@/views/autotest/VReportDetail.vue'),
+            meta: {},
+        },
     ],
 };
 

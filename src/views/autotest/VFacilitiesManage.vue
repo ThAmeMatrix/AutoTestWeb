@@ -132,7 +132,7 @@ export default {
     getItemList() {
       console.log("post get item list");
       Vue.prototype.$http
-        .post("http://192.168.50.72:4399/deviceList", {dd:123, bb:456})
+        .post("http://192.168.50.72:4399/deviceList")
         .then(response => {
           console.log("response");
           console.log(response);

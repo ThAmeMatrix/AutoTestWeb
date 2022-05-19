@@ -1,34 +1,9 @@
 <template>
-  <div>
-    <v-card
-      class="mx-auto"
-      max-width="380"
-    >
-      <v-card-title>
-        <span class="headline">导入</span>
-      </v-card-title>
-      <v-card-text>
-        <v-container>
-          <v-row>
-            <v-col cols="12" sm="6" md="4">
-              <v-text-field v-model="url" label="输入链接" required></v-text-field>
-            </v-col>
-          </v-row>
-        </v-container>
-      </v-card-text>
-      <v-card-actions>
-        <v-spacer></v-spacer>
-        <v-btn color="primary" text @click="dialog3 = false">导入</v-btn>
-      </v-card-actions>
-    </v-card>
+  <div> 
     <excel-upload @update-filedata="val => (fileData = val)" />
-    <v-data-table
-      v-if="fileData && fileData.headers"
-      style="margin-top:20px;"
-      :headers="tableData.headers"
-      :items="tableData.data"
-      class="elevation-1"
-    >
+    <button @click="uploadTitle()">上传文件</button>
+    <v-data-table v-if="fileData && fileData.headers" style="margin-top:20px;" :headers="tableData.headers"
+      :items="tableData.data" class="elevation-1">
       <v-progress-linear slot="progress" color="blue" indeterminate />
       <template slot="items" slot-scope="props">
         <td v-for="(col, index) in tableData.headers" :key="index">{{ props.item[col.value] }}</td>
@@ -38,6 +13,8 @@
 </template>
 
 <script>
+import Vue from 'vue'
+import Snackbar from "../../components/snackbar/index";
 import ExcelUpload from "@/components/excel/ExcelUpload.vue";
 
 export default {
@@ -48,15 +25,56 @@ export default {
   data() {
     return {
       url: "",
-      fileData: {}
+      fileData: {},
+      formData: new FormData(),
     };
+  },
+  methods: {
+    uploadTitle() {
+      this.fil = this.fileData.file;
+      this.formData.append("file", this.fil);
+
+      if (!this.fil) {
+        this.$message.warning("请选择文件");
+      } else {
+        return new Promise((resolve) => {
+          console.log(this.formData)
+          let config = {
+            //添加请求头
+            headers: { "Content-Type": "multipart/form-data" },
+          };
+          Vue.prototype.$http
+            .post("http://192.168.50.72:4399/uploadUseCaseJson", this.formData, config)
+            .then(response => {
+              console.log("response");
+              console.log(response);
+              if (response.status == 200) {
+                this.message = "上传用例成功";
+                // this.items = response.data.msg
+
+                // this.items = response.data.data;
+                // console.log(response);
+                // console.log(this.items);
+                Snackbar.info(this.message);
+              } else {
+                this.message =
+                  "上传用例失败，原因为" + response.data.data.errMsg;
+                Snackbar.error(this.message);
+              }
+            })
+            .catch(error => {
+              Snackbar.error(error);
+            });
+        })
+      }
+    },
   },
   computed: {
     tableData() {
       if (!this.fileData) {
         return {
           headers: [],
-          data: []
+          data: [],
         };
       }
 
@@ -73,6 +91,6 @@ export default {
 
       return { headers, data: rawData };
     }
-  }
+  },
 };
 </script>
