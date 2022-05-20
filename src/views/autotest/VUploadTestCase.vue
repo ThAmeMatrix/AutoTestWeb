@@ -31,6 +31,7 @@ export default {
   },
   methods: {
     uploadTitle() {
+      console.log(this.fileData.file.name);
       this.fil = this.fileData.file;
       this.formData.append("file", this.fil);
 
@@ -44,21 +45,16 @@ export default {
             headers: { "Content-Type": "multipart/form-data" },
           };
           Vue.prototype.$http
-            .post("http://192.168.50.72:4399/uploadUseCaseJson", this.formData, config)
+            .post("http://192.168.50.72:4399/importUseCaseTxt", this.formData, config)
             .then(response => {
               console.log("response");
               console.log(response);
               if (response.status == 200) {
                 this.message = "上传用例成功";
-                // this.items = response.data.msg
-
-                // this.items = response.data.data;
-                // console.log(response);
-                // console.log(this.items);
                 Snackbar.info(this.message);
               } else {
                 this.message =
-                  "上传用例失败，原因为" + response.data.data.errMsg;
+                  "上传用例失败，原因为" + response.data.msg;
                 Snackbar.error(this.message);
               }
             })

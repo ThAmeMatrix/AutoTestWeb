@@ -16,6 +16,16 @@ const routes = {
             component: () => import('@/views/autotest/VFacilitiesManage.vue'),
             meta: {},
         },
+        {
+            path: 'facility_detail',
+            name: 'facilityDetail',
+            component: () => import('@/views/autotest/VFacilityDetail.vue'),
+            meta: {
+                hidden: true,
+                hasMulSub: false,
+                icon: 'dashboard',
+            },
+        },
     ],
 };
 

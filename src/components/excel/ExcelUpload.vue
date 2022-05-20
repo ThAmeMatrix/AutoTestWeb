@@ -50,7 +50,7 @@ export default {
       // 'xls',
       // 'xml',
       // 'csv',
-      // 'txt',
+      'txt',
       // 'ods',
       // 'fods',
       // 'uos',

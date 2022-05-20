@@ -8,10 +8,33 @@
 import Vue from 'vue'
 import Snackbar from "../../components/snackbar/index";
 
+function getParam(paramName) {
+  // 解析 url 参数, 获取 qurey string
+  let paramValue = "";
+  let isFound = !1;
+  if (
+    window.location.search.indexOf("?") == 0 &&
+    window.location.search.indexOf("=") > 1
+  ) {
+    let arrSource;
+    let i;
+    (arrSource = unescape(window.location.search)
+      .substring(1, window.location.search.length)
+      .split("&")),
+      (i = 0);
+    while (i < arrSource.length && !isFound)
+      arrSource[i].indexOf("=") > 0 &&
+        arrSource[i].split("=")[0].toLowerCase() == paramName.toLowerCase() &&
+        ((paramValue = arrSource[i].split("=")[1]), (isFound = !0)),
+        i++;
+  }
+  return paramValue == "" && (paramValue = null), paramValue;
+}
+
 export default {
   data() {
     return {
-      src: '../html/2022_05_11_17_46_50/log.html',
+      src: "http://192.168.50.72:8000/" + getParam("report_name") + "/log.html",
       iframeWin: {}
     }
   },
@@ -27,6 +50,10 @@ export default {
     window.removeEventListener('message', this.handleMessage)
   },
   methods: {
+    getReportDetail() {
+      console.log("serialno = " + getParam("serialno"));
+      console.log("report_name = " + getParam("report_name"));
+    },
     sendMessage() {
       // 外部vue向iframe内部传数据
       this.iframeWin.postMessage({
@@ -43,13 +70,10 @@ export default {
           break
       }
     }
+  },
+  mounted() {
+    // this.getReportDetail();
   }
-}
-
-function adjustIframe() {
-  var ifm = document.getElementById("bi_iframe");
-  ifm.height = document.documentElement.clientHeight;
-  ifm.width = document.documentElement.clientWidth;
 }
 
 // 兼容性代码
@@ -69,8 +93,8 @@ window.onload = function () {
  
 <style scoped>
 .iframediv {
-  width: 100%;
-  height: 40%;
+  width: 1632px;
+  height: 940px;
   margin: 100px auto;
   border: 10px dashed rgb(58, 58, 58);
   overflow: hidden;

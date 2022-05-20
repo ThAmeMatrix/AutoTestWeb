@@ -20,7 +20,11 @@ const routes = {
             path: 'report_detail',
             name: 'reportDetail',
             component: () => import('@/views/autotest/VReportDetail.vue'),
-            meta: {},
+            meta: {
+                hidden: true,
+                hasMulSub: false,
+                icon: 'dashboard',
+            },
         },
     ],
 };

@@ -352,6 +352,10 @@ export default {
       en: 'Facilities Manager',
       'zh-CN': '设备管理',
     },
+    facilityDetail: {
+      en: 'Facilities Detail',
+      'zh-CN': '设备详情',
+    },
     upload: {
       en: 'Upload',
       'zh-CN': '上传',

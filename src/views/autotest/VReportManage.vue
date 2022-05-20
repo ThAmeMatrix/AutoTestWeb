@@ -1,7 +1,26 @@
 <template>
-  <div class="iframediv">
-    <iframe :src="src" ref="iframe"></iframe>
-  </div>
+  <v-app>
+    <!-- <div class="iframediv">
+      <iframe :src="src" ref="iframe"></iframe>
+    </div> -->
+    <!-- 卡片列表-商品概览 -->
+    <v-container fluid grid-list-xl>
+      <v-layout wrap justify-space-around>
+        <v-flex v-for="item in list" :key="item.serialno">
+          <v-hover>
+            <v-card @click.native="getReportDetail(item)" class="mx-auto" color="grey lighten-4" min-width="100" max-width="250" slot-scope="{ hover }" hover>
+              <v-img :aspect-ratio="12 / 14" :src="coverImgUrl">
+              </v-img>
+              <v-card-text style="position: relative;">
+                <div class="title font-weight-light black--text mb-1">{{ item.serialno }}</div>
+                <div class="title font-weight-light black--text mb-1">{{ item.report_name }}</div>
+              </v-card-text>
+            </v-card>
+          </v-hover>
+        </v-flex>
+      </v-layout>
+    </v-container>
+  </v-app>
 </template>
  
 <script>
@@ -11,11 +30,22 @@ import Snackbar from "../../components/snackbar/index";
 export default {
   data() {
     return {
-      src: '../html/2022_05_11_17_46_50/log.html',
+      coverImgUrl: '../phone/1b86fce3_E377873_a1aed127.png',
+      list: [
+        {
+          serialno: "8py5obyteanrug9t",
+          report_name: "2022_05_16_15_26_28",
+        }
+      ],
+      src: 'http://localhost:8000/',
       iframeWin: {}
     }
   },
   mounted() {
+    console.log("files")
+    const files = require.context('D:\\html\\2022_05_11_17_46_50\\', false).keys();
+    console.log(files)
+
     this.iframeWin = this.$refs.iframe.contentWindow
     this.$nextTick(() => {
       // 在外部 Vue 的 window 上添加 postMessage 的监听，并且绑定处理函数 handleMessage
@@ -27,21 +57,9 @@ export default {
     window.removeEventListener('message', this.handleMessage)
   },
   methods: {
-    sendMessage() {
-      // 外部vue向iframe内部传数据
-      this.iframeWin.postMessage({
-        cmd: 'doSomething',
-        params: {}
-      }, '*')
-    },
-    handleMessage(event) {
-      // 根据上面制定的结构来解析 iframe 内部发回来的数据
-      const data = event.data
-      switch (data.cmd) {
-        case 'ready-for-receiving':
-          // 业务逻辑
-          break
-      }
+    getReportDetail(item) {
+      this.$router.push({ name: "reportDetail", query: { serialno: item.serialno, report_name: item.report_name } });
+      // window.location.href = "detail?id=" + id;
     }
   }
 }

@@ -22,9 +22,9 @@
       <v-layout wrap justify-space-around>
         <v-flex v-for="item in items" :key="item.id">
           <v-hover>
-            <v-card class="mx-auto" color="grey lighten-4" min-width="100" max-width="200" slot-scope="{ hover }" hover>
+            <v-card @click.native="getReportDetail(item)" class="mx-auto" color="grey lighten-4" min-width="100" max-width="200" slot-scope="{ hover }" hover>
               <v-img :aspect-ratio="7 / 14" :src="coverImgUrl">
-                <v-btn v-if="item.task_pause == false" class="green white--text font-weight-black">
+                <v-btn v-if="item.task_start_time == 0" class="green white--text font-weight-black">
                   空闲
                 </v-btn>
                 <v-btn v-else class="gray black--text font-weight-black">
@@ -32,11 +32,14 @@
                 </v-btn>
               </v-img>
               <v-card-text style="position: relative;">
-                <div class="title font-weight-light black--text mb-1">{{ item.device_info["ro.product.marketname"] }}</div>
+                <div class="title font-weight-light black--text mb-1">{{ item.device_info["ro.product.marketname"] }}
+                </div>
               </v-card-text>
-              <v-btn class="blue font-weight-black" @click.native="taskStart(item)">
-                使用
-              </v-btn>
+              <div class="container" style="position: relative;">
+                <v-btn class="blue font-weight-black" @click.native="taskStart(item)">
+                  使用
+                </v-btn>
+              </div>
             </v-card>
           </v-hover>
         </v-flex>
@@ -66,8 +69,11 @@ export default {
       items: [
         {
           id: 1,
+          serialno: '8py5obyteanrug9t',
+          device_info: {
+            'ro.product.marketname': 'HUAWEI P10 Plus',
+          },
           name: "M2 E",
-          // coverImgUrl: 'https://p2.music.126.net/Kkmr7ucNWGtRmoCDR8RcAA==/109951163264683832.jpg',
           coverImgUrl: '../phone/phone.jpg',
           description: '呵呵呵呵呵呵111',
           online: true,
@@ -75,7 +81,6 @@ export default {
         {
           id: 2,
           name: "HUAWEI P10 Plus",
-          // coverImgUrl: 'https://p2.music.126.net/Kkmr7ucNWGtRmoCDR8RcAA==/109951163264683832.jpg',
           coverImgUrl: '../phone/phone.jpg',
           description: '呵呵呵呵呵呵',
           online: true,
@@ -83,7 +88,6 @@ export default {
         {
           id: 3,
           name: "iphone X",
-          // coverImgUrl: 'https://p2.music.126.net/Kkmr7ucNWGtRmoCDR8RcAA==/109951163264683832.jpg',
           coverImgUrl: '../phone/phone.jpg',
           description: '呵呵呵呵呵呵',
           online: true,
@@ -91,23 +95,22 @@ export default {
         {
           id: 4,
           name: "Honor 7",
-          // coverImgUrl: 'https://p2.music.126.net/Kkmr7ucNWGtRmoCDR8RcAA==/109951163264683832.jpg',
           coverImgUrl: '../phone/phone.jpg',
           description: '呵呵呵呵呵呵',
           online: false,
         },
       ],
-      headers:{
+      headers: {
         'Content-Type': 'application/json; charset=utf-8'
       }
     }
   },
-  created: () => {},
+  created: () => { },
   methods: {
     taskStart(item) {
       console.log("post task start");
       Vue.prototype.$http
-        .post("http://192.168.50.72:4399/taskStart", {serialno:[item.serialno], playerid:4063618})
+        .post("http://192.168.50.72:4399/taskStart", { serialno: [item.serialno], playerid: 4063618 })
         .then(response => {
           console.log("response");
           console.log(response);
@@ -115,13 +118,12 @@ export default {
             this.message = "启动设备成功";
             // this.items = response.data.msg
 
-            // this.items = response.data.data;
             // console.log(response);
             // console.log(this.items);
             Snackbar.info(this.message);
           } else {
             this.message =
-              "获取设备列表失败，原因为" + response.data.data.errMsg;
+              "启动设备失败，原因为" + response.data.msg;
             Snackbar.error(this.message);
           }
         })
@@ -138,9 +140,7 @@ export default {
           console.log(response);
           if (response.status == 200) {
             this.message = "获取设备列表成功";
-            this.items = response.data.msg
-
-            // this.items = response.data.data;
+            this.items = response.data.msg;
             // console.log(response);
             // console.log(this.items);
             Snackbar.info(this.message);
@@ -154,6 +154,12 @@ export default {
           Snackbar.error(error);
         });
     },
+    getReportDetail(item) {
+      console.log("item1");
+      console.log(item);
+      this.$router.push({ name: "facilityDetail", query: { item: JSON.stringify(item) } });
+      // window.location.href = "detail?id=" + id;
+    }
   },
   mounted() {
     console.log("mounted");
