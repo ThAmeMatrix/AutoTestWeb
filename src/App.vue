@@ -1,6 +1,7 @@
 <template>
   <div>
-    <router-view />
+    <router-view v-if="isRouterAlive"></router-view>
+    <!-- <router-view /> -->
     <!-- <aplayer :audio="audio" :lrcType="1" fixed /> -->
   </div>
 </template>
@@ -8,9 +9,15 @@
 <script>
 export default {
   name: "App",
+  provide() { // 注册一个方法
+    return {
+      reload: this.reload
+    }
+  },
   data() {
     return {
-      audio: JSON.parse(localStorage.getItem("NOW_MUSIC"))
+      isRouterAlive: true,
+      audio: JSON.parse(localStorage.getItem("NOW_MUSIC")),
       // [
       //   {
       //     name: "keep on",
@@ -37,6 +44,15 @@ export default {
       //   }
       // ]
     };
-  }
+  },
+  methods: {
+    reload() {
+      this.isRouterAlive = false;
+      this.$nextTick(function(){
+        this.isRouterAlive = true;
+        console.log('reload')
+      })
+    }
+  },
 };
 </script>

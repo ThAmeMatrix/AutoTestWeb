@@ -34,7 +34,7 @@ function getParam(paramName) {
 export default {
   data() {
     return {
-      src: "http://192.168.50.72:8000/" + getParam("report_name") + "/log.html",
+      src: "http://192.168.50.78:8000/" + getParam("report_name") + "/log.html",
       iframeWin: {}
     }
   },

@@ -27,9 +27,10 @@
                   <v-icon>add</v-icon>
                   执行用例
                 </v-btn>
-                <v-btn @click="dialog = true" absolute class="white--text" color="red" large top right
+                <v-btn @click="taskSuspend()" absolute class="white--text" color="red" large top right
                   title="Rate the music">
                   <v-icon>star</v-icon>
+                  暂停任务
                 </v-btn>
                 <!-- <v-btn
                   @click="dialog = true"
@@ -46,28 +47,16 @@
                 </v-btn> -->
               </v-list-tile>
               <v-list-tile class="grow">
-                <v-btn @click="dialog2 = true" absolute class="white--text" color="blue" large top left
+                <v-btn @click="taskResume()" absolute class="white--text" color="blue" large top left
                   title="Run Use Case">
                   <v-icon>add</v-icon>
-                  执行用例
+                  继续任务
                 </v-btn>
-                <v-btn @click="dialog = true" absolute class="white--text" color="red" large top right
+                <v-btn @click="taskTerminate()" absolute class="white--text" color="red" large top right
                   title="Rate the music">
                   <v-icon>star</v-icon>
+                  停止任务
                 </v-btn>
-                <!-- <v-btn
-                  @click="dialog = true"
-                  absolute
-                  class="white--text"
-                  color="red"
-                  fab
-                  large
-                  right
-                  top
-                  title="Rate the music"
-                >
-                  <v-icon>star</v-icon>
-                </v-btn> -->
               </v-list-tile>
               <h3 class="display-1 font-weight-light black--text mb-2">
                 {{ this.item.device_info["ro.product.marketname"] }}</h3>
@@ -325,7 +314,7 @@ export default {
     },
     getUseCaseList() {
       Vue.prototype.$http
-        .post("http://192.168.50.72:4399/showUseCase")
+        .post("http://192.168.50.78:4399/showUseCase")
         .then(response => {
           console.log(response);
           if (response.status == 200) {
@@ -350,18 +339,18 @@ export default {
       this.dialog2 = false;
       console.log("post task start: " + this.serialno);
       Vue.prototype.$http
-        .post("http://192.168.50.72:4399/taskStart", { serialno: [this.serialno], useCaseJson: [this.selectedItem] })
+        .post("http://192.168.50.78:4399/taskStart", { playerid: 288489788, useCase: [this.selectedItem], serialno: [this.serialno] })
         .then(response => {
           console.log("response");
           console.log(response);
           if (response.status == 200) {
-            this.message = "设备执行用例成功";
+            this.message = "设备执行任务成功";
             this.msg = response.data.msg;
             console.log(this.serialno)
             console.log(this.msg[this.serialno].success)
             if (this.msg[this.serialno].success == false) {
               this.message =
-                "设备执行用例失败，原因为" + this.msg[this.serialno].errmsg;
+                "设备执行任务失败，原因为" + this.msg[this.serialno].errmsg;
               Snackbar.error(this.message);
               return;
             }
@@ -372,7 +361,136 @@ export default {
             Snackbar.info(this.message);
           } else {
             this.message =
-              "设备执行用例失败，原因为" + response.data.msg;
+              "设备执行任务失败，原因为" + response.data.msg;
+            Snackbar.error(this.message);
+          }
+        })
+        .catch(error => {
+          Snackbar.error(error);
+        });
+    },
+    taskSuspend() {
+      this.dialog2 = false;
+      console.log("post task suspend: " + this.serialno);
+      Vue.prototype.$http
+        .post("http://192.168.50.78:4399/taskSuspend", { serialno: [this.serialno] })
+        .then(response => {
+          console.log("response");
+          console.log(response);
+          if (response.status == 200) {
+            this.message = "设备暂停任务成功";
+            this.msg = response.data.msg;
+            console.log(this.serialno)
+            console.log(this.msg[this.serialno].success)
+            if (this.msg[this.serialno].success == false) {
+              this.message =
+                "设备暂停任务失败，原因为" + this.msg[this.serialno].errmsg;
+              Snackbar.error(this.message);
+              return;
+            }
+            else {
+              this.message += "， " + this.msg[this.serialno].errmsg;
+            }
+
+            Snackbar.info(this.message);
+          } else {
+            this.message =
+              "设备暂停任务失败，原因为" + response.data.msg;
+            Snackbar.error(this.message);
+          }
+        })
+        .catch(error => {
+          Snackbar.error(error);
+        });
+    },
+    taskTerminate() {
+      this.dialog2 = false;
+      console.log("post task terminate: " + this.serialno);
+      Vue.prototype.$http
+        .post("http://192.168.50.78:4399/taskTerminate", { serialno: [this.serialno] })
+        .then(response => {
+          console.log("response");
+          console.log(response);
+          if (response.status == 200) {
+            this.message = "设备停止任务成功";
+            this.msg = response.data.msg;
+            console.log(this.serialno)
+            console.log(this.msg[this.serialno].success)
+            if (this.msg[this.serialno].success == false) {
+              this.message =
+                "设备停止任务失败，原因为" + this.msg[this.serialno].errmsg;
+              Snackbar.error(this.message);
+              return;
+            }
+            else {
+              this.message += "， " + this.msg[this.serialno].errmsg;
+            }
+
+            Snackbar.info(this.message);
+          } else {
+            this.message =
+              "设备停止任务失败，原因为" + response.data.msg;
+            Snackbar.error(this.message);
+          }
+        })
+        .catch(error => {
+          Snackbar.error(error);
+        });
+    },
+    taskResume() {
+      this.dialog2 = false;
+      console.log("post task resume: " + this.serialno);
+      Vue.prototype.$http
+        .post("http://192.168.50.78:4399/taskResume", { serialno: [this.serialno] })
+        .then(response => {
+          console.log("response");
+          console.log(response);
+          if (response.status == 200) {
+            this.message = "设备继续任务成功";
+            this.msg = response.data.msg;
+            console.log(this.serialno)
+            console.log(this.msg[this.serialno].success)
+            if (this.msg[this.serialno].success == false) {
+              this.message =
+                "设备继续任务失败，原因为" + this.msg[this.serialno].errmsg;
+              Snackbar.error(this.message);
+              return;
+            }
+            else {
+              this.message += "， " + this.msg[this.serialno].errmsg;
+            }
+
+            Snackbar.info(this.message);
+          } else {
+            this.message =
+              "设备继续任务失败，原因为" + response.data.msg;
+            Snackbar.error(this.message);
+          }
+        })
+        .catch(error => {
+          Snackbar.error(error);
+        });
+    },
+    getItem() {
+      console.log("post get item list");
+      Vue.prototype.$http
+        .post("http://192.168.50.78:4399/deviceList")
+        .then(response => {
+          console.log("response");
+          console.log(response);
+          if (response.status == 200) {
+            this.message = "获取设备列表成功";
+            Snackbar.info(this.message);
+            
+            for (let i = 0; i < response.data.msg.length; i ++) {
+              if (response.data.msg[i].serialno == this.serialno) {
+                this.item = response.data.msg[i];
+                break;
+              }
+            }
+          } else {
+            this.message =
+              "获取设备列表失败，原因为" + response.data.data.errMsg;
             Snackbar.error(this.message);
           }
         })
@@ -385,17 +503,22 @@ export default {
     }
   },
   mounted() {
-    let itemstr = getParam("item");
-    this.item = JSON.parse(itemstr);
-    this.serialno = this.item.serialno;
-    console.log("item2");
-    console.log(this.item);
+    this.serialno = getParam("serialno");
+    console.log("serialno")
+    console.log(this.serialno)
+    this.item = this.getItem();
+    
+    // 获取用例
     this.getUseCaseList();
-    // this.getItemDetail();
-    // this.getComment();
+
+    // let itemstr = getParam("item");
+    // this.item = JSON.parse(itemstr);
+    // this.serialno = this.item.serialno;
+    // console.log("item2");
+    // console.log(this.item);
   }
 };
-</script>
+</script> 
 
 <style scoped>
 .v-card--reveal {

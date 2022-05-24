@@ -1,47 +1,40 @@
 <template>
   <v-app>
-    <fieldset>
-      <legend>品牌</legend>
-      <!-- <label max-width="100" >品牌</label> -->
-      <div class="container">
-        <v-flex v-for="equip in equip_type_list" :key="equip.type">
-          <div>
-            <input type="checkbox" id="a" :name="equip.type" />
-            <label for="a">{{ equip.type }}</label>
-          </div>
-        </v-flex>
-      </div>
-
-      <!-- <v-flex v-for="equip in equip_type_list" :key="equip.type">
-        <v-checkbox class="v-label" v-model="required" :label="equip.type"></v-checkbox>
-      </v-flex> -->
-    </fieldset>
-
+    <v-btn class="blue font-weight-black" @click.native="uploadUseCase()">
+      上传测试用例
+    </v-btn>
     <!-- 卡片列表-商品概览 -->
     <v-container fluid grid-list-xl>
       <v-layout wrap justify-space-around>
         <v-flex v-for="item in items" :key="item.id">
           <v-hover>
-            <v-card @click.native="getReportDetail(item)" class="mx-auto" color="grey lighten-4" min-width="100" max-width="200" slot-scope="{ hover }" hover>
-              <v-img :aspect-ratio="7 / 14" :src="coverImgUrl">
-                <v-btn v-if="item.task_start_time == 0" class="green white--text font-weight-black">
-                  空闲
-                </v-btn>
-                <v-btn v-else class="gray black--text font-weight-black">
-                  离线
-                </v-btn>
+            <v-card @click.native="getUseCaseDetail(item)" class="mx-auto" color="grey lighten-4" min-width="100"
+              max-width="200" slot-scope="{ hover }" hover>
+              <v-img :aspect-ratio="15 / 14" :src="coverImgUrl">
               </v-img>
               <v-card-text style="position: relative;">
-                <div class="title font-weight-light black--text mb-1">{{ item.device_info["ro.product.marketname"] }}
+                <div class="title font-weight-light black--text mb-1">{{ item }}
                 </div>
               </v-card-text>
-              <!-- <div class="container" style="position: relative;">
-                <v-btn class="blue font-weight-black" @click.native="taskStart(item)">
-                  使用
+              <div class="container" style="position: relative;">
+                <v-btn class="blue font-weight-black" @click.native="deleteIt(item)">
+                  删除
                 </v-btn>
-              </div> -->
+              </div>
             </v-card>
           </v-hover>
+          <v-dialog v-model="dialog" max-width="500">
+            <v-card class="elevation-16 mx-auto" width="500">
+              <v-card-title class="headline" primary-title>删除用例</v-card-title>
+              <v-card-text>确定删除该用例吗？</v-card-text>
+              <v-divider></v-divider>
+              <v-card-actions>
+                <v-btn color="primary" text @click="dialog = false">取消</v-btn>
+                <v-spacer></v-spacer>
+                <v-btn color="primary" text @click="deleteUseCase(item)">确定</v-btn>
+              </v-card-actions>
+            </v-card>
+          </v-dialog>
         </v-flex>
       </v-layout>
     </v-container>
@@ -53,8 +46,10 @@ import Vue from "vue";
 import Snackbar from "../../components/snackbar/index";
 
 export default {
+  inject: ['reload'],
   data() {
     return {
+      dialog: false,
       selectedFacility: null,
       message: "",
       equip_type_list: [
@@ -65,7 +60,7 @@ export default {
           type: "MEIZU",
         }
       ],
-      coverImgUrl: '../phone/phone.jpg',
+      coverImgUrl: '../phone/347756.jpg',
       items: [
         {
           id: 1,
@@ -107,23 +102,25 @@ export default {
   },
   created: () => { },
   methods: {
-    taskStart(item) {
-      console.log("post task start");
+    deleteIt(item) {
+      this.dialog = true;
+    },
+    deleteUseCase(item) {
+      this.dialog = false;
+      console.log("post delete item:", item);
       Vue.prototype.$http
-        .post("http://192.168.50.78:4399/taskStart", { serialno: [item.serialno], playerid: 4063618 })
+        .post("http://192.168.50.78:4399/removeUseCase", { useCaseName: item })
         .then(response => {
           console.log("response");
           console.log(response);
           if (response.status == 200) {
-            this.message = "启动设备成功";
-            // this.items = response.data.msg
-
-            // console.log(response);
-            // console.log(this.items);
+            this.message = "删除用例成功";
             Snackbar.info(this.message);
+            // this.getItemList();
+            this.reload();
           } else {
             this.message =
-              "启动设备失败，原因为" + response.data.msg;
+              "删除用例失败，原因为" + response.data.msg;
             Snackbar.error(this.message);
           }
         })
@@ -134,19 +131,17 @@ export default {
     getItemList() {
       console.log("post get item list");
       Vue.prototype.$http
-        .post("http://192.168.50.78:4399/deviceList")
+        .post("http://192.168.50.78:4399/showUseCase")
         .then(response => {
           console.log("response");
           console.log(response);
           if (response.status == 200) {
-            this.message = "获取设备列表成功";
-            this.items = response.data.msg;
-            // console.log(response);
-            // console.log(this.items);
+            this.message = "获取用例列表成功";
             Snackbar.info(this.message);
+            this.items = response.data.msg;
           } else {
             this.message =
-              "获取设备列表失败，原因为" + response.data.data.errMsg;
+              "获取用例列表失败，原因为" + response.data.data.errMsg;
             Snackbar.error(this.message);
           }
         })
@@ -154,12 +149,14 @@ export default {
           Snackbar.error(error);
         });
     },
-    getReportDetail(item) {
-      // console.log("item1");
-      // console.log(item);
-      // this.$router.push({ name: "facilityDetail", query: { item: JSON.stringify(item), serialno: item.serialno } });
-      this.$router.push({ name: "facilityDetail", query: { serialno: item.serialno } });
+    getUseCaseDetail(item) {
+      //   console.log("item1");
+      //   console.log(item);
+      //   this.$router.push({ name: "facilityDetail", query: { item: JSON.stringify(item) } });
       // window.location.href = "detail?id=" + id;
+    },
+    uploadUseCase() {
+      this.$router.push({ name: "uploadTestCase" });
     }
   },
   mounted() {

@@ -19,6 +19,7 @@ import recommendComponets from './modules/recommendComponets';
 import facilitiesComponents from './modules/facilities-components'
 import uploadComponents from './modules/upload-components'
 import reportComponents from './modules/report-components'
+import useCaseComponents from './modules/usecase-components'
 
 
 Vue.use(Router);
@@ -83,6 +84,7 @@ export default new Router({
         facilitiesComponents,
         uploadComponents,
         reportComponents,
+        useCaseComponents,
         // musicComponents,
         // playlistComponents,
         // recommendComponets,

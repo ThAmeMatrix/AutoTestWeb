@@ -380,5 +380,13 @@ export default {
       en: 'Report Detail',
       'zh-CN': '报告详情',
     },
+    usecase: {
+      en: 'UseCase',
+      'zh-CN': '用例',
+    },
+    useCaseManage: {
+      en: 'Use Case Manage',
+      'zh-CN': '用例管理',
+    },
   },
 };

@@ -1,5 +1,8 @@
 <template>
-  <div> 
+  <div>
+    <v-btn class="blue font-weight-black" @click.native="manageUseCase()">
+      管理测试用例
+    </v-btn>
     <excel-upload @update-filedata="val => (fileData = val)" />
     <button @click="uploadTitle()">上传文件</button>
     <v-data-table v-if="fileData && fileData.headers" style="margin-top:20px;" :headers="tableData.headers"
@@ -30,6 +33,9 @@ export default {
     };
   },
   methods: {
+    manageUseCase() {
+      this.$router.push({ name: "useCaseManage"});
+    },
     uploadTitle() {
       console.log(this.fileData.file.name);
       this.fil = this.fileData.file;
@@ -45,7 +51,7 @@ export default {
             headers: { "Content-Type": "multipart/form-data" },
           };
           Vue.prototype.$http
-            .post("http://192.168.50.72:4399/importUseCaseTxt", this.formData, config)
+            .post("http://192.168.50.78:4399/importUseCaseTxt", this.formData, config)
             .then(response => {
               console.log("response");
               console.log(response);

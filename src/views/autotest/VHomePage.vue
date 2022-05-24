@@ -35,11 +35,11 @@
                 <div class="title font-weight-light black--text mb-1">{{ item.device_info["ro.product.marketname"] }}
                 </div>
               </v-card-text>
-              <div class="container" style="position: relative;">
+              <!-- <div class="container" style="position: relative;">
                 <v-btn class="blue font-weight-black" @click.native="taskStart(item)">
                   使用
                 </v-btn>
-              </div>
+              </div> -->
             </v-card>
           </v-hover>
         </v-flex>
@@ -110,7 +110,7 @@ export default {
     taskStart(item) {
       console.log("post task start");
       Vue.prototype.$http
-        .post("http://192.168.50.72:4399/taskStart", { serialno: [item.serialno], playerid: 4063618 })
+        .post("http://192.168.50.78:4399/taskStart", { serialno: [item.serialno], playerid: 4063618 })
         .then(response => {
           console.log("response");
           console.log(response);
@@ -134,7 +134,7 @@ export default {
     getItemList() {
       console.log("post get item list");
       Vue.prototype.$http
-        .post("http://192.168.50.72:4399/deviceList")
+        .post("http://192.168.50.78:4399/deviceList")
         .then(response => {
           console.log("response");
           console.log(response);
