@@ -113,14 +113,14 @@ export default {
         .then(response => {
           console.log("response");
           console.log(response);
-          if (response.status == 200) {
+          if (response.status == 200 && response.data.msg.success == true) {
             this.message = "删除用例成功";
             Snackbar.info(this.message);
             // this.getItemList();
             this.reload();
           } else {
             this.message =
-              "删除用例失败，原因为" + response.data.msg;
+              "删除用例失败，原因为" + response.data.msg.err;
             Snackbar.error(this.message);
           }
         })

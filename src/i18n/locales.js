@@ -388,5 +388,13 @@ export default {
       en: 'Use Case Manage',
       'zh-CN': '用例管理',
     },
+    dateJob: {
+      en: 'Date Job',
+      'zh-CN': '定时任务',
+    },
+    dateJobManage: {
+      en: 'Date Job Manage',
+      'zh-CN': '定时任务管理',
+    },
   },
 };

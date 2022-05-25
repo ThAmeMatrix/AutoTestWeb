@@ -1,7 +1,15 @@
 <template>
-  <div class="iframediv">
-    <iframe :src="src" ref="iframe"></iframe>
-  </div>
+  <v-app>
+    <div>
+      <v-btn class="blue font-weight-black" @click.native="back()">
+        返回
+      </v-btn>
+    </div>
+    <div class="iframediv">
+      <iframe :src="src" ref="iframe"></iframe>
+    </div>
+  </v-app>
+
 </template>
  
 <script>
@@ -34,7 +42,7 @@ function getParam(paramName) {
 export default {
   data() {
     return {
-      src: "http://192.168.50.78:8000/" + getParam("report_name") + "/log.html",
+      src: "http://192.168.50.78:8000/" + getParam("serialno") + "/" + getParam("report_name") + "/log.html",
       iframeWin: {}
     }
   },
@@ -69,6 +77,9 @@ export default {
           // 业务逻辑
           break
       }
+    },
+    back() {
+      this.$router.push({ name: "facilityDetail", query: { serialno: getParam("serialno") } });
     }
   },
   mounted() {
@@ -95,7 +106,7 @@ window.onload = function () {
 .iframediv {
   width: 1632px;
   height: 940px;
-  margin: 100px auto;
+  margin: 0px auto;
   border: 10px dashed rgb(58, 58, 58);
   overflow: hidden;
 }

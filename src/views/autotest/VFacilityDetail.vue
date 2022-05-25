@@ -1,14 +1,17 @@
 <template>
   <v-container fluid grid-list-xl>
+    <!-- <div class="iframediv">
+      <iframe :src="src" ref="iframe"></iframe>
+    </div> -->
     <!-- <aplayer :audio="audio" :lrcType="1" /> -->
     <v-layout>
-      <!-- 卡片-音乐详情 -->
+      <!-- 卡片-设备详情 -->
       <v-flex xs7>
         <v-hover>
-          <v-card class="mx-auto" color="grey lighten-4" min-width="300" max-width="680">
+          <v-card class="mx-auto" color="grey lighten-4" min-width="300" max-width="580">
             <v-hover>
               <v-img :aspect-ratio="16 / 14" :src="coverImgUrl">
-                <v-expand-transition>
+                <!-- <v-expand-transition>
                   <div class="d-flex transition-fast-in-fast-out black darken-2 v-card--reveal display-3 white--text"
                     style="height: 100%;" v-if="hover">
                     <ul>
@@ -17,7 +20,7 @@
                       </li>
                     </ul>
                   </div>
-                </v-expand-transition>
+                </v-expand-transition> -->
               </v-img>
             </v-hover>
             <v-card-text class="pt-4" style="position: relative;">
@@ -67,21 +70,21 @@
                 </v-flex> -->
               </div>
               <div class="font-weight-light title mb-2">
-                属性2：{{ itemInfo.commentsnum }}
+                状态：{{ status }}
                 <br />
-                属性3：{{ itemInfo.duration }}
+                执行用例：{{ nowRunUseCase }}
               </div>
             </v-card-text>
           </v-card>
         </v-hover>
 
-        <v-hover>
+        <!-- <v-hover>
           <v-card class="mx-auto" color="grey lighten-4" min-width="300" max-width="680">
             <v-card-text class="pt-4" style="position: relative;">
               <div v-html="itemInfo.lrc"></div>
             </v-card-text>
           </v-card>
-        </v-hover>
+        </v-hover> -->
       </v-flex>
 
       <v-dialog v-model="dialog" max-width="500">
@@ -90,14 +93,14 @@
           <v-card-text>
             <div class="text-xs-center mt-5">
               <v-rating v-model="rate.rating" color="yellow darken-3" background-color="grey darken-1"
-                empty-icon="star_border" half-increments hover></v-rating>
+                empty-icon="star_border" half-increments></v-rating>
             </div>
           </v-card-text>
           <v-divider></v-divider>
           <v-card-actions>
             <v-btn color="primary" text @click="dialog = false">关闭</v-btn>
             <v-spacer></v-spacer>
-            <v-btn color="primary" text @click="rateit">保存</v-btn>
+            <!-- <v-btn color="primary" text @click="rateit">保存</v-btn> -->
           </v-card-actions>
         </v-card>
       </v-dialog>
@@ -124,14 +127,14 @@
           </v-card-title>
           <v-card-text>
             <v-container>
-              <v-row>
+              <!-- <v-row>
                 <v-col cols="12" sm="6" md="4">
                   <v-text-field label="输入歌单名字*" required></v-text-field>
                 </v-col>
                 <v-col cols="12" sm="6" md="4">
                   <v-textarea label="输入歌单描述" hint="请输入您对该歌单的描述信息"></v-textarea>
                 </v-col>
-              </v-row>
+              </v-row> -->
             </v-container>
             <small>*必填项</small>
           </v-card-text>
@@ -151,45 +154,36 @@
       <v-flex xs5>
         <div id="e3" style="max-width: 600px; margin: auto;" class="grey lighten-3">
           <v-toolbar color="cyan" dark>
-            <v-toolbar-title>备选</v-toolbar-title>
+            <v-toolbar-title>报告</v-toolbar-title>
             <v-spacer></v-spacer>
             <v-btn icon>
               <v-icon>add</v-icon>
             </v-btn>
           </v-toolbar>
-          <template v-for="item in comments">
-            <v-flex xs12 :key="item.id">
-              <v-card class="mx-auto" max-width="550" hover>
-                <v-card-title primary-title>
-                  <div>
-                    <h3 class="headline mb-0">{{ item.title }}</h3>
-                    <div>{{ item.content }}</div>
-                  </div>
-                </v-card-title>
-                <v-card-actions>
-                  <v-list-tile class="grow">
-                    <v-list-tile-avatar color="grey darken-3">
-                      <v-img class="elevation-6" :src="item.user.avatarUrl"></v-img>
-                    </v-list-tile-avatar>
-                    <v-list-tile-content>
-                      <v-list-tile-title>{{ item.user.nickname }}</v-list-tile-title>
-                    </v-list-tile-content>
-                    <v-spacer></v-spacer>
-                    <v-list-tile-content color="grey darken-3">
-                      <v-list-tile-title>{{ item.time }}</v-list-tile-title>
-                    </v-list-tile-content>
-                    <v-btn icon @click="todo">
-                      <v-icon color="red">favorite</v-icon>
-                    </v-btn>
-                    {{ item.likedCount }}
-                    <v-spacer></v-spacer>
-                    {{ item.likedCount & 1 == 1 ? 'QQ音乐' : '网易云音乐' }}
-                  </v-list-tile>
-                </v-card-actions>
-              </v-card>
-            </v-flex>
-          </template>
         </div>
+
+        <v-flex v-for="report in reports" :key="item">
+          <v-hover>
+            <v-card @click="getReportDetail(report)" class="mx-auto" color="grey lighten-4" slot-scope="{ hover }" hover>
+              <div class="container">
+                <v-img :aspect-ratio="7 / 7" min-width="60" max-width="60" :src="reportImgUrl">
+                </v-img>
+                <div class="title font-weight-light black--text mb-1">{{ report }}
+                </div>
+                <!-- <v-card-text style="position: relative;">
+                  <div class="title font-weight-light black--text mb-1">{{ report }}
+                  </div>
+                </v-card-text> -->
+              </div>
+              <!-- <v-img :aspect-ratio="7 / 7" max-width="60" :src="reportImgUrl">
+              </v-img>
+              <v-card-text style="position: relative;">
+                <div class="title font-weight-light black--text mb-1">{{ report }}
+                </div>
+              </v-card-text> -->
+            </v-card>
+          </v-hover>
+        </v-flex>
       </v-flex>
     </v-layout>
   </v-container>
@@ -225,8 +219,11 @@ function getParam(paramName) {
 export default {
   data() {
     return {
+      src: "http://192.168.50.78:9002/",
+      status: "空闲",
       item: {},
       serialno: '',
+      reportImgUrl: '../phone/1b86fce3_E377873_a1aed127.png',
       coverImgUrl: '../phone/phone.jpg',
       audio: {
         name: "",
@@ -248,19 +245,12 @@ export default {
       notifications: false,
       sound: true,
       widgets: false,
-      items: [
-        {
-          title: "Click Me"
-        },
-        {
-          title: "Click Me"
-        },
-        {
-          title: "Click Me"
-        },
-        {
-          title: "Click Me 2"
-        }
+      reports: [
+        "2022_05_11_17_46_50",
+        "2022_05_11_17_46_50",
+        "2022_05_11_17_46_50",
+        "2022_05_11_17_46_50",
+        "2022_05_11_17_46_50",
       ],
       select: [
         // { text: "RAP" },
@@ -275,6 +265,7 @@ export default {
         // { text: "everlasting song" }
       ],
       selectedItem: '',
+      nowRunUseCase: '',
       dialog: false,
       rate: {
         rating: 3
@@ -299,6 +290,23 @@ export default {
     };
   },
   methods: {
+    getStatus(task_pause, task_start_time) {
+      console.log("task_pause")
+      console.log(task_pause)
+      console.log("task_start_time")
+      console.log(task_start_time)
+      if (task_start_time == 0) {
+        this.status = "空闲";
+      }
+      else {
+        if (task_pause == true) {
+          this.status = "暂停";
+        }
+        else {
+          this.status = "执行";
+        }
+      }
+    },
     formatDate(timestamp) {
       var date = new Date(timestamp);
       Y = date.getFullYear() + "-";
@@ -331,11 +339,31 @@ export default {
           Snackbar.error(error);
         });
     },
+    getReportList() {
+      Vue.prototype.$http
+        .post("http://192.168.50.78:8000", {serialno: this.serialno})
+        .then(response => {
+          console.log(response);
+          if (response.status == 200) {
+            this.message = "获取报告成功";
+            this.reports = response.data.msg;
+            // this.items = response.data.data;
+            Snackbar.info(this.message);
+          } else {
+            this.message = "获取报告失败，原因为" + response.data.msg;
+            Snackbar.error(this.message);
+          }
+        })
+        .catch(error => {
+          Snackbar.error(error);
+        });
+    },
     curSelectUseCase(val) {
       console.log(val);
-      selectedItem = val;
+      this.selectedItem = val;
     },
     taskStart() {
+      this.nowRunUseCase = this.selectedItem;
       this.dialog2 = false;
       console.log("post task start: " + this.serialno);
       Vue.prototype.$http
@@ -355,7 +383,8 @@ export default {
               return;
             }
             else {
-              this.message += "， " + this.msg[this.serialno].errmsg;
+              this.message += "， errmsg：" + this.msg[this.serialno].errmsg;
+              this.status = "执行";
             }
 
             Snackbar.info(this.message);
@@ -370,6 +399,7 @@ export default {
         });
     },
     taskSuspend() {
+      this.testtext = 789;
       this.dialog2 = false;
       console.log("post task suspend: " + this.serialno);
       Vue.prototype.$http
@@ -389,7 +419,8 @@ export default {
               return;
             }
             else {
-              this.message += "， " + this.msg[this.serialno].errmsg;
+              this.message += "， errmsg：" + this.msg[this.serialno].errmsg;
+              this.status = "暂停";
             }
 
             Snackbar.info(this.message);
@@ -404,6 +435,7 @@ export default {
         });
     },
     taskTerminate() {
+      this.nowRunUseCase = '';
       this.dialog2 = false;
       console.log("post task terminate: " + this.serialno);
       Vue.prototype.$http
@@ -423,7 +455,8 @@ export default {
               return;
             }
             else {
-              this.message += "， " + this.msg[this.serialno].errmsg;
+              this.message += "， errmsg：" + this.msg[this.serialno].errmsg;
+              this.status = "空闲";
             }
 
             Snackbar.info(this.message);
@@ -457,7 +490,8 @@ export default {
               return;
             }
             else {
-              this.message += "， " + this.msg[this.serialno].errmsg;
+              this.message += "， errmsg： " + this.msg[this.serialno].errmsg;
+              this.status = "执行";
             }
 
             Snackbar.info(this.message);
@@ -481,10 +515,11 @@ export default {
           if (response.status == 200) {
             this.message = "获取设备列表成功";
             Snackbar.info(this.message);
-            
-            for (let i = 0; i < response.data.msg.length; i ++) {
+
+            for (let i = 0; i < response.data.msg.length; i++) {
               if (response.data.msg[i].serialno == this.serialno) {
                 this.item = response.data.msg[i];
+                this.getStatus(this.item.task_pause, this.item.task_start_time);
                 break;
               }
             }
@@ -498,6 +533,9 @@ export default {
           Snackbar.error(error);
         });
     },
+    getReportDetail(report_name) {
+      this.$router.push({ name: "reportDetail", query: { serialno: this.serialno, report_name: report_name } });
+    },
     todo() {
       Snackbar.info("开发中，请等待……");
     }
@@ -506,10 +544,13 @@ export default {
     this.serialno = getParam("serialno");
     console.log("serialno")
     console.log(this.serialno)
-    this.item = this.getItem();
-    
+    this.getItem();
+
     // 获取用例
     this.getUseCaseList();
+
+    // 获取报告
+    this.getReportList();
 
     // let itemstr = getParam("item");
     // this.item = JSON.parse(itemstr);
@@ -528,5 +569,28 @@ export default {
   opacity: 0.5;
   position: absolute;
   width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-around; */
+}
+
+.iframediv {
+  width: 1632px;
+  height: 940px;
+  margin: 0px auto;
+  border: 10px dashed rgb(58, 58, 58);
+  overflow: hidden;
+}
+
+.iframediv iframe {
+  width: 1920px;
+  height: 1080px;
+  top: 0;
+  left: 0;
+  transform-origin: top left;
+  transform: scale(0.85)
 }
 </style>

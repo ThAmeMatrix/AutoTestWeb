@@ -6,7 +6,7 @@ const routes = {
     },
     meta: {
         hasMulSub: true,
-        hidden: false,
+        hidden: true,
         icon: 'developer_board',
     },
     children: [

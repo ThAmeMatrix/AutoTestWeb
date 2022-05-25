@@ -6,12 +6,15 @@
           Upload Player Data
         </v-btn>
         <input name="file" type="file" id="upload" ref="upload" multiple="multiple" @change="addFile" accept=".bin">
-        <button @click="uploadTitle()">上传文件</button>
+        <!-- <button @click="uploadTitle()">上传文件</button> -->
+        <v-btn class="blue font-weight-black" @click.native="uploadTitle()">
+          上传文件
+        </v-btn>
       </v-flex>
     </v-layout>
   </v-container>
 </template>
- 
+
 <script>
 import Vue from 'vue'
 import Snackbar from "../../components/snackbar/index";

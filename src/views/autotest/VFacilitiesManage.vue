@@ -27,12 +27,17 @@
                 <v-btn v-if="item.task_start_time == 0" class="green white--text font-weight-black">
                   空闲
                 </v-btn>
-                <v-btn v-else class="gray black--text font-weight-black">
-                  离线
+                <v-btn v-else-if="item.task_pause == true" class="gray black--text font-weight-black">
+                  暂停
+                </v-btn>
+                <v-btn v-else class="orange black--text font-weight-black">
+                  执行
                 </v-btn>
               </v-img>
               <v-card-text style="position: relative;">
                 <div class="title font-weight-light black--text mb-1">{{ item.device_info["ro.product.marketname"] }}
+                </div>
+                <div class="title font-weight-light black--text mb-1">{{ item.serialno }}
                 </div>
               </v-card-text>
               <!-- <div class="container" style="position: relative;">
@@ -140,10 +145,11 @@ export default {
           console.log(response);
           if (response.status == 200) {
             this.message = "获取设备列表成功";
+            Snackbar.info(this.message);
             this.items = response.data.msg;
             // console.log(response);
             // console.log(this.items);
-            Snackbar.info(this.message);
+            
           } else {
             this.message =
               "获取设备列表失败，原因为" + response.data.data.errMsg;

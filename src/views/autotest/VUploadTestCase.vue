@@ -4,7 +4,10 @@
       管理测试用例
     </v-btn>
     <excel-upload @update-filedata="val => (fileData = val)" />
-    <button @click="uploadTitle()">上传文件</button>
+    <!-- <button @click="uploadTitle()">上传文件</button> -->
+    <v-btn class="blue font-weight-black" @click.native="uploadTitle()">
+      上传文件
+    </v-btn>
     <v-data-table v-if="fileData && fileData.headers" style="margin-top:20px;" :headers="tableData.headers"
       :items="tableData.data" class="elevation-1">
       <v-progress-linear slot="progress" color="blue" indeterminate />
