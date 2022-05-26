@@ -61,6 +61,7 @@ export default {
         }
       ],
       coverImgUrl: '../phone/347756.jpg',
+      removeItem: null,
       items: [
         {
           id: 1,
@@ -103,20 +104,20 @@ export default {
   created: () => { },
   methods: {
     deleteIt(item) {
+      this.removeItem = item;
       this.dialog = true;
     },
-    deleteUseCase(item) {
+    deleteUseCase() {
       this.dialog = false;
-      console.log("post delete item:", item);
+      console.log("post delete item:", this.removeItem);
       Vue.prototype.$http
-        .post("http://192.168.50.78:4399/removeUseCase", { useCaseName: item })
+        .post("http://192.168.50.78:4399/removeUseCase", { useCase: this.removeItem })
         .then(response => {
           console.log("response");
           console.log(response);
           if (response.status == 200 && response.data.msg.success == true) {
             this.message = "删除用例成功";
             Snackbar.info(this.message);
-            // this.getItemList();
             this.reload();
           } else {
             this.message =

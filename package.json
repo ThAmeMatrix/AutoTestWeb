@@ -1,7 +1,7 @@
 {
-  "name": "vue-admin-vuetify",
-  "version": "0.6.0-beta.2",
-  "description": "Basic plugin for YM",
+  "name": "auto-test-web",
+  "version": "1.0.0",
+  "description": "Web for auto test",
   "main": "index.js",
   "private": true,
   "scripts": {
@@ -13,20 +13,17 @@
   "keywords": [
     "vue",
     "vue-basis",
-    "vue-admin",
-    "vuetify",
-    "admin",
-    "vue-admin-vuetify"
+    "vuetify"
   ],
   "author": {
-    "name": "vasttian",
-    "email": "tianyiming26@gmail.com"
+    "name": "thame",
+    "email": "thamereborn@qq.com"
   },
-  "license": "MIT",
+  "license": "",
   "bugs": {
-    "url": "https://github.com/vasttian/vue-admin-vuetify/issues"
+    "url": "https://google.com"
   },
-  "homepage": "https://github.com/vasttian/vue-admin-vuetify#readme",
+  "homepage": "https://google.com",
   "publishConfig": {
     "access": "public"
   },

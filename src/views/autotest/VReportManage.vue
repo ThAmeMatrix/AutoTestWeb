@@ -42,19 +42,15 @@ export default {
     }
   },
   mounted() {
-    console.log("files")
-    const files = require.context('D:\\html\\2022_05_11_17_46_50\\', false).keys();
-    console.log(files)
+    // console.log("files")
+    // const files = require.context('D:\\html\\2022_05_11_17_46_50\\', false).keys();
+    // console.log(files)
 
     this.iframeWin = this.$refs.iframe.contentWindow
     this.$nextTick(() => {
-      // 在外部 Vue 的 window 上添加 postMessage 的监听，并且绑定处理函数 handleMessage
-      window.addEventListener('message', this.handleMessage)
     })
   },
   destroyed() {
-    // 注意移除监听！注意移除监听！注意移除监听！
-    window.removeEventListener('message', this.handleMessage)
   },
   methods: {
     getReportDetail(item) {
@@ -62,12 +58,6 @@ export default {
       // window.location.href = "detail?id=" + id;
     }
   }
-}
-
-function adjustIframe() {
-  var ifm = document.getElementById("bi_iframe");
-  ifm.height = document.documentElement.clientHeight;
-  ifm.width = document.documentElement.clientWidth;
 }
 
 // 兼容性代码

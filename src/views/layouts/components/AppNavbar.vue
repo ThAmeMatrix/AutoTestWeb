@@ -180,7 +180,7 @@ export default {
   },
   methods: {
     toGithub() {
-      window.open('https://github.com/vasttian/vue-admin-vuetify');
+      window.open('https://github.com/');
     },
     logout() {
       console.log("logout");

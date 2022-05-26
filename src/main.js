@@ -111,7 +111,7 @@ Vue.router.beforeEach((to, from, next) => {
     delete to.query.locale;
     if (supportedLangs.includes(locale)) {
       i18n.locale = locale;
-      localStorage.setItem('VUE-ADMIN-VUETIFY_LANGUAGE', locale);
+      localStorage.setItem('AUTO-TEST-WEB_LANGUAGE', locale);
     }
   }
 
@@ -121,7 +121,7 @@ Vue.router.afterEach(() => {
   NProgress.done();
 });
 
-i18n.locale = localStorage.getItem('VUE-ADMIN-VUETIFY_LANGUAGE')
+i18n.locale = localStorage.getItem('AUTO-TEST-WEB_LANGUAGE')
   || (supportedLangs.includes(userLocale) ? userLocale : 'zh-CN');
 Vue.prototype.$locale.use(i18n.locale);
 

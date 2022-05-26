@@ -12,10 +12,6 @@ import tables from './modules/tables';
 import charts from './modules/charts';
 import excel from './modules/excel';
 
-import musicComponents from './modules/music-components';
-import playlistComponents from './modules/playlist-components'
-import recommendComponets from './modules/recommendComponets';
-
 import facilitiesComponents from './modules/facilities-components'
 import uploadComponents from './modules/upload-components'
 import reportComponents from './modules/report-components'
@@ -76,7 +72,6 @@ export default new Router({
           path: '/dashboard',
           name: 'Dashboard',
         //   component: () => import('@/views/dashboard/TheIndex.vue'),
-        //   component: () => import('@/views/music/VHomePage.vue'),
         component: () => import('@/views/autotest/VHomePage.vue'),
           meta: {
             icon: 'dashboard',
@@ -87,9 +82,6 @@ export default new Router({
         dateJobComponents,
         uploadComponents,
         reportComponents,
-        // musicComponents,
-        // playlistComponents,
-        // recommendComponets,
         // components,
         // widgets,
         // uiComponents,

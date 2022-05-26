@@ -3,6 +3,7 @@
     <v-btn class="blue font-weight-black" @click.native="manageUseCase()">
       管理测试用例
     </v-btn>
+    注：上传的时候注意给测试用例改个自己能辨识的有意义的名字
     <excel-upload @update-filedata="val => (fileData = val)" />
     <!-- <button @click="uploadTitle()">上传文件</button> -->
     <v-btn class="blue font-weight-black" @click.native="uploadTitle()">

@@ -144,7 +144,7 @@ that.$locale = {
   use(lang) {
     i18n.locale = lang;
     that.$vuetify.lang.current = lang === 'zh-CN' ? 'zhLang' : 'enLang';
-    localStorage.setItem('VUE-ADMIN-VUETIFY_LANGUAGE', lang);
+    localStorage.setItem('AUTO-TEST-WEB_LANGUAGE', lang);
   },
   current() {
     return i18n.locale;

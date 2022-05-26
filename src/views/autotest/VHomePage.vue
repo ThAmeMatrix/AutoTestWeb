@@ -116,10 +116,6 @@ export default {
           console.log(response);
           if (response.status == 200) {
             this.message = "启动设备成功";
-            // this.items = response.data.msg
-
-            // console.log(response);
-            // console.log(this.items);
             Snackbar.info(this.message);
           } else {
             this.message =

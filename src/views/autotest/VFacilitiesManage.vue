@@ -40,11 +40,6 @@
                 <div class="title font-weight-light black--text mb-1">{{ item.serialno }}
                 </div>
               </v-card-text>
-              <!-- <div class="container" style="position: relative;">
-                <v-btn class="blue font-weight-black" @click.native="taskStart(item)">
-                  使用
-                </v-btn>
-              </div> -->
             </v-card>
           </v-hover>
         </v-flex>
@@ -112,30 +107,6 @@ export default {
   },
   created: () => { },
   methods: {
-    taskStart(item) {
-      console.log("post task start");
-      Vue.prototype.$http
-        .post("http://192.168.50.78:4399/taskStart", { serialno: [item.serialno], playerid: 4063618 })
-        .then(response => {
-          console.log("response");
-          console.log(response);
-          if (response.status == 200) {
-            this.message = "启动设备成功";
-            // this.items = response.data.msg
-
-            // console.log(response);
-            // console.log(this.items);
-            Snackbar.info(this.message);
-          } else {
-            this.message =
-              "启动设备失败，原因为" + response.data.msg;
-            Snackbar.error(this.message);
-          }
-        })
-        .catch(error => {
-          Snackbar.error(error);
-        });
-    },
     getItemList() {
       console.log("post get item list");
       Vue.prototype.$http

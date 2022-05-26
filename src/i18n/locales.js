@@ -304,46 +304,6 @@ export default {
       en: 'Export Excel',
       'zh-CN': '导出 Excel',
     },
-    musicList: {
-      en: 'Music Page',
-      'zh-CN': '音乐页面'
-    },
-    musicManage: {
-      en: 'Music List',
-      'zh-CN': '音乐列表'
-    },
-    musicDetail: {
-      en: 'Music Detail',
-      'zh-CN': '音乐详情',
-    },
-    musicPlaylists: {
-      en: 'Music Playlists',
-      'zh-CN': '歌单页面',
-    },
-    musicPlaylist: {
-      en: 'Music Playlist',
-      'zh-CN': '歌单详情',
-    },
-    playlistUpload: {
-      en: 'Playlist Upload',
-      'zh-CN': '歌单上传',
-    },
-    recommend: {
-      en: 'Recommend',
-      'zh-CN': '推荐'
-    },
-    rating: {
-      en: 'Rating',
-      'zh-CN': '我的评分'
-    },
-    recommendUser: {
-      en: 'Recommend Based User',
-      'zh-CN': '基于用户推荐'
-    },
-    recommendItem: {
-      en: 'Recommend Based Item',
-      'zh-CN': '基于音乐推荐'
-    },
     facilities: {
       en: 'Facilities',
       'zh-CN': '设备',

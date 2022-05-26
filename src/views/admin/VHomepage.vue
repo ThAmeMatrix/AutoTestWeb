@@ -41,7 +41,7 @@ export default {
     return {
       isCollapse: true,
       source:
-        'https://github.com/vasttian/vue-admin-vuetify/blob/master/src/views/admin/VHomepage.vue',
+        '',
       chartOption: {
         backgroundColor: '#394056',
         title: {

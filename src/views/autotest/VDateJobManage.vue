@@ -16,15 +16,19 @@
                 </div>
               </v-card-text>
               <v-card-text style="position: relative;">
-                <div class="title font-weight-light black--text mb-1">执行时间：<br>{{ item.next_run_time }}
-                </div>
-              </v-card-text>
-              <v-card-text style="position: relative;">
                 <div class="title font-weight-light black--text mb-1">设备名：<br>{{ item.serialno }}
                 </div>
               </v-card-text>
               <v-card-text style="position: relative;">
                 <div class="title font-weight-light black--text mb-1">用例：<br>{{ item.useCase }}
+                </div>
+              </v-card-text>
+              <v-card-text style="position: relative;">
+                <div class="title font-weight-light black--text mb-1">执行时间：<br>{{ item.next_run_time }}
+                </div>
+              </v-card-text>
+              <v-card-text style="position: relative;">
+                <div class="title font-weight-light black--text mb-1">循环间隔：<br>{{ getHourStr(item.hours) }}
                 </div>
               </v-card-text>
               <div class="container" style="position: relative;">
@@ -34,7 +38,6 @@
               </div>
             </v-card>
           </v-hover>
-
 
           <v-dialog v-model="dialog" max-width="500">
             <v-card class="elevation-16 mx-auto" width="500">
@@ -48,89 +51,94 @@
               </v-card-actions>
             </v-card>
           </v-dialog>
-
-          <v-dialog v-model="dialog3" max-width="500px">
-            <v-card>
-              <v-card-title>
-                <span class="headline">创建定时任务</span>
-              </v-card-title>
-              <v-card-text>
-                <v-container>
-                  <v-row>
-                    <v-col cols="12" sm="6" md="4">
-                      <v-text-field v-model="addDateJobName" label="输入定时任务名字*" required></v-text-field>
-                    </v-col>
-                    <v-col cols="12" sm="6" md="4">
-                      <v-text-field v-model="tempSerialnoList" label="设备serialno*" outlined readonly></v-text-field>
-                      <v-btn @click="dialog4 = true">
-                        <v-icon>add</v-icon>
-                        增加设备
-                      </v-btn>
-                      <v-text-field v-model="tempUseCaseList" label="用例*" readonly></v-text-field>
-                      <v-btn @click="dialog5 = true">
-                        <v-icon>add</v-icon>
-                        增加用例
-                      </v-btn>
-                      <v-text-field v-model="date3" label="运行时间*" readonly></v-text-field>
-                      <datetime-picker :datetime.sync="date3" :is-show.sync="showDate3"></datetime-picker>
-                    </v-col>
-                  </v-row>
-                </v-container>
-                <small>*：必填项</small>
-              </v-card-text>
-              <v-card-actions>
-                <v-btn color="primary" text @click="cancelCreate()">关闭</v-btn>
-                <v-spacer></v-spacer>
-                <v-btn color="primary" text @click="saveCreate()">保存</v-btn>
-              </v-card-actions>
-            </v-card>
-          </v-dialog>
-
-          <v-dialog v-model="dialog4" max-width="500px">
-            <v-card>
-              <v-card-title>增加设备</v-card-title>
-              <v-card-text>
-                <!-- <v-btn color="primary" dark @click="dialog3 = !dialog3">创建新歌单</v-btn> -->
-                <v-select :items="SerialnoList" label="选择设备" item-value="text" @change="curSelectSerialno"></v-select>
-              </v-card-text>
-              <v-card-actions>
-                <v-btn color="primary" text @click="dialog4 = false">关闭</v-btn>
-                <v-spacer></v-spacer>
-                <v-btn color="primary" text @click="addSerialno()">增加</v-btn>
-              </v-card-actions>
-            </v-card>
-          </v-dialog>
-
-          <v-dialog v-model="dialog5" max-width="500px">
-            <v-card>
-              <v-card-title>增加用例</v-card-title>
-              <v-card-text>
-                <!-- <v-btn color="primary" dark @click="dialog3 = !dialog3">创建新歌单</v-btn> -->
-                <v-select :items="UseCaseList" label="选择用例" item-value="text" @change="curSelectUseCase"></v-select>
-              </v-card-text>
-              <v-card-actions>
-                <v-btn color="primary" text @click="dialog5 = false">关闭</v-btn>
-                <v-spacer></v-spacer>
-                <v-btn color="primary" text @click="addUseCase()">增加</v-btn>
-              </v-card-actions>
-            </v-card>
-          </v-dialog>
-
-          <v-dialog v-model="dialog6" max-width="500px">
-            <v-card>
-              <v-card-title>错误</v-card-title>
-              <v-card-text>
-                {{ errorStr }}
-              </v-card-text>
-              <v-card-actions>
-                <v-btn color="primary" text @click="dialog6 = false">关闭</v-btn>
-                <v-spacer></v-spacer>
-                <v-btn color="primary" text @click="dialog6 = false">确定</v-btn>
-              </v-card-actions>
-            </v-card>
-          </v-dialog>
         </v-flex>
       </v-layout>
+
+      <v-dialog v-model="dialog3" max-width="500px">
+        <v-card>
+          <v-card-title>
+            <span class="headline">创建定时任务</span>
+          </v-card-title>
+          <v-card-text>
+            <v-container>
+              <v-row>
+                <v-col cols="12" sm="6" md="4">
+                  <v-text-field v-model="addDateJobName" label="输入定时任务名字*" required></v-text-field>
+                </v-col>
+                <v-col cols="12" sm="6" md="4">
+                  <v-text-field v-model="tempSerialnoList" label="设备serialno*" outlined readonly></v-text-field>
+                  <v-btn @click="dialog4 = true">
+                    <v-icon>add</v-icon>
+                    增加设备
+                  </v-btn>
+                  <v-text-field v-model="tempUseCaseList" label="用例*" readonly></v-text-field>
+                  <v-btn @click="dialog5 = true">
+                    <v-icon>add</v-icon>
+                    增加用例
+                  </v-btn>
+                  <v-text-field v-model="date3" label="运行时间*" readonly></v-text-field>
+                  <!-- <v-btn>
+                    <datetime-picker :datetime.sync="date3" :is-show.sync="showDate3"></datetime-picker>
+                  </v-btn> -->
+                  <datetime-picker :datetime.sync="date3" :is-show.sync="showDate3"></datetime-picker>
+                  <v-select :items="hoursList" label="循环执行间隔时间[单位:小时(h)]" item-value="text" @change="curSelectHours"></v-select>
+                  注：选0代表该定时任务不循环执行
+                </v-col>
+              </v-row>
+            </v-container>
+            <small>*：必填项</small>
+          </v-card-text>
+          <v-card-actions>
+            <v-btn color="primary" text @click="cancelCreate()">关闭</v-btn>
+            <v-spacer></v-spacer>
+            <v-btn color="primary" text @click="saveCreate()">保存</v-btn>
+          </v-card-actions>
+        </v-card>
+      </v-dialog>
+
+      <v-dialog v-model="dialog4" max-width="500px">
+        <v-card>
+          <v-card-title>增加设备</v-card-title>
+          <v-card-text>
+            <!-- <v-btn color="primary" dark @click="dialog3 = !dialog3">创建新歌单</v-btn> -->
+            <v-select :items="SerialnoList" label="选择设备" item-value="text" @change="curSelectSerialno"></v-select>
+          </v-card-text>
+          <v-card-actions>
+            <v-btn color="primary" text @click="dialog4 = false">关闭</v-btn>
+            <v-spacer></v-spacer>
+            <v-btn color="primary" text @click="addSerialno()">增加</v-btn>
+          </v-card-actions>
+        </v-card>
+      </v-dialog>
+
+      <v-dialog v-model="dialog5" max-width="500px">
+        <v-card>
+          <v-card-title>增加用例</v-card-title>
+          <v-card-text>
+            <!-- <v-btn color="primary" dark @click="dialog3 = !dialog3">创建新歌单</v-btn> -->
+            <v-select :items="UseCaseList" label="选择用例" item-value="text" @change="curSelectUseCase"></v-select>
+          </v-card-text>
+          <v-card-actions>
+            <v-btn color="primary" text @click="dialog5 = false">关闭</v-btn>
+            <v-spacer></v-spacer>
+            <v-btn color="primary" text @click="addUseCase()">增加</v-btn>
+          </v-card-actions>
+        </v-card>
+      </v-dialog>
+
+      <v-dialog v-model="dialog6" max-width="500px">
+        <v-card>
+          <v-card-title>错误</v-card-title>
+          <v-card-text>
+            {{ errorStr }}
+          </v-card-text>
+          <v-card-actions>
+            <v-btn color="primary" text @click="dialog6 = false">关闭</v-btn>
+            <v-spacer></v-spacer>
+            <v-btn color="primary" text @click="dialog6 = false">确定</v-btn>
+          </v-card-actions>
+        </v-card>
+      </v-dialog>
     </v-container>
   </v-app>
 </template>
@@ -160,15 +168,18 @@ Date.prototype.format = function (fmt) { //author: meizz
 import DateTimePicker from "@/components/VDateTimePicker.vue";
 
 export default {
+  inject: ['reload'],
   components: {
     'datetime-picker': DateTimePicker,
   },
   data() {
     return {
-      showDate3: true,
+      showDate3: false,
       date3: new Date().format("yyyy-MM-dd hh:mm:ss"),
 
       errorStr: '',
+      selectHours: 0,
+      hoursList: [],
       tempSerialnoList: [],
       tempUseCaseList: [],
       SerialnoList: [],
@@ -193,7 +204,7 @@ export default {
           type: "MEIZU",
         }
       ],
-      coverImgUrl: '../phone/phone.jpg',
+      coverImgUrl: '../phone/R-C.png',
       items: [
         {
           id: 1,
@@ -235,6 +246,23 @@ export default {
   },
   created: () => { },
   methods: {
+    init() {
+      for (let i = 0; i <= 24; i ++) {
+        this.hoursList.push(i);
+      }
+    },
+    getHourStr(hours) {
+      if (hours == 0) {
+        return "不循环";
+      }
+      else {
+        return hours + "小时";
+      }
+    },
+    curSelectHours(val) {
+      console.log("circle-hours: %d", val);
+      this.selectHours = val;
+    },
     curSelectSerialno(val) {
       console.log(val);
       this.selectedSerialno = val;
@@ -336,10 +364,14 @@ export default {
       this.dialog5 = false;
       this.tempUseCaseList.push(this.selectedUseCase);
     },
+    // deleteIt(item) {
+    //   this.removeItem = item;
+    //   this.dialog = true;
+    // },
     deleteDateJob(item) {
       console.log("remove date job: %s", item.nameID);
       Vue.prototype.$http
-        .post("http://192.168.50.78:4399/removeJob", { nameID: item.nameID})
+        .post("http://192.168.50.78:4399/removeJob", { nameID: item.nameID })
         .then(response => {
           console.log("removeJob");
           console.log(response);
@@ -377,8 +409,11 @@ export default {
       console.log("datetime");
       console.log(this.date3);
 
+      console.log("hours");
+      console.log(this.selectHours);
+
       Vue.prototype.$http
-        .post("http://192.168.50.78:4399/addDateJob", { nameID: this.addDateJobName, serialno: this.tempSerialnoList, useCase: this.tempUseCaseList, runDate: this.date3 })
+        .post("http://192.168.50.78:4399/addDateJob", { nameID: this.addDateJobName, serialno: this.tempSerialnoList, useCase: this.tempUseCaseList, runDate: this.date3, hours: this.selectHours })
         .then(response => {
           console.log("getJobList");
           console.log(response);
@@ -405,6 +440,8 @@ export default {
   },
   mounted() {
     console.log("mounted");
+    
+    this.init();
 
     // 获取定时任务列表
     this.getItemList();

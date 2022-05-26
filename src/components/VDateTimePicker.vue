@@ -1,6 +1,7 @@
 <template>
   <div style="display:inline-block">
-    <span @click="showPicker">{{getLangText(label.datetimePicker)}}</span>
+    <v-btn @click="showPicker">{{getLangText(label.datetimePicker)}}</v-btn>
+    <!-- <span @click="showPicker">{{getLangText(label.datetimePicker)}}</span> -->
     <div class="date-picker-bg" v-show="isShow" @click="closePicker"></div>
     <div class="date-picker" v-show="isShow" style=" width: 260px;">
       <div class="picker-top">
