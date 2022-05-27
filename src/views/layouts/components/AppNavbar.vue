@@ -74,7 +74,7 @@
           left
           nudge-bottom="14"
         >
-          <v-toolbar-title
+          <!-- <v-toolbar-title
             v-if="$vuetify && $vuetify.breakpoint.smAndUp"
             slot="activator"
           >
@@ -94,7 +94,7 @@
             slot="activator"
           >
             <v-icon>more_vert</v-icon>
-          </v-btn>
+          </v-btn> -->
           <v-list>
             <v-list-tile class="hidden-sm-and-up">
               <v-list-tile-title>

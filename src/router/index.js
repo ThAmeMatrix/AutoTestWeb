@@ -72,7 +72,8 @@ export default new Router({
           path: '/dashboard',
           name: 'Dashboard',
         //   component: () => import('@/views/dashboard/TheIndex.vue'),
-        component: () => import('@/views/autotest/VHomePage.vue'),
+        // component: () => import('@/views/autotest/VHomePage.vue'),
+        component: () => import('@/views/autotest/VFacilitiesManage.vue'),
           meta: {
             icon: 'dashboard',
           },

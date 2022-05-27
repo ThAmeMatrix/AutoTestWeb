@@ -7,10 +7,13 @@
       <!-- 卡片-设备详情 -->
       <v-flex xs7>
         <v-hover>
-          <v-card class="mx-auto" color="grey lighten-4" min-width="300" max-width="580">
+          <v-card class="mx-auto" color="grey lighten-4" min-width="300" max-width="680">
             <v-hover>
-              <v-img :aspect-ratio="16 / 14" :src="coverImgUrl">
-              </v-img>
+              <div class="iframediv">
+                <iframe :src="src" ref="iframe"></iframe>
+              </div>
+              <!-- <v-img :aspect-ratio="16 / 14" :src="coverImgUrl">
+              </v-img> -->
             </v-hover>
             <v-card-text class="pt-4" style="position: relative;">
               <v-list-tile class="grow">
@@ -52,6 +55,8 @@
         </v-hover>
       </v-flex>
 
+
+
       <v-dialog v-model="dialog" max-width="500">
         <v-card class="elevation-16 mx-auto" width="500">
           <v-card-title class="headline" primary-title>测试123</v-card-title>
@@ -84,9 +89,9 @@
         </v-card>
       </v-dialog>
 
-      <v-btn icon>
+      <!-- <v-btn icon>
         <v-icon>link</v-icon>
-      </v-btn>
+      </v-btn> -->
 
       <!-- 卡片-评论列表 -->
       <v-flex xs5>
@@ -94,15 +99,16 @@
           <v-toolbar color="cyan" dark>
             <v-toolbar-title>报告</v-toolbar-title>
             <v-spacer></v-spacer>
-            <v-btn icon>
+            <!-- <v-btn icon>
               <v-icon>add</v-icon>
-            </v-btn>
+            </v-btn> -->
           </v-toolbar>
         </div>
 
         <v-flex v-for="report in reports" :key="item">
           <v-hover>
-            <v-card @click="getReportDetail(report)" class="mx-auto" color="grey lighten-4" slot-scope="{ hover }" hover>
+            <v-card @click="getReportDetail(report)" class="mx-auto" color="grey lighten-4" slot-scope="{ hover }"
+              hover>
               <div class="container">
                 <v-img :aspect-ratio="7 / 7" min-width="60" max-width="60" :src="reportImgUrl">
                 </v-img>
@@ -157,7 +163,7 @@ function getParam(paramName) {
 export default {
   data() {
     return {
-      src: "http://192.168.50.78:9002/",
+      src: "http://192.168.50.78:8090/",
       status: "空闲",
       item: {},
       serialno: '',
@@ -254,7 +260,7 @@ export default {
     },
     getReportList() {
       Vue.prototype.$http
-        .post("http://192.168.50.78:8000", {serialno: this.serialno})
+        .post("http://192.168.50.78:8000", { serialno: this.serialno })
         .then(response => {
           console.log(response);
           if (response.status == 200) {
@@ -491,8 +497,8 @@ export default {
 }
 
 .iframediv {
-  width: 1632px;
-  height: 940px;
+  width: 672px;
+  height: 400px;
   margin: 0px auto;
   border: 10px dashed rgb(58, 58, 58);
   overflow: hidden;
@@ -504,6 +510,6 @@ export default {
   top: 0;
   left: 0;
   transform-origin: top left;
-  transform: scale(0.85)
+  transform: scale(0.35)
 }
 </style>

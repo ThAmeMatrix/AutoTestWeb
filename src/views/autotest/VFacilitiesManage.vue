@@ -1,8 +1,7 @@
 <template>
   <v-app>
-    <fieldset>
+    <!-- <fieldset>
       <legend>品牌</legend>
-      <!-- <label max-width="100" >品牌</label> -->
       <div class="container">
         <v-flex v-for="equip in equip_type_list" :key="equip.type">
           <div>
@@ -11,11 +10,7 @@
           </div>
         </v-flex>
       </div>
-
-      <!-- <v-flex v-for="equip in equip_type_list" :key="equip.type">
-        <v-checkbox class="v-label" v-model="required" :label="equip.type"></v-checkbox>
-      </v-flex> -->
-    </fieldset>
+    </fieldset> -->
 
     <!-- 卡片列表-商品概览 -->
     <v-container fluid grid-list-xl>

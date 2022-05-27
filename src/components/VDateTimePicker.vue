@@ -37,7 +37,7 @@
             @click="onSelectHour(n-1)"
             :class="[selectHour==n-1?'active':'']"
             @dblclick="onConfirmHour(n-1)"
-          >{{n-1}}</li>
+          >{{n-1<10?'0':''}}{{n-1}}</li>
         </ul>
         <ul class="hour-list">
           <li
@@ -46,7 +46,7 @@
             @click="onSelectMinute(n-1)"
             :class="[selectMinute==n-1?'active':'']"
             @dblclick="onConfirmMinute(n-1)"
-          >{{n-1}}</li>
+          >{{n-1<10?'0':''}}{{n-1}}</li>
         </ul>
         <ul class="hour-list">
           <li
@@ -55,7 +55,7 @@
             @click="onSelectSecond(n-1)"
             :class="[selectSecond==n-1?'active':'']"
             @dblclick="onConfirmSecond(n-1)"
-          >{{n-1}}</li>
+          >{{n-1<10?'0':''}}{{n-1}}</li>
         </ul>
       </div>
       <div class="picker-footer">

@@ -3,6 +3,7 @@ __pycache__/
 node_modules
 /dist
 /public/html
+package-lock.json
 
 # local env files
 .env.local
