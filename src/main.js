@@ -41,6 +41,7 @@ try {
 // Axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
 Axios.defaults.headers.post['Content-Type'] = 'application/json; charset=utf-8';
 Axios.defaults.headers.get['Content-Type'] = 'application/x-www-form-urlencoded';
+
 // Axios.defaults.transformRequest = [
 //   // eslint-disable-next-line func-names
 //   function (data) {
@@ -54,6 +55,30 @@ Axios.defaults.headers.get['Content-Type'] = 'application/x-www-form-urlencoded'
 // ];
 
 Vue.prototype.$http = Axios; // 再修改原型链
+
+Vue.prototype.$host = "192.168.50.78";
+
+const instance4399 = Axios.create({
+  baseURL: "http://" + Vue.prototype.$host + ":4399",
+})
+instance4399.defaults.headers.post['Content-Type'] = 'application/json; charset=utf-8';
+instance4399.defaults.headers.get['Content-Type'] = 'application/x-www-form-urlencoded';
+
+const instance8000 = Axios.create({
+  baseURL: "http://" + Vue.prototype.$host + ":8000"
+});
+instance8000.defaults.headers.post['Content-Type'] = 'application/json; charset=utf-8';
+instance8000.defaults.headers.get['Content-Type'] = 'application/x-www-form-urlencoded';
+
+const instance8088 = Axios.create({
+  baseURL: "http://" + Vue.prototype.$host + ":8088"
+});
+instance8088.defaults.headers.post['Content-Type'] = 'application/json; charset=utf-8';
+instance8088.defaults.headers.get['Content-Type'] = 'application/x-www-form-urlencoded';
+
+Vue.prototype.$http4399 = instance4399;
+Vue.prototype.$http8000 = instance8000;
+Vue.prototype.$http8088 = instance8088;
 
 // Mock.bootstrap();
 

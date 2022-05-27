@@ -163,7 +163,7 @@ function getParam(paramName) {
 export default {
   data() {
     return {
-      src: "http://192.168.50.78:8090/",
+      src: "http://" + Vue.prototype.$host + ":9717/",
       status: "空闲",
       item: {},
       serialno: '',
@@ -240,8 +240,8 @@ export default {
       return Y + M + D + h + m + s;
     },
     getUseCaseList() {
-      Vue.prototype.$http
-        .post("http://192.168.50.78:4399/showUseCase")
+      this.$http4399
+        .post("/showUseCase")
         .then(response => {
           console.log(response);
           if (response.status == 200) {
@@ -259,8 +259,8 @@ export default {
         });
     },
     getReportList() {
-      Vue.prototype.$http
-        .post("http://192.168.50.78:8000", { serialno: this.serialno })
+      this.$http8000
+        .post("/", { serialno: this.serialno })
         .then(response => {
           console.log(response);
           if (response.status == 200) {
@@ -285,8 +285,8 @@ export default {
       this.nowRunUseCase = this.selectedItem;
       this.dialog2 = false;
       console.log("post task start: " + this.serialno);
-      Vue.prototype.$http
-        .post("http://192.168.50.78:4399/taskStart", { useCase: [this.selectedItem], serialno: [this.serialno] })
+      this.$http4399
+        .post("/taskStart", { useCase: [this.selectedItem], serialno: [this.serialno] })
         .then(response => {
           console.log("response");
           console.log(response);
@@ -321,8 +321,8 @@ export default {
       this.testtext = 789;
       this.dialog2 = false;
       console.log("post task suspend: " + this.serialno);
-      Vue.prototype.$http
-        .post("http://192.168.50.78:4399/taskSuspend", { serialno: [this.serialno] })
+      this.$http4399
+        .post("/taskSuspend", { serialno: [this.serialno] })
         .then(response => {
           console.log("response");
           console.log(response);
@@ -357,8 +357,8 @@ export default {
       this.nowRunUseCase = '';
       this.dialog2 = false;
       console.log("post task terminate: " + this.serialno);
-      Vue.prototype.$http
-        .post("http://192.168.50.78:4399/taskTerminate", { serialno: [this.serialno] })
+      this.$http4399
+        .post("/taskTerminate", { serialno: [this.serialno] })
         .then(response => {
           console.log("response");
           console.log(response);
@@ -392,8 +392,8 @@ export default {
     taskResume() {
       this.dialog2 = false;
       console.log("post task resume: " + this.serialno);
-      Vue.prototype.$http
-        .post("http://192.168.50.78:4399/taskResume", { serialno: [this.serialno] })
+      this.$http4399
+        .post("/taskResume", { serialno: [this.serialno] })
         .then(response => {
           console.log("response");
           console.log(response);
@@ -426,8 +426,8 @@ export default {
     },
     getItem() {
       console.log("post get item list");
-      Vue.prototype.$http
-        .post("http://192.168.50.78:4399/deviceList")
+      this.$http4399
+        .post("/deviceList")
         .then(response => {
           console.log("response");
           console.log(response);
@@ -454,6 +454,32 @@ export default {
     },
     getReportDetail(report_name) {
       this.$router.push({ name: "reportDetail", query: { serialno: this.serialno, report_name: report_name } });
+    },
+    requestSlave() {
+      console.log("post request slave minicap port: %d", item.minicap_port);
+      this.$http8088
+        .post("/", {minicap_port: 1717, serialno: this.item.serialno})
+        .then(response => {
+          console.log("request slave");
+          console.log(response);
+          if (response.status == 200) {
+            // this.$router.push({ name: "facilityDetail", query: { serialno: this.item.serialno } });
+            
+            // this.message = "获取设备列表成功";
+            // Snackbar.info(this.message);
+            // this.items = response.data.msg;
+            // console.log(response);
+            // console.log(this.items);
+            
+          } else {
+            this.message =
+              "获取设备详情失败，原因为" + response.data.data.errMsg;
+            Snackbar.error(this.message);
+          }
+        })
+        .catch(error => {
+          Snackbar.error(error);
+        });
     },
     todo() {
       Snackbar.info("开发中，请等待……");

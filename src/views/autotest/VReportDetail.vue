@@ -42,7 +42,7 @@ function getParam(paramName) {
 export default {
   data() {
     return {
-      src: "http://192.168.50.78:8000/" + getParam("serialno") + "/" + getParam("report_name") + "/log.html",
+      src: "http://" + Vue.prototype.$host + ":8000/" + getParam("serialno") + "/" + getParam("report_name") + "/log.html",
       iframeWin: {}
     }
   },

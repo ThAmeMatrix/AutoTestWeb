@@ -104,8 +104,8 @@ export default {
   methods: {
     getItemList() {
       console.log("post get item list");
-      Vue.prototype.$http
-        .post("http://192.168.50.78:4399/deviceList")
+      this.$http4399
+        .post("/deviceList")
         .then(response => {
           console.log("response");
           console.log(response);
@@ -127,11 +127,38 @@ export default {
         });
     },
     getReportDetail(item) {
+      this.requestSlave(item);
+
       // console.log("item1");
       // console.log(item);
       // this.$router.push({ name: "facilityDetail", query: { item: JSON.stringify(item), serialno: item.serialno } });
-      this.$router.push({ name: "facilityDetail", query: { serialno: item.serialno } });
+      // this.$router.push({ name: "facilityDetail", query: { serialno: item.serialno } });
       // window.location.href = "detail?id=" + id;
+    },
+    requestSlave(item) {
+      console.log("post request slave minicap port: %d", item.minicap_port);
+      this.$http8088
+        .post("/", {minicap_port: 1717, serialno: item.serialno})
+        .then(response => {
+          console.log("request slave");
+          console.log(response);
+          if (response.status == 200) {
+            this.$router.push({ name: "facilityDetail", query: { serialno: item.serialno } });
+            // this.message = "获取设备列表成功";
+            // Snackbar.info(this.message);
+            // this.items = response.data.msg;
+            // console.log(response);
+            // console.log(this.items);
+            
+          } else {
+            this.message =
+              "获取设备详情失败，原因为" + response.data.data.errMsg;
+            Snackbar.error(this.message);
+          }
+        })
+        .catch(error => {
+          Snackbar.error(error);
+        });
     }
   },
   mounted() {

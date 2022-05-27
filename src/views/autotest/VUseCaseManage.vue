@@ -110,8 +110,8 @@ export default {
     deleteUseCase() {
       this.dialog = false;
       console.log("post delete item:", this.removeItem);
-      Vue.prototype.$http
-        .post("http://192.168.50.78:4399/removeUseCase", { useCase: this.removeItem })
+      this.$http4399
+        .post("/removeUseCase", { useCase: this.removeItem })
         .then(response => {
           console.log("response");
           console.log(response);
@@ -131,8 +131,8 @@ export default {
     },
     getItemList() {
       console.log("post get item list");
-      Vue.prototype.$http
-        .post("http://192.168.50.78:4399/showUseCase")
+      this.$http4399
+        .post("/showUseCase")
         .then(response => {
           console.log("response");
           console.log(response);

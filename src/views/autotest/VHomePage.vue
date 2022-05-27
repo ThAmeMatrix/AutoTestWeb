@@ -109,8 +109,8 @@ export default {
   methods: {
     taskStart(item) {
       console.log("post task start");
-      Vue.prototype.$http
-        .post("http://192.168.50.78:4399/taskStart", { serialno: [item.serialno], playerid: 4063618 })
+      this.$http4399
+        .post("/taskStart", { serialno: [item.serialno], playerid: 4063618 })
         .then(response => {
           console.log("response");
           console.log(response);
@@ -129,8 +129,8 @@ export default {
     },
     getItemList() {
       console.log("post get item list");
-      Vue.prototype.$http
-        .post("http://192.168.50.78:4399/deviceList")
+      this.$http4399
+        .post("/deviceList")
         .then(response => {
           console.log("response");
           console.log(response);

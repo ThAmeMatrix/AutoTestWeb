@@ -42,8 +42,8 @@ export default {
             //添加请求头
             headers: { "Content-Type": "multipart/form-data" },
           };
-          Vue.prototype.$http
-            .post("http://192.168.50.78:4399/uploadPlayerData", this.formData, config)
+          this.$http4399
+            .post("/uploadPlayerData", this.formData, config)
             .then(response => {
               console.log("response");
               console.log(response);

@@ -273,8 +273,8 @@ export default {
     },
     getSerialnoList() {
       console.log("post get serialno list");
-      Vue.prototype.$http
-        .post("http://192.168.50.78:4399/deviceList")
+      this.$http4399
+        .post("/deviceList")
         .then(response => {
           console.log("deviceList");
           console.log(response);
@@ -299,8 +299,8 @@ export default {
     },
     getUseCaseList() {
       console.log("post get use case list");
-      Vue.prototype.$http
-        .post("http://192.168.50.78:4399/showUseCase")
+      this.$http4399
+        .post("/showUseCase")
         .then(response => {
           console.log("showUseCase");
           console.log(response);
@@ -320,8 +320,8 @@ export default {
     },
     getItemList() {
       console.log("post get item list");
-      Vue.prototype.$http
-        .post("http://192.168.50.78:4399/getJobList")
+      this.$http4399
+        .post("/getJobList")
         .then(response => {
           console.log("getJobList");
           console.log(response);
@@ -370,8 +370,8 @@ export default {
     // },
     deleteDateJob(item) {
       console.log("remove date job: %s", item.nameID);
-      Vue.prototype.$http
-        .post("http://192.168.50.78:4399/removeJob", { nameID: item.nameID })
+      this.$http4399
+        .post("/removeJob", { nameID: item.nameID })
         .then(response => {
           console.log("removeJob");
           console.log(response);
@@ -412,8 +412,8 @@ export default {
       console.log("hours");
       console.log(this.selectHours);
 
-      Vue.prototype.$http
-        .post("http://192.168.50.78:4399/addDateJob", { nameID: this.addDateJobName, serialno: this.tempSerialnoList, useCase: this.tempUseCaseList, runDate: this.date3, hours: this.selectHours })
+      this.$http4399
+        .post("/addDateJob", { nameID: this.addDateJobName, serialno: this.tempSerialnoList, useCase: this.tempUseCaseList, runDate: this.date3, hours: this.selectHours })
         .then(response => {
           console.log("getJobList");
           console.log(response);

@@ -38,7 +38,7 @@ export default {
   },
   methods: {
     manageUseCase() {
-      this.$router.push({ name: "useCaseManage"});
+      this.$router.push({ name: "useCaseManage" });
     },
     uploadTitle() {
       console.log(this.fileData.file.name);
@@ -54,8 +54,8 @@ export default {
             //添加请求头
             headers: { "Content-Type": "multipart/form-data" },
           };
-          Vue.prototype.$http
-            .post("http://192.168.50.78:4399/importUseCaseTxt", this.formData, config)
+          this.$http4399
+            .post("/importUseCaseTxt", this.formData, config)
             .then(response => {
               console.log("response");
               console.log(response);
